@@ -1,1 +1,0 @@
-<iframe src="https://dataplatform.cloud.ibm.com/dashboards/3336a06c-9b5c-465a-8172-bfd5c14c8b4a/view/7e39e72363831de161d4f6e407cd7d042f63765bb4bb830784827b490a342497a83a1197c82919538f150160fbef4458c9" width="640" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>

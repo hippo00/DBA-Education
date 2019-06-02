@@ -1,0 +1,1334 @@
+{
+  "appName": "DBA Support Education Platform",
+  "headerNavigation": [
+    {
+      "name": "DBA-Education",
+      "path": "/DBA-Education"
+    }
+  ],
+  "landingPage": "/BussinessProcessManager",
+  "topics": [
+    "news",
+    "roles",
+    "access",
+    "process",
+    "reporting",
+    "notification",
+    "pager-duty",
+    "customer",
+    "case-status",
+    "e2c",
+    "case-field",
+    "omni",
+    "routing",
+    "assignment",
+    "product",
+    "case",
+    "account",
+    "contact",
+    "work-order",
+    "skills-case",
+    "collab-case",
+    "activity",
+    "defect",
+    "chat",
+    "search",
+    "watson",
+    "knowledge",
+    "attachment",
+    "field-service",
+    "teams",
+    "support-mission",
+    "time",
+    "caseview",
+    "policy",
+    "deepdive",
+    "portal",
+    "entitlement",
+    "chatter"
+],
+  "pages": [
+    {
+      "route": "/BussinessProcessManager",
+      "name": "Bussiness Process Manager",
+      "description": "",
+      "icon": "",
+      "children": [
+        {
+          "route": "/GeneralBPM",
+          "name": "General BPM",
+          "description": "",
+          "icon": "bullhorn",
+          "topics": [],
+          "children": [
+             {
+              "route": "/Learningroadmap",
+              "name": "Learning roadmap",
+              "description": "",
+              "icon": "bullhorn",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Learningroadmap.md"
+            }, 
+            {
+              "route": "/Newhiretraining",
+              "name": "New hire training (Foundation course review)",
+              "description": "",
+              "icon": "bullhorn",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Newhiretraining.md"
+            },
+            {
+              "route": "/Knowledgebuckets",
+              "name": "Knowledge buckets",
+              "description": "",
+              "icon": "bullhorn",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Knowledgebuckets.md"
+            },
+            {
+              "route": "/SkillsTransfer",
+              "name": "Skills Transfer (L3-L2, SWAT-L2)",
+              "description": "",
+              "icon": "bullhorn",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/GeneralBPM/SkillsTransfer.md"
+            },
+            {
+              "route": "/CFsTrainingEnablement",
+              "name": "CFs Training Enablement",
+              "description": "",
+              "icon": "bullhorn",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/GeneralBPM/CFsTrainingEnablement.md"
+            }
+            
+          ]
+        },
+        {
+          "route": "/Install,Upgrade,Migration",
+          "name": "Install, Upgrade, Migration",
+          "description": "",
+          "icon": "question-circle",
+          "topics": [],
+          "children": [
+            {
+              "route": "/InstallDEConfig",
+              "name": "Install/DE Config",
+              "description": "",
+              "topics": [],
+              "icon": "question-circle",
+              "markdown": "/markdown/BussinessProcessManager/Install,Upgrade,Migration/InstallDEConfig.md"
+            },
+            {
+              "route": "/Upgrade",
+              "name": "Upgrade",
+              "description": "",
+              "topics": [],
+              "icon": "question-circle",
+              "markdown": "/markdown/BussinessProcessManager/Install,Upgrade,Migration/Upgrade.md"
+            },
+            {
+              "route": "/Migration",
+              "name": "Migration",
+              "description": "",
+              "topics": [],
+              "icon": "question-circle",
+              "markdown": "/markdown/BussinessProcessManager/Install,Upgrade,Migration/Migration.md"
+            },
+            {
+              "route": "/DisasterRecovery",
+              "name": "Disaster Recovery",
+              "description": "",
+              "topics": [],
+              "icon": "question-circle",
+              "markdown": "/markdown/BussinessProcessManager/Install,Upgrade,Migration/DisasterRecovery.md"
+            }
+           
+          ]
+        },
+        {
+          "route": "/ApplicationManagement",
+          "name": "Application Management",
+          "description": "",
+          "icon": "project-diagram",
+          "topics": [],
+          "children": [
+            {
+              "route": "/EARDeployment",
+              "name": "EAR Deployment",
+              "description": "",
+              "icon": "project-diagram",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/ApplicationManagement/EARDeployment.md"
+            },
+            {
+              "route": "/SnapshotManagement",
+              "name": "Snapshot Management",
+              "description": "",
+              "icon": "users-cog",
+              "topics": [],
+              "owner": "eugene",
+              "markdown": "/markdown/BussinessProcessManager/ApplicationManagement/SnapshotManagement.md"
+            },
+            {
+              "route": "/InstanceMigration",
+              "name": "Instance Migration",
+              "description": "",
+              "icon": "users-cog",
+              "topics": [],
+              "owner": "eugene",
+              "markdown": "/markdown/BussinessProcessManager/ApplicationManagement/InstanceMigration.md"
+            }
+    
+          ]
+        },
+
+
+        {
+          "route": "/BPMDevToolsandRepository",
+          "name": "BPM Dev Tools and Repository",
+          "description": "",
+          "icon": "fire",
+          "topics": [],
+          "children": [
+            {
+              "route": "/IBMIntegrationDesigner",
+              "name": "IBM Integration Designer",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/IBMIntegrationDesigner.md"
+            },
+            {
+              "route": "/ProcessDesigner",
+              "name": "Process Designer",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/ProcessDesigner.md"
+            },
+            {
+              "route": "/Inspector",
+              "name": "Inspector",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/Inspector.md"
+            },
+            {
+              "route": "/WebPD",
+              "name": "Web PD",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/WebPD.md"
+            },
+            {
+              "route": "/Repository",
+              "name": "Repository",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/Repository.md"
+            }
+          ]
+        },
+
+
+        {
+          "route": "/GeneralPerformance",
+          "name": "General Performance",
+          "description": "",
+          "icon": "lightbulb",
+          "topics": [],
+          "children": [
+            {
+              "route": "/CacheTuning",
+              "name": "Cache Tuning",
+              "description": "",
+              "icon": "globe",
+              "topics": [],
+              "children": [
+                {
+                  "route": "/WelcometoSocialSupport",
+                  "name": "Welcome to Social Support",
+                  "description": "",
+                  "icon": "pencil-alt",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/CacheTuning/WelcometoSocialSupport.md"
+                },
+                {
+                  "route": "/SocialSupportContacts",
+                  "name": "Social Support Contacts",
+                  "description": "",
+                  "icon": "user",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/CacheTuning/SocialSupportContacts.md"
+                }
+              ]
+            },
+            {
+              "route": "/HighCPU",
+              "name": "High CPU",
+              "description": "",
+              "icon": "comments",
+              "topics": [],
+              "children": [
+                {
+                  "route": "/TwitterFacebookchannels",
+                  "name": "Twitter & Facebook channels",
+                  "description": "",
+                  "icon": "search",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/HighCPU/TwitterFacebookchannels.md"
+                },
+                {
+                  "route": "/YouTubechannels",
+                  "name": "YouTube channels",
+                  "description": "",
+                  "icon": "search",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/HighCPU/YouTubechannels.md"
+                },
+                {
+                  "route": "/OtherSocialMediachannels",
+                  "name": "Other Social Media channels",
+                  "description": "",
+                  "icon": "search",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/HighCPU/OtherSocialMediachannels.md"
+                },
+                {
+                  "route": "/SocialMediaTags",
+                  "name": "Social Media Tags",
+                  "description": "",
+                  "icon": "search",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/HighCPU/SocialMediaTags.md"
+                }
+              ]
+            },
+            {
+              "route": "/OOM",
+              "name": "OOM",
+              "description": "",
+              "icon": "edit",
+              "topics": [],
+              "children": [
+                {
+                  "route": "/Writingguideforblogging",
+                  "name": "Writing guide for blogging",
+                  "description": "",
+                  "icon": "map-signs",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/Writingguideforblogging.md"
+                },
+                {
+                  "route": "/GettingStartedwithblogging",
+                  "name": "Getting Started with blogging",
+                  "description": "",
+                  "icon": "id-card",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/GettingStartedwithblogging.md"
+                },
+                {
+                  "route": "/CreatingaBlogpost",
+                  "name": "Creating a Blog post",
+                  "description": "",
+                  "icon": "edit",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/CreatingaBlogpost.md"
+                },
+                {
+                  "route": "/blogPublishing",
+                  "name": "Blog Publishing",
+                  "description": "",
+                  "icon": "search",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/blogPublishing.md"
+                },
+                {
+                  "route": "/BloggingBestPractices",
+                  "name": "Blogging Best Practices",
+                  "description": "",
+                  "icon": "project-diagram",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/BloggingBestPractices.md"
+                }
+              ]
+            },
+            {
+              "route": "/TimeoutsHangs",
+              "name": "Timeouts/Hangs",
+              "description": "",
+              "icon": "desktop",
+              "topics": [],
+              "children": [
+                {
+                  "route": "/ToolingOptionsforcreatingSupportVideos",
+                  "name": "Tooling Options for creating Support Videos",
+                  "description": "",
+                  "icon": "video",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs/ToolingOptionsforcreatingSupportVideos.md"
+                },
+                {
+                  "route": "/VideoProductionandEditing",
+                  "name": "Video Production and Editing",
+                  "description": "",
+                  "icon": "book-reader",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs/VideoProductionandEditing.md"
+                },
+                {
+                  "route": "/PublishingtoYouTube",
+                  "name": "Publishing to YouTube",
+                  "description": "",
+                  "icon": "search",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs/PublishingtoYouTube.md"
+                },
+                {
+                  "route": "/VideoProductionBestPractices",
+                  "name": "Video Production Best Practices",
+                  "description": "",
+                  "icon": "project-diagram",
+                  "topics": [],
+                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs/VideoProductionBestPractices.md"
+                }
+              ]
+            }
+            
+          ]
+        },
+        
+        {
+          "route": "/Portal,PAC,Coaches,PFS",
+          "name": "Portal,PAC,Coaches,PFS",
+          "description": "",
+          "icon": "bolt",
+          "owner": "thomas",
+          "topics": [],
+          "children": [
+            {
+              "route": "/GeneralResponsiveProcessPortal",
+              "name": "General/Responsive Process Portal",
+              "description": "",
+              "icon": "file-word",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/GeneralResponsiveProcessPortal.md"
+            },
+            {
+              "route": "/ProcessAdminConsole",
+              "name": "Process Admin Console",
+              "description": "",
+              "icon": "sliders-h",
+              "owner": "thomas",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/ProcessAdminConsole.md"
+            },
+            {
+              "route": "/GeneralHeritageCoaches",
+              "name": "General/Heritage Coaches",
+              "description": "",
+              "icon": "book",
+              "owner": "thomas",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/GeneralHeritageCoaches.md"
+            },
+            {
+              "route": "/Client-sideHeritageHumanService",
+              "name": "Client-side/Heritage Human Service",
+              "description": "",
+              "icon": "file-alt",
+              "owner": "thomas",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/Client-sideHeritageHumanService.md"
+            },
+            {
+              "route": "/ToolkitControls",
+              "name": "Toolkit Controls",
+              "description": "",
+              "icon": "th-large",
+              "owner": "thomas",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/ToolkitControls.md"
+            },
+            {
+              "route": "/PFS",
+              "name": "PFS",
+              "description": "",
+              "icon": "copy",
+              "owner": "thomas",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/PFS.md"
+            } 
+            
+          ]
+        },
+        {
+          "route": "/Monitor,BusinessSpace,PDW",
+          "name": "Monitor,Business Space,PDW",
+          "description": "",
+          "icon": "lightbulb",
+          "topics": [],
+          "children": [
+            {
+              "route": "/BusinessMonitor",
+              "name": "Business Monitor",
+              "description": "",
+              "icon": "sitemap",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Monitor,BusinessSpace,PDW/BusinessMonitor.md"
+            },
+            {
+              "route": "/BusinessSpace",
+              "name": "Business Space",
+              "description": "",
+              "icon": "taxi",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Monitor,BusinessSpace,PDW/BusinessSpace.md"
+            },
+            {
+              "route": "/PerformanceDataWarehouse",
+              "name": "Performance Data Warehouse",
+              "description": "",
+              "icon": "project-diagram",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Monitor,BusinessSpace,PDW/PerformanceDataWarehouse.md"
+            }
+            
+          ]
+        },
+        {
+          "route": "/Security",
+          "name": "Security",
+          "description": "",
+          "icon": "desktop",
+          "topics": [],
+          "children": [
+            {
+              "route": "/SecurityScans",
+              "name": "Security Scans",
+              "description": "",
+              "icon": "desktop",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Security/SecurityScans.md"
+            },
+            {
+              "route": "/SSL",
+              "name": "SSL",
+              "description": "",
+              "icon": "headset",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Security/SSL.md"
+            },
+            {
+              "route": "/SSO",
+              "name": "SSO",
+              "description": "",
+              "icon": "headset",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Security/SSO.md"
+            },
+            {
+              "route": "/User&GroupSecurity",
+              "name": "User&Group Security",
+              "description": "",
+              "icon": "handshake",
+              "owner": "paulo",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Security/User&GroupSecurity.md"
+            }
+
+          ]
+        },
+        {
+          "route": "/AdvancedContent",
+          "name": "Advanced Content",
+          "description": "",
+          "icon": "desktop",
+          "topics": [],
+          "children": [
+            {
+              "route": "/AIS",
+              "name": "AIS",
+              "description": "",
+              "icon": "desktop",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/AdvancedContent/AIS.md"
+            },
+            {
+              "route": "/BPC",
+              "name": "BPC",
+              "description": "",
+              "icon": "headset",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/AdvancedContent/BPC.md"
+            },
+            {
+              "route": "/BO",
+              "name": "BO",
+              "description": "",
+              "icon": "headset",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/AdvancedContent/BO.md"
+            },
+            {
+              "route": "/Bindings",
+              "name": "Bindings",
+              "description": "",
+              "icon": "handshake",
+              "owner": "paulo",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/AdvancedContent/Bindings.md"
+            },
+            {
+              "route": "/SCA",
+              "name": "SCA",
+              "description": "",
+              "icon": "headset",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/AdvancedContent/SCA.md"
+            },
+            {
+              "route": "/SIB",
+              "name": "SIB",
+              "description": "",
+              "icon": "headset",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/AdvancedContent/SIB.md"
+            },
+            {
+              "route": "/FailedEvent",
+              "name": "Failed Event",
+              "description": "",
+              "icon": "headset",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/AdvancedContent/FailedEvent.md"
+            },
+            {
+              "route": "/Adapters",
+              "name": "Adapters",
+              "description": "",
+              "icon": "headset",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/AdvancedContent/Adapters.md"
+            },
+            {
+              "route": "/Mediation",
+              "name": "Mediation",
+              "description": "",
+              "icon": "headset",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/AdvancedContent/Mediation.md"
+            }
+            
+          ]
+        },
+        {
+          "route": "/BPDServiceEngine",
+          "name": "BPD/Service Engine",
+          "description": "",
+          "icon": "desktop",
+          "topics": [],
+          "children": [
+            {
+              "route": "/BPD",
+              "name": "BPD",
+              "description": "",
+              "icon": "desktop",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/BPD.md"
+            },
+            {
+              "route": "/EventManager",
+              "name": "Event Manager",
+              "description": "",
+              "icon": "headset",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/EventManager.md"
+            },
+            {
+              "route": "/JSAPI,RESTAPI",
+              "name": "JS API,REST API",
+              "description": "",
+              "icon": "headset",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/JSAPI,RESTAPI.md"
+            },
+            {
+              "route": "/WebService",
+              "name": "Web Service",
+              "description": "",
+              "icon": "handshake",
+              "owner": "paulo",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/WebService.md"
+            },
+            {
+              "route": "/UCA",
+              "name": "UCA",
+              "description": "",
+              "icon": "headset",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/UCA.md"
+            }
+
+          ]
+        },
+        {
+          "route": "/ECMIntegration",
+          "name": "ECM Integration",
+          "description": "",
+          "icon": "graduation-cap",
+          "topics": [],
+          "markdown": "/markdown/BussinessProcessManager/ECMIntegration.md"
+        },
+        {
+          "route": "/BPMonCloud",
+          "name": "BPM on Cloud",
+          "description": "",
+          "icon": "graduation-cap",
+          "topics": [],
+          "markdown": "/markdown/BussinessProcessManager/BPMonCloud.md"
+        }
+      ]
+    },
+
+
+    { 
+      "route": "/OperationalDecisionManager",
+      "name": "Operational Decision Manager",
+      "description": "",
+      "icon": "chart-bar",
+      "topics": [],
+      "children": [
+        {
+          "route": "/GeneralODM",
+          "name": "General ODM",
+          "description": "",
+          "icon": "chart-area",
+          "topics": [],
+          "children": [
+            {
+              "route": "/Learningroadmap",
+              "name": "Learning roadmap",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/GeneralODM/Learningroadmap.md"
+            },
+            {
+              "route": "/Newhiretraining",
+              "name": "New hire training(Foundation course review)",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/GeneralODM/Newhiretraining.md"
+            },
+            {
+              "route": "/Knowledgebuckets",
+              "name": "Knowledge buckets",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/GeneralODM/Knowledgebuckets.md"
+            },
+            {
+              "route": "/SkillsTransfer",
+              "name": "Skills Transfer(L3-L2,SWAT-L2)",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/GeneralODM/SkillsTransfer.md"
+            },
+            {
+              "route": "/CFsTrainingEnablement",
+              "name": "CFs Training Enablement",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/GeneralODM/CFsTrainingEnablement.md"
+            }
+          ]
+        },
+        {
+          "route": "/Install,Upgrade,Migration",
+          "name": "Install,Upgrade,Migration",
+          "description": "",
+          "icon": "chart-bar",
+          "topics": [],
+          "markdown": "/markdown/OperationalDecisionManager/Install,Upgrade,Migration.md"
+        },
+        {
+          "route": "/ODMProfileTemplates",
+          "name": "ODM Profile Templates",
+          "description": "",
+          "icon": "chart-bar",
+          "topics": [],
+          "markdown": "/markdown/OperationalDecisionManager/ODMProfileTemplates.md"
+        },
+        {
+          "route": "/Performance",
+          "name": "Performance",
+          "description": "",
+          "icon": "chart-area",
+          "topics": [],
+          "children": [
+            {
+              "route": "/Generalperformancetuning",
+              "name": "General performance tuning",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/Performance/Generalperformancetuning.md"
+            },
+            {
+              "route": "/Hungthread&highCPU",
+              "name": "Hung thread & high CPU",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/Performance/Hungthread&highCPU.md"
+            },
+            {
+              "route": "/OOM",
+              "name": "OOM",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/Performance/OOM.md"
+            }
+            
+          ]
+        },
+        {
+          "route": "/DecisionCenter",
+          "name": "Decision Center",
+          "description": "",
+          "icon": "chart-area",
+          "topics": [],
+          "children": [
+            {
+              "route": "/DecisionGovernanceFramework",
+              "name": "Decision Governance Framework",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/DecisionCenter/DecisionGovernanceFramework.md"
+            },
+            {
+              "route": "/Scurity&usermanagement",
+              "name": "Scurity & user management",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/DecisionCenter/Scurity&usermanagement.md"
+            },
+            {
+              "route": "/Testandsimulation",
+              "name": "Test and simulation",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/DecisionCenter/Testandsimulation.md"
+            },
+            {
+              "route": "/DecisionModelService",
+              "name": "Decision Model Service",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/DecisionCenter/DecisionModelService.md"
+            }
+            
+          ]
+        },
+        {
+          "route": "/DecisionServerRules",
+          "name": "Decision Server Rules",
+          "description": "",
+          "icon": "chart-area",
+          "topics": [],
+          "children": [
+            {
+              "route": "/RuleDesigner",
+              "name": "Rule Designer",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/DecisionServerRules/RuleDesigner.md"
+            },
+            {
+              "route": "/RESConsole",
+              "name": "RES Console",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/DecisionServerRules/RESConsole.md"
+            },
+            {
+              "route": "/RESruntime",
+              "name": "RES runtime",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/DecisionServerRules/RESruntime.md"
+            },
+            {
+              "route": "/DecisionWarehouse",
+              "name": "Decision Warehouse",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/DecisionServerRules/DecisionWarehouse.md"
+            }
+            
+          ]
+        },
+
+        {
+              "route": "/DecisionServerInsights",
+              "name": "Decision Server Insights",
+              "description": "",
+              "icon": "chart-bar",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/DecisionServerInsights.md"
+        },
+        {
+          "route": "/ODMondocker",
+          "name": "ODM on docker",
+          "description": "",
+          "icon": "database",
+          "topics": [],
+          "markdown": "/markdown/OperationalDecisionManager/ODMondocker.md"
+        },
+        {
+          "route": "/DecisionComposer",
+          "name": "Decision Composer",
+          "description": "",
+          "icon": "database",
+          "topics": [],
+          "markdown": "/markdown/OperationalDecisionManager/DecisionComposer.md"
+        }
+      ]
+    },
+    
+
+    {
+      "route": "/BlueworksLive",
+      "name": "Blueworks Live",
+      "description": "",
+      "icon": "address-book",
+      "children": [
+        {
+          "route": "/AdminConsole",
+          "name": "Admin Console",
+          "description": "",
+          "icon": "bullhorn",
+          "topics": [],
+          "children": [
+             {
+              "route": "/Customproperties",
+              "name": "Custom properties",
+              "description": "",
+              "icon": "bullhorn",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/AdminConsole/Customproperties.md"
+            }, 
+            {
+              "route": "/Customizeaccount",
+              "name": "Customize account",
+              "description": "",
+              "icon": "bullhorn",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/AdminConsole/Customizeaccount.md"
+            },
+            {
+              "route": "/Manageusers",
+              "name": "Manage users",
+              "description": "",
+              "icon": "bullhorn",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/AdminConsole/Manageusers.md"
+            },
+            {
+              "route": "/ManageBilling",
+              "name": "Manage Billing",
+              "description": "",
+              "icon": "bullhorn",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/AdminConsole/ManageBilling.md"
+            },
+            {
+              "route": "/ManageDiskspace",
+              "name": "Manage Disk space",
+              "description": "",
+              "icon": "bullhorn",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/AdminConsole/ManageDiskspace.md"
+            },
+            {
+              "route": "/Security",
+              "name": "Security",
+              "description": "",
+              "icon": "bullhorn",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/AdminConsole/Security.md"
+            },
+            {
+              "route": "/SinglesignonSSO",
+              "name": "Single sign on(SSO)",
+              "description": "",
+              "icon": "bullhorn",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/AdminConsole/Singlesignon(SSO).md"
+            }
+            
+          ]
+        },
+        {
+          "route": "/BlueworksLiveService",
+          "name": "Blueworks Live Service",
+          "description": "",
+          "icon": "question-circle",
+          "topics": [],
+          "children": [
+            {
+              "route": "/API",
+              "name": "API",
+              "description": "",
+              "topics": [],
+              "icon": "question-circle",
+              "markdown": "/markdown/BlueworksLive/BlueworksLiveService/API.md"
+            },
+            {
+              "route": "/Attachfiles",
+              "name": "Attach files",
+              "description": "",
+              "topics": [],
+              "icon": "question-circle",
+              "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Attachfiles.md"
+            },
+            {
+              "route": "/CollaborationandSharing",
+              "name": "Collaboration and Sharing",
+              "description": "",
+              "topics": [],
+              "icon": "question-circle",
+              "markdown": "/markdown/BlueworksLive/BlueworksLiveService/CollaborationandSharing.md"
+            },
+            {
+              "route": "/Glossary",
+              "name": "Glossary",
+              "description": "",
+              "topics": [],
+              "icon": "question-circle",
+              "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Glossary.md"
+            },
+            {
+              "route": "/Import,ExportandPrinting",
+              "name": "Import,Export and Printing",
+              "description": "",
+              "topics": [],
+              "icon": "question-circle",
+              "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Import,ExportandPrinting.md"
+            },
+            {
+              "route": "/Processapp",
+              "name": "Process app",
+              "description": "",
+              "topics": [],
+              "icon": "question-circle",
+              "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Processapp.md"
+            },
+            {
+              "route": "/Processdiagram",
+              "name": "Process diagram",
+              "description": "",
+              "topics": [],
+              "icon": "question-circle",
+              "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Processdiagram.md"
+            },
+            {
+              "route": "/SearchandFilterTools",
+              "name": "Search and Filter Tools",
+              "description": "",
+              "topics": [],
+              "icon": "question-circle",
+              "markdown": "/markdown/BlueworksLive/BlueworksLiveService/SearchandFilterTools.md"
+            },
+            {
+              "route": "/Space",
+              "name": "Space",
+              "description": "",
+              "topics": [],
+              "icon": "question-circle",
+              "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Space.md"
+            }
+           
+          ]
+        },
+        {
+          "route": "/Account",
+          "name": "Account",
+          "description": "",
+          "icon": "project-diagram",
+          "topics": [],
+          "children": [
+            {
+              "route": "/PersonalizeAccount",
+              "name": "Personalize Account",
+              "description": "",
+              "icon": "project-diagram",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/Account/PersonalizeAccount.md"
+            },
+            {
+              "route": "/UserSettings",
+              "name": "User Settings",
+              "description": "",
+              "icon": "users-cog",
+              "topics": [],
+              "owner": "eugene",
+              "markdown": "/markdown/BlueworksLive/Account/UserSettings.md"
+            }
+    
+          ]
+        },
+
+
+        {
+          "route": "/BusinessProcessManagement",
+          "name": "Business Process Management(BPM)",
+          "description": "",
+          "icon": "fire",
+          "topics": [],
+          "markdown": "/markdown/BlueworksLive/BusinessProcessManagement.md"
+        },
+
+        {
+          "route": "/Operations",
+          "name": "Operations",
+          "description": "",
+          "icon": "lightbulb",
+          "topics": [],
+          "children": [
+            {
+              "route": "/SSAErequest",
+              "name": "SSAE request",
+              "description": "",
+              "icon": "globe",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/Operations/SSAErequest.md"
+
+            },
+            {
+              "route": "/VulnerabilityRequest",
+              "name": "Vulnerability Request",
+              "description": "",
+              "icon": "comments",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/Operations/VulnerabilityRequest.md"
+
+            }
+           
+          ]
+        },
+        
+        {
+          "route": "/SalesandBilling",
+          "name": "Sales and Billing",
+          "description": "",
+          "icon": "bolt",
+          "owner": "thomas",
+          "topics": [],
+          "children": [
+            {
+              "route": "/Account",
+              "name": "Account",
+              "description": "",
+              "icon": "file-word",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/SalesandBilling/Account.md"
+            },
+            {
+              "route": "/Billing",
+              "name": "Billing",
+              "description": "",
+              "icon": "sliders-h",
+              "owner": "thomas",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/SalesandBilling/Billing.md"
+            }
+            
+          ]
+        },
+        {
+          "route": "/Support",
+          "name": "Support",
+          "description": "",
+          "icon": "lightbulb",
+          "topics": [],
+          "children": [
+            {
+              "route": "/RequestAccesstoCommunity",
+              "name": "Request Access to Community",
+              "description": "",
+              "icon": "sitemap",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/Support/RequestAccesstoCommunity.md"
+            }
+            
+          ]
+        }
+        
+      ]
+    },
+
+
+    { 
+      "route": "/RoboticProcessAutomation",
+      "name": "Robotic Process Automation",
+      "description": "Robotic Process Automation",
+      "icon": "chart-bar",
+      "topics": [],
+      "children": [
+        {
+          "route": "/Install,Configure,Migrate",
+          "name": "Install,Configure,Migrate",
+          "description": "",
+          "icon": "chart-area",
+          "topics": [],
+          "children": [
+            {
+              "route": "/ControlRoom",
+              "name": "Control Room",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/RoboticProcessAutomation/Install,Configure,Migrate/ControlRoom.md"
+            },
+            {
+              "route": "/BotCreatorRunner",
+              "name": "Bot Creator/Runner",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/RoboticProcessAutomation/Install,Configure,Migrate/BotCreatorRunner.md"
+            },
+            {
+              "route": "/HA",
+              "name": "HA",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/RoboticProcessAutomation/Install,Configure,Migrate/HA.md"
+            },
+            {
+              "route": "/VersionControl",
+              "name": "Version Control",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/RoboticProcessAutomation/Install,Configure,Migrate/VersionControl.md"
+            }
+          ]
+        },
+        {
+              "route": "/BotDevelopment&Deployment",
+              "name": "Bot Development & Deployment",
+              "description": "",
+              "icon": "chart-bar",
+              "topics": [],
+              "children": [
+                {
+                  "route": "/Connectivity",
+                  "name": "Connectivity",
+                  "description": "",
+                  "icon": "fire",
+                  "topics": [],
+                  "markdown": "/markdown/RoboticProcessAutomation/BotDevelopment&Deployment/Connectivity.md"
+                },
+                {
+                  "route": "/Metabot",
+                  "name": "Metabot",
+                  "description": "",
+                  "icon": "fire",
+                  "topics": [],
+                  "markdown": "/markdown/RoboticProcessAutomation/BotDevelopment&Deployment/Metabot.md"
+                },
+                {
+                  "route": "/CredentialVault",
+                  "name": "Credential Vault",
+                  "description": "",
+                  "icon": "fire",
+                  "topics": [],
+                  "markdown": "/markdown/RoboticProcessAutomation/BotDevelopment&Deployment/CredentialVault.md"
+                },
+                {
+                  "route": "/SAPIntegration",
+                  "name": "SAP Integration",
+                  "description": "",
+                  "icon": "fire",
+                  "topics": [],
+                  "markdown": "/markdown/RoboticProcessAutomation/BotDevelopment&Deployment/SAPIntegration.md"
+                }
+              ]
+        },
+        {
+          "route": "/TaskBotExecution",
+          "name": "Task Bot Execution",
+          "description": "",
+          "icon": "database",
+          "topics": [],
+          "children": [
+            {
+              "route": "/Workload",
+              "name": "Workload",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/RoboticProcessAutomation/TaskBotExecution/Workload.md"
+            },
+            {
+              "route": "/Devices",
+              "name": "Devices",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/RoboticProcessAutomation/TaskBotExecution/Devices.md"
+            },
+            {
+              "route": "/UserManagement",
+              "name": "User Management",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/RoboticProcessAutomation/TaskBotExecution/UserManagement.md"
+            },
+            {
+              "route": "/Auto-Login",
+              "name": "Auto-Login",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/RoboticProcessAutomation/TaskBotExecution/Auto-Login.md"
+            },
+            {
+              "route": "/Monitoring",
+              "name": "Monitoring",
+              "description": "",
+              "icon": "fire",
+              "topics": [],
+              "markdown": "/markdown/RoboticProcessAutomation/TaskBotExecution/Monitoring.md"
+            }
+          ]
+        }
+      ]
+    }
+
+    
+  ]
+}

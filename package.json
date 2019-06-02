@@ -1,0 +1,51 @@
+{
+  "name": "DBA-Education",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "npm run build-search && vue-cli-service serve",
+    "build": "npm run build-search && vue-cli-service build",
+    "build-gh": "npm run build-search; GH_PAGES=true vue-cli-service build",
+    "build-search": "node build/build.search.js",
+    "lint": "vue-cli-service lint",
+    "deploy-gh": "GH_PAGES=true npm run build; git add .; git commit -m 'Update GitHub Pages'; git subtree push --prefix dist origin gh-pages"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free": "^5.3.1",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.2",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "@fortawesome/vue-fontawesome": "^0.1.1",
+    "axios": "^0.18.0",
+    "elasticlunr": "0.9.5",
+    "highlight.js": "9.12.0",
+    "liquor-tree": "^0.2.32",
+    "markdown-it": "8.4.1",
+    "remove-markdown": "^0.3.0",
+    "remove-markdown-and-html": "^0.1.0",
+    "vue": "^2.5.21",
+    "vue-markdown": "^2.2.4",
+    "vue-router": "^3.0.1",
+    "vue-tree-navigation": "^3.0.1",
+    "yarn": "^1.15.2"
+  },
+  "devDependencies": {
+    "@ibm/plex": "1.0.1",
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "normalize.css": "8.0.0",
+    "sass-loader": "^7.0.1",
+    "vue-markdown-loader": "2.4.0",
+    "vue-style-loader": "^3.0.3",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

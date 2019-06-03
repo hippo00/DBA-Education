@@ -1,5 +1,5 @@
-## [Must Read] How to contribute the documentation to DBA Eduction Platform?
-Please follow the steps below to submit your documentaion:
+# [Must Read] How to publish document to DBA Education Platform?
+Please follow the steps 1 - 3 below to create and publish your document:
 
 **1. Step 1 - Create  a issue**
 Please create 1 new issue at here: https://github.ibm.com/dba-support/DBA-Education/issues

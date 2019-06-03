@@ -73,7 +73,7 @@
               "route": "/Newhiretraining",
               "name": "New hire training (Foundation course review)",
               "description": "",
-              "icon": "bullhorn",
+              "icon": "",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Newhiretraining.md"
             },

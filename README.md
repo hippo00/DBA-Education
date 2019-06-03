@@ -1,4 +1,4 @@
-## [Must Read] How to contribute the documentation in Markdown format?
+## [Must Read] How to contribute the documentation to DBA Eduction Platform?
 Please follow the steps below to submit your documentaion:
 
 **1. Step 1 - Create  a issue**

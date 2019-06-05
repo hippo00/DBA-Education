@@ -173,7 +173,7 @@ export default {
    * sendSlackMessage - send a slack message to "DBA-Education-anonymous"
    */
   sendSlackMessage: function (path, message) {
-    let actualPath = 'https://pages.github.ibm.com/dba-support/DBA-Education/#' + path
+    let actualPath = 'https://pages.github.ibm.com/dba-support/DBA-Education' + path
     // let actualMessage = '<!channel> Comment on ' + actualPath + ' : ' + message
     let actualMessage = actualPath + ' : ' + message
 

@@ -52,20 +52,20 @@
       "route": "/BussinessProcessManager",
       "name": "Bussiness Process Manager",
       "description": "",
-      "icon": "",
+      "icon": "address-book",
       "children": [
         {
           "route": "/GeneralBPM",
           "name": "General BPM",
           "description": "",
-          "icon": "fa-hand-rock-o",
+          "icon": "weixin",
           "topics": [],
           "children": [
              {
               "route": "/Learningroadmap",
               "name": "Learning roadmap",
               "description": "",
-              "icon": "",
+              "icon": "h-square",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Learningroadmap.md"
             }, 
@@ -81,7 +81,7 @@
               "route": "/Knowledgebuckets",
               "name": "Knowledge buckets",
               "description": "",
-              "icon": "deaf",
+              "icon": "",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Knowledgebuckets.md"
             },

@@ -47,21 +47,21 @@
 }
 
 .card__title {
-  margin-top: 50px;
+  margin: 0;
   font-size: 1.2rem;
   font-weight: 800;
   text-align: center;
 }
 
-// .card__text {
-//   flex: 1;
-//   padding: 0.25rem 1.4rem 1rem 1.4rem;
-//   margin: 0;
-//   font-size: 0.9rem;
-//   line-height: 1.4rem;
-//   text-align: center;
-// }
+.card__text {
+  flex: 1;
+  padding: 0.25rem 1.4rem 1rem 1.4rem;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  text-align: center;
+}
 
-// .card svg path {
-//   fill: #da2d83;
-// }
+.card svg path {
+  fill: #2d74da;
+}

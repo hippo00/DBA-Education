@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header @toggleMenu="toggleMenu"/>
+   
     <main>
       <nav class="main__nav" :class="{ active: isNavOpen }">
         <div class="nav__search">
@@ -47,7 +48,7 @@ export default {
   name: 'app',
   data () {
     return {
-      baseUrl: 'https://pages.github.ibm.com/dba-support/DBA-Education/#',
+      baseUrl: 'https://pages.github.ibm.com/dba-support/DBA-Education',
       isNavOpen: false,
       tocItems: ConfigManager.getPages(),
       content: null,

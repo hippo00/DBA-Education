@@ -33,7 +33,7 @@
         </div>
 
         <div class="banner__search">
-          <input placeholder="Please leave us your comment on Slack #csp-playbook-feedback. Thank you" v-model="comment" :class="{ open: isCommentOpen }" @keyup.enter="submitComment" readonly/>
+          <input placeholder="Thank you" v-model="comment" :class="{ open: isCommentOpen }" @keyup.enter="submitComment" readonly/>
           <button class="banner__btn banner__btn--search" @click="isCommentOpen = !isCommentOpen">
             <font-awesome-icon v-if="!isCommentOpen" size="1x" icon="comments" class="btn--comment"/>
             <font-awesome-icon v-else size="1x" icon="times" class="btn--comment"/>

@@ -36,6 +36,7 @@ function processElement (node, parent) {
           description: child.description,
           path: node.path + child.route,
           icon: child.icon,
+          iconn: child.iconn,
           bgColor: child.bgColor,
           owner: child.owner,
           topics: child.topics
@@ -52,6 +53,7 @@ function processElement (node, parent) {
     description: node.description,
     markdown: node.markdown,
     icon: node.icon,
+    iconn:node.iconn,
     bgColor: node.bgColor,
     owner: node.owner,
     topics: node.topics,
@@ -133,6 +135,7 @@ export default {
         if (page.children) {
           content.type = 'TOC'
         }
+        
         return resolve(content)
       }
     })

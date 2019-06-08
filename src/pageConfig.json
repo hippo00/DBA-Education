@@ -52,20 +52,20 @@
       "route": "/BussinessProcessManager",
       "name": "Bussiness Process Manager",
       "description": "",
-      "icon": "address-book",
+      "icon": "",
       "children": [
         {
           "route": "/GeneralBPM",
           "name": "General BPM",
           "description": "",
-          "icon": "weixin",
+          "icon": "bookmark",
           "topics": [],
           "children": [
              {
               "route": "/Learningroadmap",
               "name": "Learning roadmap",
               "description": "",
-              "icon": "h-square",
+              "icon": "chalkboard-teacher",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Learningroadmap.md"
             }, 
@@ -73,7 +73,7 @@
               "route": "/Newhiretraining",
               "name": "New hire training (Foundation course review)",
               "description": "",
-              "icon": "",
+              "icon": "street-view",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Newhiretraining.md"
             },
@@ -81,7 +81,7 @@
               "route": "/Knowledgebuckets",
               "name": "Knowledge buckets",
               "description": "",
-              "icon": "",
+              "icon": "graduation-cap",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Knowledgebuckets.md"
             },
@@ -89,7 +89,7 @@
               "route": "/SkillsTransfer",
               "name": "Skills Transfer (L3-L2, SWAT-L2)",
               "description": "",
-              "icon": "",
+              "icon": "exchange-alt",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/GeneralBPM/SkillsTransfer.md"
             },
@@ -97,7 +97,7 @@
               "route": "/CFsTrainingEnablement",
               "name": "CFs Training Enablement",
               "description": "",
-              "icon": "",
+              "icon": "lightbulb",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/GeneralBPM/CFsTrainingEnablement.md"
             }
@@ -108,7 +108,7 @@
           "route": "/Install,Upgrade,Migration",
           "name": "Install, Upgrade, Migration",
           "description": "",
-          "icon": "",
+          "icon": "wrench",
           "topics": [],
           "children": [
             {
@@ -116,7 +116,7 @@
               "name": "Install/DE Config",
               "description": "",
               "topics": [],
-              "icon": "",
+              "icon": "wrench",
               "markdown": "/markdown/BussinessProcessManager/Install,Upgrade,Migration/InstallDEConfig.md"
             },
             {
@@ -124,7 +124,7 @@
               "name": "Upgrade",
               "description": "",
               "topics": [],
-              "icon": "",
+              "icon": "cogs",
               "markdown": "/markdown/BussinessProcessManager/Install,Upgrade,Migration/Upgrade.md"
             },
             {
@@ -132,7 +132,7 @@
               "name": "Migration",
               "description": "",
               "topics": [],
-              "icon": "",
+              "icon": "dolly-flatbed",
               "markdown": "/markdown/BussinessProcessManager/Install,Upgrade,Migration/Migration.md"
             },
             {
@@ -140,7 +140,7 @@
               "name": "Disaster Recovery",
               "description": "",
               "topics": [],
-              "icon": "",
+              "icon": "toolbox",
               "markdown": "/markdown/BussinessProcessManager/Install,Upgrade,Migration/DisasterRecovery.md"
             }
            
@@ -150,14 +150,14 @@
           "route": "/ApplicationManagement",
           "name": "Application Management",
           "description": "",
-          "icon": "",
+          "icon": "tasks",
           "topics": [],
           "children": [
             {
               "route": "/EARDeployment",
               "name": "EAR Deployment",
               "description": "",
-              "icon": "",
+              "icon": "flag",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/ApplicationManagement/EARDeployment.md"
             },
@@ -165,7 +165,7 @@
               "route": "/SnapshotManagement",
               "name": "Snapshot Management",
               "description": "",
-              "icon": "",
+              "icon": "folder-open",
               "topics": [],
               "owner": "eugene",
               "markdown": "/markdown/BussinessProcessManager/ApplicationManagement/SnapshotManagement.md"
@@ -174,7 +174,7 @@
               "route": "/InstanceMigration",
               "name": "Instance Migration",
               "description": "",
-              "icon": "",
+              "icon": "dolly-flatbed",
               "topics": [],
               "owner": "eugene",
               "markdown": "/markdown/BussinessProcessManager/ApplicationManagement/InstanceMigration.md"
@@ -188,14 +188,14 @@
           "route": "/BPMDevToolsandRepository",
           "name": "BPM Dev Tools and Repository",
           "description": "",
-          "icon": "",
+          "icon": "code",
           "topics": [],
           "children": [
             {
               "route": "/IBMIntegrationDesigner",
               "name": "IBM Integration Designer",
               "description": "",
-              "icon": "",
+              "icon": "ruler-combined",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/IBMIntegrationDesigner.md"
             },
@@ -203,7 +203,7 @@
               "route": "/ProcessDesigner",
               "name": "Process Designer",
               "description": "",
-              "icon": "",
+              "icon": "tape",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/ProcessDesigner.md"
             },
@@ -211,7 +211,7 @@
               "route": "/Inspector",
               "name": "Inspector",
               "description": "",
-              "icon": "",
+              "icon": "list-alt",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/Inspector.md"
             },
@@ -219,7 +219,7 @@
               "route": "/WebPD",
               "name": "Web PD",
               "description": "",
-              "icon": "",
+              "icon": "map-marker-alt",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/WebPD.md"
             },
@@ -227,7 +227,7 @@
               "route": "/Repository",
               "name": "Repository",
               "description": "",
-              "icon": "",
+              "icon": "warehouse",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/Repository.md"
             }
@@ -239,21 +239,21 @@
           "route": "/GeneralPerformance",
           "name": "General Performance",
           "description": "",
-          "icon": "",
+          "icon": "user-edit",
           "topics": [],
           "children": [
             {
               "route": "/CacheTuning",
               "name": "Cache Tuning",
               "description": "",
-              "icon": "",
+              "icon": "history",
               "topics": [],
               "children": [
                 {
                   "route": "/WelcometoSocialSupport",
                   "name": "Welcome to Social Support",
                   "description": "",
-                  "icon": "",
+                  "icon": "user-friends",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/CacheTuning/WelcometoSocialSupport.md"
                 },
@@ -261,7 +261,7 @@
                   "route": "/SocialSupportContacts",
                   "name": "Social Support Contacts",
                   "description": "",
-                  "icon": "",
+                  "icon": "address-card",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/CacheTuning/SocialSupportContacts.md"
                 }
@@ -271,14 +271,14 @@
               "route": "/HighCPU",
               "name": "High CPU",
               "description": "",
-              "icon": "",
+              "icon": "microchip",
               "topics": [],
               "children": [
                 {
                   "route": "/TwitterFacebookchannels",
                   "name": "Twitter & Facebook channels",
                   "description": "",
-                  "icon": "",
+                  "icon": "dove",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/HighCPU/TwitterFacebookchannels.md"
                 },
@@ -286,7 +286,7 @@
                   "route": "/YouTubechannels",
                   "name": "YouTube channels",
                   "description": "",
-                  "icon": "",
+                  "icon": "play-circle",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/HighCPU/YouTubechannels.md"
                 },
@@ -294,7 +294,7 @@
                   "route": "/OtherSocialMediachannels",
                   "name": "Other Social Media channels",
                   "description": "",
-                  "icon": "",
+                  "icon": "paper-plane",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/HighCPU/OtherSocialMediachannels.md"
                 },
@@ -302,7 +302,7 @@
                   "route": "/SocialMediaTags",
                   "name": "Social Media Tags",
                   "description": "",
-                  "icon": "",
+                  "icon": "tags",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/HighCPU/SocialMediaTags.md"
                 }
@@ -312,14 +312,14 @@
               "route": "/OOM",
               "name": "OOM",
               "description": "",
-              "icon": "",
+              "icon": "ellipsis-h",
               "topics": [],
               "children": [
                 {
                   "route": "/Writingguideforblogging",
                   "name": "Writing guide for blogging",
                   "description": "",
-                  "icon": "",
+                  "icon": "th",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/Writingguideforblogging.md"
                 },
@@ -327,7 +327,7 @@
                   "route": "/GettingStartedwithblogging",
                   "name": "Getting Started with blogging",
                   "description": "",
-                  "icon": "",
+                  "icon": "play",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/GettingStartedwithblogging.md"
                 },
@@ -335,7 +335,7 @@
                   "route": "/CreatingaBlogpost",
                   "name": "Creating a Blog post",
                   "description": "",
-                  "icon": "",
+                  "icon": "plus-square",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/CreatingaBlogpost.md"
                 },
@@ -343,7 +343,7 @@
                   "route": "/blogPublishing",
                   "name": "Blog Publishing",
                   "description": "",
-                  "icon": "",
+                  "icon": "upload",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/blogPublishing.md"
                 },
@@ -351,7 +351,7 @@
                   "route": "/BloggingBestPractices",
                   "name": "Blogging Best Practices",
                   "description": "",
-                  "icon": "",
+                  "icon": "window-restore",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/BloggingBestPractices.md"
                 }
@@ -361,14 +361,14 @@
               "route": "/TimeoutsHangs",
               "name": "Timeouts/Hangs",
               "description": "",
-              "icon": "",
+              "icon": "hand-paper",
               "topics": [],
               "children": [
                 {
                   "route": "/ToolingOptionsforcreatingSupportVideos",
                   "name": "Tooling Options for creating Support Videos",
                   "description": "",
-                  "icon": "",
+                  "icon": "video",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs/ToolingOptionsforcreatingSupportVideos.md"
                 },
@@ -376,7 +376,7 @@
                   "route": "/VideoProductionandEditing",
                   "name": "Video Production and Editing",
                   "description": "",
-                  "icon": "",
+                  "icon": "file-video",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs/VideoProductionandEditing.md"
                 },
@@ -384,7 +384,7 @@
                   "route": "/PublishingtoYouTube",
                   "name": "Publishing to YouTube",
                   "description": "",
-                  "icon": "",
+                  "icon": "upload",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs/PublishingtoYouTube.md"
                 },
@@ -392,7 +392,7 @@
                   "route": "/VideoProductionBestPractices",
                   "name": "Video Production Best Practices",
                   "description": "",
-                  "icon": "",
+                  "icon": "window-restore",
                   "topics": [],
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs/VideoProductionBestPractices.md"
                 }
@@ -406,7 +406,7 @@
           "route": "/Portal,PAC,Coaches,PFS",
           "name": "Portal,PAC,Coaches,PFS",
           "description": "",
-          "icon": "",
+          "icon": "podcast",
           "owner": "thomas",
           "topics": [],
           "children": [
@@ -414,7 +414,7 @@
               "route": "/GeneralResponsiveProcessPortal",
               "name": "General/Responsive Process Portal",
               "description": "",
-              "icon": "",
+              "icon": "bookmark",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/GeneralResponsiveProcessPortal.md"
             },
@@ -422,7 +422,7 @@
               "route": "/ProcessAdminConsole",
               "name": "Process Admin Console",
               "description": "",
-              "icon": "",
+              "icon": "terminal",
               "owner": "thomas",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/ProcessAdminConsole.md"
@@ -431,7 +431,7 @@
               "route": "/GeneralHeritageCoaches",
               "name": "General/Heritage Coaches",
               "description": "",
-              "icon": "",
+              "icon": "podcast",
               "owner": "thomas",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/GeneralHeritageCoaches.md"
@@ -440,7 +440,7 @@
               "route": "/Client-sideHeritageHumanService",
               "name": "Client-side/Heritage Human Service",
               "description": "",
-              "icon": "",
+              "icon": "user",
               "owner": "thomas",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/Client-sideHeritageHumanService.md"
@@ -449,7 +449,7 @@
               "route": "/ToolkitControls",
               "name": "Toolkit Controls",
               "description": "",
-              "icon": "",
+              "icon": "toolbox",
               "owner": "thomas",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/ToolkitControls.md"
@@ -458,7 +458,7 @@
               "route": "/PFS",
               "name": "PFS",
               "description": "",
-              "icon": "",
+              "icon": "print",
               "owner": "thomas",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/PFS.md"
@@ -470,14 +470,14 @@
           "route": "/Monitor,BusinessSpace,PDW",
           "name": "Monitor,Business Space,PDW",
           "description": "",
-          "icon": "",
+          "icon": "desktop",
           "topics": [],
           "children": [
             {
               "route": "/BusinessMonitor",
               "name": "Business Monitor",
               "description": "",
-              "icon": "",
+              "icon": "desktop",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/Monitor,BusinessSpace,PDW/BusinessMonitor.md"
             },
@@ -485,7 +485,7 @@
               "route": "/BusinessSpace",
               "name": "Business Space",
               "description": "",
-              "icon": "",
+              "icon": "archive",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/Monitor,BusinessSpace,PDW/BusinessSpace.md"
             },
@@ -493,7 +493,7 @@
               "route": "/PerformanceDataWarehouse",
               "name": "Performance Data Warehouse",
               "description": "",
-              "icon": "",
+              "icon": "database",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/Monitor,BusinessSpace,PDW/PerformanceDataWarehouse.md"
             }
@@ -504,14 +504,14 @@
           "route": "/Security",
           "name": "Security",
           "description": "",
-          "icon": "",
+          "icon": "shield-alt",
           "topics": [],
           "children": [
             {
               "route": "/SecurityScans",
               "name": "Security Scans",
               "description": "",
-              "icon": "",
+              "icon": "hourglass-start",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/Security/SecurityScans.md"
             },
@@ -519,7 +519,7 @@
               "route": "/SSL",
               "name": "SSL",
               "description": "",
-              "icon": "",
+              "icon": "shield-alt",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/Security/SSL.md"
             },
@@ -527,7 +527,7 @@
               "route": "/SSO",
               "name": "SSO",
               "description": "",
-              "icon": "",
+              "icon": "sign-in-alt",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/Security/SSO.md"
             },
@@ -535,7 +535,7 @@
               "route": "/User&GroupSecurity",
               "name": "User&Group Security",
               "description": "",
-              "icon": "",
+              "icon": "users",
               "owner": "paulo",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/Security/User&GroupSecurity.md"
@@ -547,14 +547,14 @@
           "route": "/AdvancedContent",
           "name": "Advanced Content",
           "description": "",
-          "icon": "",
+          "icon": "file-signature",
           "topics": [],
           "children": [
             {
               "route": "/AIS",
               "name": "AIS",
               "description": "",
-              "icon": "",
+              "icon": "file-archive",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/AdvancedContent/AIS.md"
             },
@@ -562,7 +562,7 @@
               "route": "/BPC",
               "name": "BPC",
               "description": "",
-              "icon": "",
+              "icon": "square",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/AdvancedContent/BPC.md"
             },
@@ -570,7 +570,7 @@
               "route": "/BO",
               "name": "BO",
               "description": "",
-              "icon": "",
+              "icon": "box",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/AdvancedContent/BO.md"
             },
@@ -578,7 +578,7 @@
               "route": "/Bindings",
               "name": "Bindings",
               "description": "",
-              "icon": "",
+              "icon": "industry",
               "owner": "paulo",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/AdvancedContent/Bindings.md"
@@ -587,7 +587,7 @@
               "route": "/SCA",
               "name": "SCA",
               "description": "",
-              "icon": "",
+              "icon": "stream",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/AdvancedContent/SCA.md"
             },
@@ -595,7 +595,7 @@
               "route": "/SIB",
               "name": "SIB",
               "description": "",
-              "icon": "",
+              "icon": "star",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/AdvancedContent/SIB.md"
             },
@@ -603,7 +603,7 @@
               "route": "/FailedEvent",
               "name": "Failed Event",
               "description": "",
-              "icon": "",
+              "icon": "calendar-times",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/AdvancedContent/FailedEvent.md"
             },
@@ -611,7 +611,7 @@
               "route": "/Adapters",
               "name": "Adapters",
               "description": "",
-              "icon": "",
+              "icon": "sliders-h",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/AdvancedContent/Adapters.md"
             },
@@ -619,7 +619,7 @@
               "route": "/Mediation",
               "name": "Mediation",
               "description": "",
-              "icon": "",
+              "icon": "file-medical",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/AdvancedContent/Mediation.md"
             }
@@ -630,14 +630,14 @@
           "route": "/BPDServiceEngine",
           "name": "BPD/Service Engine",
           "description": "",
-          "icon": "",
+          "icon": "server",
           "topics": [],
           "children": [
             {
               "route": "/BPD",
               "name": "BPD",
               "description": "",
-              "icon": "",
+              "icon": "file-alt",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/BPD.md"
             },
@@ -645,7 +645,7 @@
               "route": "/EventManager",
               "name": "Event Manager",
               "description": "",
-              "icon": "",
+              "icon": "calendar-minus",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/EventManager.md"
             },
@@ -653,7 +653,7 @@
               "route": "/JSAPI,RESTAPI",
               "name": "JS API,REST API",
               "description": "",
-              "icon": "",
+              "icon": "retweet",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/JSAPI,RESTAPI.md"
             },
@@ -661,7 +661,7 @@
               "route": "/WebService",
               "name": "Web Service",
               "description": "",
-              "icon": "",
+              "icon": "map-marker-alt",
               "owner": "paulo",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/WebService.md"
@@ -670,7 +670,7 @@
               "route": "/UCA",
               "name": "UCA",
               "description": "",
-              "icon": "",
+              "icon": "star",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/UCA.md"
             }
@@ -681,7 +681,7 @@
           "route": "/ECMIntegration",
           "name": "ECM Integration",
           "description": "",
-          "icon": "",
+          "icon": "sitemap",
           "topics": [],
           "markdown": "/markdown/BussinessProcessManager/ECMIntegration.md"
         },
@@ -689,7 +689,7 @@
           "route": "/BPMonCloud",
           "name": "BPM on Cloud",
           "description": "",
-          "icon": "",
+          "icon": "cloud",
           "topics": [],
           "markdown": "/markdown/BussinessProcessManager/BPMonCloud.md"
         }
@@ -708,14 +708,14 @@
           "route": "/GeneralODM",
           "name": "General ODM",
           "description": "",
-          "icon": "",
+          "icon": "bookmark",
           "topics": [],
           "children": [
             {
               "route": "/Learningroadmap",
               "name": "Learning roadmap",
               "description": "",
-              "icon": "",
+              "icon": "chalkboard-teacher",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/GeneralODM/Learningroadmap.md"
             },
@@ -723,7 +723,7 @@
               "route": "/Newhiretraining",
               "name": "New hire training(Foundation course review)",
               "description": "",
-              "icon": "",
+              "icon": "street-view",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/GeneralODM/Newhiretraining.md"
             },
@@ -731,7 +731,7 @@
               "route": "/Knowledgebuckets",
               "name": "Knowledge buckets",
               "description": "",
-              "icon": "",
+              "icon": "graduation-cap",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/GeneralODM/Knowledgebuckets.md"
             },
@@ -739,7 +739,7 @@
               "route": "/SkillsTransfer",
               "name": "Skills Transfer(L3-L2,SWAT-L2)",
               "description": "",
-              "icon": "",
+              "icon": "exchange-alt",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/GeneralODM/SkillsTransfer.md"
             },
@@ -747,7 +747,7 @@
               "route": "/CFsTrainingEnablement",
               "name": "CFs Training Enablement",
               "description": "",
-              "icon": "",
+              "icon": "lightbulb",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/GeneralODM/CFsTrainingEnablement.md"
             }
@@ -757,7 +757,7 @@
           "route": "/Install,Upgrade,Migration",
           "name": "Install,Upgrade,Migration",
           "description": "",
-          "icon": "",
+          "icon": "wrench",
           "topics": [],
           "markdown": "/markdown/OperationalDecisionManager/Install,Upgrade,Migration.md"
         },
@@ -765,7 +765,7 @@
           "route": "/ODMProfileTemplates",
           "name": "ODM Profile Templates",
           "description": "",
-          "icon": "",
+          "icon": "file-alt",
           "topics": [],
           "markdown": "/markdown/OperationalDecisionManager/ODMProfileTemplates.md"
         },
@@ -773,14 +773,14 @@
           "route": "/Performance",
           "name": "Performance",
           "description": "",
-          "icon": "",
+          "icon": "user-edit",
           "topics": [],
           "children": [
             {
               "route": "/Generalperformancetuning",
               "name": "General performance tuning",
               "description": "",
-              "icon": "",
+              "icon": "history",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/Performance/Generalperformancetuning.md"
             },
@@ -788,7 +788,7 @@
               "route": "/Hungthread&highCPU",
               "name": "Hung thread & high CPU",
               "description": "",
-              "icon": "",
+              "icon": "microchip",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/Performance/Hungthread&highCPU.md"
             },
@@ -796,7 +796,7 @@
               "route": "/OOM",
               "name": "OOM",
               "description": "",
-              "icon": "",
+              "icon": "ellipsis-h",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/Performance/OOM.md"
             }
@@ -807,14 +807,14 @@
           "route": "/DecisionCenter",
           "name": "Decision Center",
           "description": "",
-          "icon": "",
+          "icon": "certificate",
           "topics": [],
           "children": [
             {
               "route": "/DecisionGovernanceFramework",
               "name": "Decision Governance Framework",
               "description": "",
-              "icon": "",
+              "icon": "align-justify",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionCenter/DecisionGovernanceFramework.md"
             },
@@ -822,7 +822,7 @@
               "route": "/Scurity&usermanagement",
               "name": "Scurity & user management",
               "description": "",
-              "icon": "",
+              "icon": "user-friends",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionCenter/Scurity&usermanagement.md"
             },
@@ -830,7 +830,7 @@
               "route": "/Testandsimulation",
               "name": "Test and simulation",
               "description": "",
-              "icon": "",
+              "icon": "keyboard",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionCenter/Testandsimulation.md"
             },
@@ -838,7 +838,7 @@
               "route": "/DecisionModelService",
               "name": "Decision Model Service",
               "description": "",
-              "icon": "",
+              "icon": "expand-arrows-alt",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionCenter/DecisionModelService.md"
             }
@@ -849,14 +849,14 @@
           "route": "/DecisionServerRules",
           "name": "Decision Server Rules",
           "description": "",
-          "icon": "",
+          "icon": "user-tag",
           "topics": [],
           "children": [
             {
               "route": "/RuleDesigner",
               "name": "Rule Designer",
               "description": "",
-              "icon": "",
+              "icon": "user-tag",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionServerRules/RuleDesigner.md"
             },
@@ -864,7 +864,7 @@
               "route": "/RESConsole",
               "name": "RES Console",
               "description": "",
-              "icon": "",
+              "icon": "terminal",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionServerRules/RESConsole.md"
             },
@@ -872,7 +872,7 @@
               "route": "/RESruntime",
               "name": "RES runtime",
               "description": "",
-              "icon": "",
+              "icon": "redo",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionServerRules/RESruntime.md"
             },
@@ -880,7 +880,7 @@
               "route": "/DecisionWarehouse",
               "name": "Decision Warehouse",
               "description": "",
-              "icon": "",
+              "icon": "boxes",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionServerRules/DecisionWarehouse.md"
             }
@@ -892,7 +892,7 @@
               "route": "/DecisionServerInsights",
               "name": "Decision Server Insights",
               "description": "",
-              "icon": "",
+              "icon": "server",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionServerInsights.md"
         },
@@ -900,7 +900,7 @@
           "route": "/ODMondocker",
           "name": "ODM on docker",
           "description": "",
-          "icon": "",
+          "icon": "anchor",
           "topics": [],
           "markdown": "/markdown/OperationalDecisionManager/ODMondocker.md"
         },
@@ -908,7 +908,7 @@
           "route": "/DecisionComposer",
           "name": "Decision Composer",
           "description": "",
-          "icon": "",
+          "icon": "hdd",
           "topics": [],
           "markdown": "/markdown/OperationalDecisionManager/DecisionComposer.md"
         }
@@ -926,14 +926,14 @@
           "route": "/AdminConsole",
           "name": "Admin Console",
           "description": "",
-          "icon": "",
+          "icon": "terminal",
           "topics": [],
           "children": [
              {
               "route": "/Customproperties",
               "name": "Custom properties",
               "description": "",
-              "icon": "",
+              "icon": "edit",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/Customproperties.md"
             }, 
@@ -941,7 +941,7 @@
               "route": "/Customizeaccount",
               "name": "Customize account",
               "description": "",
-              "icon": "",
+              "icon": "lock-open",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/Customizeaccount.md"
             },
@@ -949,7 +949,7 @@
               "route": "/Manageusers",
               "name": "Manage users",
               "description": "",
-              "icon": "",
+              "icon": "user-circle",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/Manageusers.md"
             },
@@ -957,7 +957,7 @@
               "route": "/ManageBilling",
               "name": "Manage Billing",
               "description": "",
-              "icon": "",
+              "icon": "bullseye",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/ManageBilling.md"
             },
@@ -965,7 +965,7 @@
               "route": "/ManageDiskspace",
               "name": "Manage Disk space",
               "description": "",
-              "icon": "",
+              "icon": "save",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/ManageDiskspace.md"
             },
@@ -973,7 +973,7 @@
               "route": "/Security",
               "name": "Security",
               "description": "",
-              "icon": "",
+              "icon": "shield-alt",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/Security.md"
             },
@@ -981,7 +981,7 @@
               "route": "/SinglesignonSSO",
               "name": "Single sign on(SSO)",
               "description": "",
-              "icon": "",
+              "icon": "sign-in-alt",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/Singlesignon(SSO).md"
             }
@@ -992,7 +992,7 @@
           "route": "/BlueworksLiveService",
           "name": "Blueworks Live Service",
           "description": "",
-          "icon": "",
+          "icon": "server",
           "topics": [],
           "children": [
             {
@@ -1000,7 +1000,7 @@
               "name": "API",
               "description": "",
               "topics": [],
-              "icon": "",
+              "icon": "retweet",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/API.md"
             },
             {
@@ -1008,7 +1008,7 @@
               "name": "Attach files",
               "description": "",
               "topics": [],
-              "icon": "",
+              "icon": "file",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Attachfiles.md"
             },
             {
@@ -1016,7 +1016,7 @@
               "name": "Collaboration and Sharing",
               "description": "",
               "topics": [],
-              "icon": "",
+              "icon": "share-square",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/CollaborationandSharing.md"
             },
             {
@@ -1024,7 +1024,7 @@
               "name": "Glossary",
               "description": "",
               "topics": [],
-              "icon": "",
+              "icon": "th",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Glossary.md"
             },
             {
@@ -1032,7 +1032,7 @@
               "name": "Import,Export and Printing",
               "description": "",
               "topics": [],
-              "icon": "",
+              "icon": "plus-square",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Import,ExportandPrinting.md"
             },
             {
@@ -1040,7 +1040,7 @@
               "name": "Process app",
               "description": "",
               "topics": [],
-              "icon": "",
+              "icon": "tablet-alt",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Processapp.md"
             },
             {
@@ -1048,7 +1048,7 @@
               "name": "Process diagram",
               "description": "",
               "topics": [],
-              "icon": "",
+              "icon": "chart-pie",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Processdiagram.md"
             },
             {
@@ -1056,7 +1056,7 @@
               "name": "Search and Filter Tools",
               "description": "",
               "topics": [],
-              "icon": "",
+              "icon": "search",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/SearchandFilterTools.md"
             },
             {
@@ -1064,7 +1064,7 @@
               "name": "Space",
               "description": "",
               "topics": [],
-              "icon": "",
+              "icon": "newspaper",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Space.md"
             }
            
@@ -1074,14 +1074,14 @@
           "route": "/Account",
           "name": "Account",
           "description": "",
-          "icon": "",
+          "icon": "user-circle",
           "topics": [],
           "children": [
             {
               "route": "/PersonalizeAccount",
               "name": "Personalize Account",
               "description": "",
-              "icon": "",
+              "icon": "user-circle",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/Account/PersonalizeAccount.md"
             },
@@ -1089,7 +1089,7 @@
               "route": "/UserSettings",
               "name": "User Settings",
               "description": "",
-              "icon": "",
+              "icon": "user-cog",
               "topics": [],
               "owner": "eugene",
               "markdown": "/markdown/BlueworksLive/Account/UserSettings.md"
@@ -1103,7 +1103,7 @@
           "route": "/BusinessProcessManagement",
           "name": "Business Process Management(BPM)",
           "description": "",
-          "icon": "",
+          "icon": "bold",
           "topics": [],
           "markdown": "/markdown/BlueworksLive/BusinessProcessManagement.md"
         },
@@ -1112,14 +1112,14 @@
           "route": "/Operations",
           "name": "Operations",
           "description": "",
-          "icon": "",
+          "icon": "project-diagram",
           "topics": [],
           "children": [
             {
               "route": "/SSAErequest",
               "name": "SSAE request",
               "description": "",
-              "icon": "",
+              "icon": "chevron-right",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/Operations/SSAErequest.md"
 
@@ -1128,7 +1128,7 @@
               "route": "/VulnerabilityRequest",
               "name": "Vulnerability Request",
               "description": "",
-              "icon": "",
+              "icon": "chevron-left",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/Operations/VulnerabilityRequest.md"
 
@@ -1141,7 +1141,7 @@
           "route": "/SalesandBilling",
           "name": "Sales and Billing",
           "description": "",
-          "icon": "",
+          "icon": "futbol",
           "owner": "thomas",
           "topics": [],
           "children": [
@@ -1149,7 +1149,7 @@
               "route": "/Account",
               "name": "Account",
               "description": "",
-              "icon": "",
+              "icon": "user-circle",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/SalesandBilling/Account.md"
             },
@@ -1157,7 +1157,7 @@
               "route": "/Billing",
               "name": "Billing",
               "description": "",
-              "icon": "",
+              "icon": "bullseye",
               "owner": "thomas",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/SalesandBilling/Billing.md"
@@ -1169,14 +1169,14 @@
           "route": "/Support",
           "name": "Support",
           "description": "",
-          "icon": "",
+          "icon": "phone-volume",
           "topics": [],
           "children": [
             {
               "route": "/RequestAccesstoCommunity",
               "name": "Request Access to Community",
               "description": "",
-              "icon": "",
+              "icon": "comments",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/Support/RequestAccesstoCommunity.md"
             }
@@ -1199,14 +1199,14 @@
           "route": "/Install,Configure,Migrate",
           "name": "Install,Configure,Migrate",
           "description": "",
-          "icon": "",
+          "icon": "wrench",
           "topics": [],
           "children": [
             {
               "route": "/ControlRoom",
               "name": "Control Room",
               "description": "",
-              "icon": "",
+              "icon": "door-closed",
               "topics": [],
               "markdown": "/markdown/RoboticProcessAutomation/Install,Configure,Migrate/ControlRoom.md"
             },
@@ -1214,7 +1214,7 @@
               "route": "/BotCreatorRunner",
               "name": "Bot Creator/Runner",
               "description": "",
-              "icon": "",
+              "icon": "stroopwafel",
               "topics": [],
               "markdown": "/markdown/RoboticProcessAutomation/Install,Configure,Migrate/BotCreatorRunner.md"
             },
@@ -1222,7 +1222,7 @@
               "route": "/HA",
               "name": "HA",
               "description": "",
-              "icon": "",
+              "icon": "filter",
               "topics": [],
               "markdown": "/markdown/RoboticProcessAutomation/Install,Configure,Migrate/HA.md"
             },
@@ -1230,7 +1230,7 @@
               "route": "/VersionControl",
               "name": "Version Control",
               "description": "",
-              "icon": "",
+              "icon": "universal-access",
               "topics": [],
               "markdown": "/markdown/RoboticProcessAutomation/Install,Configure,Migrate/VersionControl.md"
             }
@@ -1240,14 +1240,14 @@
               "route": "/BotDevelopment&Deployment",
               "name": "Bot Development & Deployment",
               "description": "",
-              "icon": "",
+              "icon": "robot",
               "topics": [],
               "children": [
                 {
                   "route": "/Connectivity",
                   "name": "Connectivity",
                   "description": "",
-                  "icon": "",
+                  "icon": "link",
                   "topics": [],
                   "markdown": "/markdown/RoboticProcessAutomation/BotDevelopment&Deployment/Connectivity.md"
                 },
@@ -1255,7 +1255,7 @@
                   "route": "/Metabot",
                   "name": "Metabot",
                   "description": "",
-                  "icon": "",
+                  "icon": "diagnoses",
                   "topics": [],
                   "markdown": "/markdown/RoboticProcessAutomation/BotDevelopment&Deployment/Metabot.md"
                 },
@@ -1263,7 +1263,7 @@
                   "route": "/CredentialVault",
                   "name": "Credential Vault",
                   "description": "",
-                  "icon": "",
+                  "icon": "credit-card",
                   "topics": [],
                   "markdown": "/markdown/RoboticProcessAutomation/BotDevelopment&Deployment/CredentialVault.md"
                 },
@@ -1271,7 +1271,7 @@
                   "route": "/SAPIntegration",
                   "name": "SAP Integration",
                   "description": "",
-                  "icon": "",
+                  "icon": "sitemap",
                   "topics": [],
                   "markdown": "/markdown/RoboticProcessAutomation/BotDevelopment&Deployment/SAPIntegration.md"
                 }
@@ -1281,14 +1281,14 @@
           "route": "/TaskBotExecution",
           "name": "Task Bot Execution",
           "description": "",
-          "icon": "",
+          "icon": "tasks",
           "topics": [],
           "children": [
             {
               "route": "/Workload",
               "name": "Workload",
               "description": "",
-              "icon": "",
+              "icon": "globe",
               "topics": [],
               "markdown": "/markdown/RoboticProcessAutomation/TaskBotExecution/Workload.md"
             },
@@ -1296,7 +1296,7 @@
               "route": "/Devices",
               "name": "Devices",
               "description": "",
-              "icon": "",
+              "icon": "object-group",
               "topics": [],
               "markdown": "/markdown/RoboticProcessAutomation/TaskBotExecution/Devices.md"
             },
@@ -1304,7 +1304,7 @@
               "route": "/UserManagement",
               "name": "User Management",
               "description": "",
-              "icon": "",
+              "icon": "id-card",
               "topics": [],
               "markdown": "/markdown/RoboticProcessAutomation/TaskBotExecution/UserManagement.md"
             },
@@ -1312,7 +1312,7 @@
               "route": "/Auto-Login",
               "name": "Auto-Login",
               "description": "",
-              "icon": "",
+              "icon": "sign-in-alt",
               "topics": [],
               "markdown": "/markdown/RoboticProcessAutomation/TaskBotExecution/Auto-Login.md"
             },
@@ -1320,7 +1320,7 @@
               "route": "/Monitoring",
               "name": "Monitoring",
               "description": "",
-              "icon": "",
+              "icon": "desktop",
               "topics": [],
               "markdown": "/markdown/RoboticProcessAutomation/TaskBotExecution/Monitoring.md"
             }

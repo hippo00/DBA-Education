@@ -63,7 +63,7 @@
           "children": [
              {
               "route": "/Learningroadmap",
-              "name": "Learning roadmap",
+              "name": "Learning Plan",
               "description": "",
               "icon": "chalkboard-teacher",
               "topics": [],
@@ -104,7 +104,7 @@
             },
             {
               "route": "/Knowledgebuckets",
-              "name": "Knowledge buckets",
+              "name": "Knowledge Buckets",
               "description": "",
               "icon": "graduation-cap",
               "topics": [],
@@ -265,24 +265,7 @@
               "description": "",
               "icon": "history",
               "topics": [],
-              "children": [
-                {
-                  "route": "/WelcometoSocialSupport",
-                  "name": "Welcome to Social Support",
-                  "description": "",
-                  "icon": "user-friends",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/CacheTuning/WelcometoSocialSupport.md"
-                },
-                {
-                  "route": "/SocialSupportContacts",
-                  "name": "Social Support Contacts",
-                  "description": "",
-                  "icon": "address-card",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/CacheTuning/SocialSupportContacts.md"
-                }
-              ]
+              "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/CacheTuning.md" 
             },
             {
               "route": "/HighCPU",
@@ -290,40 +273,7 @@
               "description": "",
               "icon": "microchip",
               "topics": [],
-              "children": [
-                {
-                  "route": "/TwitterFacebookchannels",
-                  "name": "Twitter & Facebook channels",
-                  "description": "",
-                  "icon": "dove",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/HighCPU/TwitterFacebookchannels.md"
-                },
-                {
-                  "route": "/YouTubechannels",
-                  "name": "YouTube channels",
-                  "description": "",
-                  "icon": "play-circle",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/HighCPU/YouTubechannels.md"
-                },
-                {
-                  "route": "/OtherSocialMediachannels",
-                  "name": "Other Social Media channels",
-                  "description": "",
-                  "icon": "paper-plane",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/HighCPU/OtherSocialMediachannels.md"
-                },
-                {
-                  "route": "/SocialMediaTags",
-                  "name": "Social Media Tags",
-                  "description": "",
-                  "icon": "tags",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/HighCPU/SocialMediaTags.md"
-                }
-              ]
+              "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/HighCPU.md"
             },
             {
               "route": "/OutofMemory",
@@ -331,48 +281,7 @@
               "description": "",
               "icon": "ellipsis-h",
               "topics": [],
-              "children": [
-                {
-                  "route": "/Writingguideforblogging",
-                  "name": "Writing guide for blogging",
-                  "description": "",
-                  "icon": "th",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/Writingguideforblogging.md"
-                },
-                {
-                  "route": "/GettingStartedwithblogging",
-                  "name": "Getting Started with blogging",
-                  "description": "",
-                  "icon": "play",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/GettingStartedwithblogging.md"
-                },
-                {
-                  "route": "/CreatingaBlogpost",
-                  "name": "Creating a Blog post",
-                  "description": "",
-                  "icon": "plus-square",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/CreatingaBlogpost.md"
-                },
-                {
-                  "route": "/blogPublishing",
-                  "name": "Blog Publishing",
-                  "description": "",
-                  "icon": "upload",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/blogPublishing.md"
-                },
-                {
-                  "route": "/BloggingBestPractices",
-                  "name": "Blogging Best Practices",
-                  "description": "",
-                  "icon": "window-restore",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OOM/BloggingBestPractices.md"
-                }
-              ]
+              "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/OutofMemory.md"
             },
             {
               "route": "/TimeoutsHangs",
@@ -380,40 +289,7 @@
               "description": "",
               "icon": "hand-paper",
               "topics": [],
-              "children": [
-                {
-                  "route": "/ToolingOptionsforcreatingSupportVideos",
-                  "name": "Tooling Options for creating Support Videos",
-                  "description": "",
-                  "icon": "video",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs/ToolingOptionsforcreatingSupportVideos.md"
-                },
-                {
-                  "route": "/VideoProductionandEditing",
-                  "name": "Video Production and Editing",
-                  "description": "",
-                  "icon": "file-video",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs/VideoProductionandEditing.md"
-                },
-                {
-                  "route": "/PublishingtoYouTube",
-                  "name": "Publishing to YouTube",
-                  "description": "",
-                  "icon": "upload",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs/PublishingtoYouTube.md"
-                },
-                {
-                  "route": "/VideoProductionBestPractices",
-                  "name": "Video Production Best Practices",
-                  "description": "",
-                  "icon": "window-restore",
-                  "topics": [],
-                  "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs/VideoProductionBestPractices.md"
-                }
-              ]
+              "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs.md"
             },
             {
               "route": "/Database",

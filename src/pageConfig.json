@@ -1,5 +1,5 @@
 {
-  "appName": "DBA Support Education Platform",
+  "appName": "  IBM DBA Support Education",
   "headerNavigation": [
     {
       "name": "DBA-Education",
@@ -50,13 +50,13 @@
   "pages": [
     {
       "route": "/BussinessProcessManager",
-      "name": "Bussiness Process Manager",
+      "name": "Bussiness Process Manager/Business Automation Workflow",
       "description": "",
       "icon": "",
       "children": [
         {
           "route": "/GeneralBPM",
-          "name": "General BPM",
+          "name": "General BPM/BAW",
           "description": "",
           "icon": "bookmark",
           "topics": [],
@@ -70,21 +70,14 @@
               "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Learningroadmap.md"
             }, 
             {
-              "route": "/Newhiretraining",
-              "name": "New hire training (Foundation course review)",
+              "route": "/DeepDive",
+              "name": "Deep Dive",
               "description": "",
               "icon": "street-view",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Newhiretraining.md"
+              "markdown": "/markdown/BussinessProcessManager/GeneralBPM/DeepDive.md"
             },
-            {
-              "route": "/Knowledgebuckets",
-              "name": "Knowledge buckets",
-              "description": "",
-              "icon": "graduation-cap",
-              "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Knowledgebuckets.md"
-            },
+           
             {
               "route": "/SkillsTransfer",
               "name": "Skills Transfer (L3-L2, SWAT-L2)",
@@ -94,12 +87,28 @@
               "markdown": "/markdown/BussinessProcessManager/GeneralBPM/SkillsTransfer.md"
             },
             {
-              "route": "/CFsTrainingEnablement",
-              "name": "CFs Training Enablement",
+              "route": "/CFsTraining",
+              "name": "CFs Training",
               "description": "",
               "icon": "lightbulb",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/GeneralBPM/CFsTrainingEnablement.md"
+            },
+            {
+              "route": "/Troubleshooting",
+              "name": "Troubleshooting",
+              "description": "",
+              "icon": "sitemap",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Troubleshooting.md"
+            },
+            {
+              "route": "/Knowledgebuckets",
+              "name": "Knowledge buckets",
+              "description": "",
+              "icon": "graduation-cap",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Knowledgebuckets.md"
             }
             
           ]
@@ -112,8 +121,8 @@
           "topics": [],
           "children": [
             {
-              "route": "/InstallDEConfig",
-              "name": "Install/DE Config",
+              "route": "/InstallDEConfiguration",
+              "name": "Install/DE Configuration",
               "description": "",
               "topics": [],
               "icon": "wrench",
@@ -142,6 +151,14 @@
               "topics": [],
               "icon": "toolbox",
               "markdown": "/markdown/BussinessProcessManager/Install,Upgrade,Migration/DisasterRecovery.md"
+            },
+            {
+              "route": "/Configuration",
+              "name": "Configuration",
+              "description": "",
+              "topics": [],
+              "icon": "sitemap",
+              "markdown": "/markdown/BussinessProcessManager/Install,Upgrade,Migration/Configuration.md"
             }
            
           ]
@@ -200,12 +217,12 @@
               "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/IBMIntegrationDesigner.md"
             },
             {
-              "route": "/ProcessDesigner",
-              "name": "Process Designer",
+              "route": "/DesktopProcessDesigner",
+              "name": "Desktop Process Designer/Web PD",
               "description": "",
               "icon": "tape",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/ProcessDesigner.md"
+              "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/DesktopProcessDesigner.md"
             },
             {
               "route": "/Inspector",
@@ -216,28 +233,28 @@
               "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/Inspector.md"
             },
             {
-              "route": "/WebPD",
-              "name": "Web PD",
-              "description": "",
-              "icon": "map-marker-alt",
-              "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/WebPD.md"
-            },
-            {
               "route": "/Repository",
               "name": "Repository",
               "description": "",
               "icon": "warehouse",
               "topics": [],
               "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/Repository.md"
+            },
+            {
+              "route": "/ServerConnection",
+              "name": "Server Connection",
+              "description": "",
+              "icon": "map-marker-alt",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/BPMDevToolsandRepository/ServerConnection.md"
             }
           ]
         },
 
 
         {
-          "route": "/GeneralPerformance",
-          "name": "General Performance",
+          "route": "/Performance",
+          "name": "Performance",
           "description": "",
           "icon": "user-edit",
           "topics": [],
@@ -309,8 +326,8 @@
               ]
             },
             {
-              "route": "/OOM",
-              "name": "OOM",
+              "route": "/OutofMemory",
+              "name": "Out of Memory/High Memory",
               "description": "",
               "icon": "ellipsis-h",
               "topics": [],
@@ -397,54 +414,62 @@
                   "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/TimeoutsHangs/VideoProductionBestPractices.md"
                 }
               ]
+            },
+            {
+              "route": "/Database",
+              "name": "Database",
+              "description": "",
+              "icon": "sitemap",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/Database.md"
+            },
+            {
+              "route": "/Housekeeping",
+              "name": "Housekeeping",
+              "description": "",
+              "icon": "tape",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/GeneralPerformance/Housekeeping.md"
             }
             
           ]
         },
         
         {
-          "route": "/Portal,PAC,Coaches,PFS",
-          "name": "Portal,PAC,Coaches,PFS",
+          "route": "/BusinessUserExperience",
+          "name": "Business User Experience",
           "description": "",
           "icon": "podcast",
           "owner": "thomas",
           "topics": [],
           "children": [
             {
-              "route": "/GeneralResponsiveProcessPortal",
-              "name": "General/Responsive Process Portal",
+              "route": "/ProcessPortal",
+              "name": "Process Portal",
               "description": "",
               "icon": "bookmark",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/GeneralResponsiveProcessPortal.md"
+              "markdown": "/markdown/BussinessProcessManager/BusinessUserExperience/ProcessPortal.md"
             },
             {
-              "route": "/ProcessAdminConsole",
-              "name": "Process Admin Console",
+              "route": "/Coaches",
+              "name": "Coaches",
               "description": "",
               "icon": "terminal",
               "owner": "thomas",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/ProcessAdminConsole.md"
+              "markdown": "/markdown/BussinessProcessManager/BusinessUserExperience/Coaches.md"
             },
             {
-              "route": "/GeneralHeritageCoaches",
-              "name": "General/Heritage Coaches",
+              "route": "/HumanServices",
+              "name": "Human Services",
               "description": "",
               "icon": "podcast",
               "owner": "thomas",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/GeneralHeritageCoaches.md"
+              "markdown": "/markdown/BussinessProcessManager/BusinessUserExperience/HumanServices.md"
             },
-            {
-              "route": "/Client-sideHeritageHumanService",
-              "name": "Client-side/Heritage Human Service",
-              "description": "",
-              "icon": "user",
-              "owner": "thomas",
-              "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/Client-sideHeritageHumanService.md"
-            },
+           
             {
               "route": "/ToolkitControls",
               "name": "Toolkit Controls",
@@ -452,50 +477,60 @@
               "icon": "toolbox",
               "owner": "thomas",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/ToolkitControls.md"
+              "markdown": "/markdown/BussinessProcessManager/BusinessUserExperience/ToolkitControls.md"
             },
             {
-              "route": "/PFS",
-              "name": "PFS",
+              "route": "/BusinessSpace",
+              "name": "Business Space",
+              "description": "",
+              "icon": "user",
+              "owner": "thomas",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/BusinessUserExperience/BusinessSpace.md"
+            },
+            {
+              "route": "/ProcessFederatedServer",
+              "name": "Process Federated Server",
               "description": "",
               "icon": "print",
               "owner": "thomas",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/Portal,PAC,Coaches,PFS/PFS.md"
+              "markdown": "/markdown/BussinessProcessManager/BusinessUserExperience/PFS.md"
             } 
             
           ]
         },
         {
-          "route": "/Monitor,BusinessSpace,PDW",
-          "name": "Monitor,Business Space,PDW",
+          "route": "/Monitoring",
+          "name": "Monitoring",
           "description": "",
           "icon": "desktop",
           "topics": [],
           "children": [
+            {
+              "route": "/BusinessAutomationInsights",
+              "name": "Business Automation Insights",
+              "description": "",
+              "icon": "archive",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/Monitoring/BusinessAutomationInsights.md"
+            },
             {
               "route": "/BusinessMonitor",
               "name": "Business Monitor",
               "description": "",
               "icon": "desktop",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/Monitor,BusinessSpace,PDW/BusinessMonitor.md"
+              "markdown": "/markdown/BussinessProcessManager/Monitoring/BusinessMonitor.md"
             },
-            {
-              "route": "/BusinessSpace",
-              "name": "Business Space",
-              "description": "",
-              "icon": "archive",
-              "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/Monitor,BusinessSpace,PDW/BusinessSpace.md"
-            },
+            
             {
               "route": "/PerformanceDataWarehouse",
               "name": "Performance Data Warehouse",
               "description": "",
               "icon": "database",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/Monitor,BusinessSpace,PDW/PerformanceDataWarehouse.md"
+              "markdown": "/markdown/BussinessProcessManager/Monitoring/PerformanceDataWarehouse.md"
             }
             
           ]
@@ -533,7 +568,7 @@
             },
             {
               "route": "/User&GroupSecurity",
-              "name": "User&Group Security",
+              "name": "User and Group Security",
               "description": "",
               "icon": "users",
               "owner": "paulo",
@@ -552,7 +587,7 @@
           "children": [
             {
               "route": "/AIS",
-              "name": "AIS",
+              "name": "Advanced Integration Service",
               "description": "",
               "icon": "file-archive",
               "topics": [],
@@ -560,7 +595,7 @@
             },
             {
               "route": "/BPC",
-              "name": "BPC",
+              "name": "Business Process Choreographer",
               "description": "",
               "icon": "square",
               "topics": [],
@@ -568,7 +603,7 @@
             },
             {
               "route": "/BO",
-              "name": "BO",
+              "name": "Business Object",
               "description": "",
               "icon": "box",
               "topics": [],
@@ -585,7 +620,7 @@
             },
             {
               "route": "/SCA",
-              "name": "SCA",
+              "name": "Service Component Architecture",
               "description": "",
               "icon": "stream",
               "topics": [],
@@ -593,7 +628,7 @@
             },
             {
               "route": "/SIB",
-              "name": "SIB",
+              "name": "Service Integration Bus",
               "description": "",
               "icon": "star",
               "topics": [],
@@ -627,19 +662,19 @@
           ]
         },
         {
-          "route": "/BPDServiceEngine",
-          "name": "BPD/Service Engine",
+          "route": "/StandardRuntime",
+          "name": "Standard Runtime",
           "description": "",
           "icon": "server",
           "topics": [],
           "children": [
             {
               "route": "/BPD",
-              "name": "BPD",
+              "name": "BPD & Service Engine",
               "description": "",
               "icon": "file-alt",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/BPD.md"
+              "markdown": "/markdown/BussinessProcessManager/StandardRuntime/BPD.md"
             },
             {
               "route": "/EventManager",
@@ -647,15 +682,15 @@
               "description": "",
               "icon": "calendar-minus",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/EventManager.md"
+              "markdown": "/markdown/BussinessProcessManager/StandardRuntime/EventManager.md"
             },
             {
               "route": "/JSAPI,RESTAPI",
-              "name": "JS API,REST API",
+              "name": "JavaScript & REST API",
               "description": "",
               "icon": "retweet",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/JSAPI,RESTAPI.md"
+              "markdown": "/markdown/BussinessProcessManager/StandardRuntime/JSAPI,RESTAPI.md"
             },
             {
               "route": "/WebService",
@@ -664,27 +699,36 @@
               "icon": "map-marker-alt",
               "owner": "paulo",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/WebService.md"
+              "markdown": "/markdown/BussinessProcessManager/StandardRuntime/WebService.md"
             },
             {
               "route": "/UCA",
-              "name": "UCA",
+              "name": "Undercover Agent (UCA)",
               "description": "",
               "icon": "star",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/BPDServiceEngine/UCA.md"
+              "markdown": "/markdown/BussinessProcessManager/StandardRuntime/UCA.md"
+            },
+            {
+              "route": "/ProcessAdminConsole",
+              "name": "Process Admin Console",
+              "description": "",
+              "icon": "user",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/StandardRuntime/ProcessAdminConsole.md"
+            },
+            {
+              "route": "/DocumentStore&ECMIntegration",
+              "name": "Document Store & ECM Integration",
+              "description": "",
+              "icon": "sitemap",
+              "topics": [],
+              "markdown": "/markdown/BussinessProcessManager/StandardRuntime/DocumentStore&ECMIntegration.md"
             }
 
           ]
         },
-        {
-          "route": "/ECMIntegration",
-          "name": "ECM Integration",
-          "description": "",
-          "icon": "sitemap",
-          "topics": [],
-          "markdown": "/markdown/BussinessProcessManager/ECMIntegration.md"
-        },
+       
         {
           "route": "/BPMonCloud",
           "name": "BPM on Cloud",

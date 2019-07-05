@@ -675,7 +675,7 @@
         },
         {
           "route": "/Install,Upgrade,Migration",
-          "name": "Install,Upgrade,Migration",
+          "name": "Install & Upgrade & Migration",
           "description": "",
           "icon": "wrench",
           "topics": [],
@@ -1117,7 +1117,7 @@
       "children": [
         {
           "route": "/Install,Configure,Migrate",
-          "name": "Install,Configure,Migrate",
+          "name": "Install & Configure & Migrate",
           "description": "",
           "icon": "wrench",
           "topics": [],

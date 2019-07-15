@@ -1,5 +1,5 @@
 
-<table border="1">
+<table border="1px solid #ccc" >
   <tr font-weight: 700;>
     <th>Topic</th>
     <th>Education Material</th>

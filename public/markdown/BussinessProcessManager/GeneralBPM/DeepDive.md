@@ -1,8 +1,8 @@
 
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700;>
-    <th align=center>Topic</th>
-    <th align=center>Education Material</th>
+    <th align="center">Topic</th>
+    <th align="center">Education Material</th>
   </tr>
   <tr>
     <td rowspan="9" align=center>Install/DE Configuration</td>

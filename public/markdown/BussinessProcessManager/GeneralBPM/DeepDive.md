@@ -1,5 +1,5 @@
 
-<table>
+<table border="1">
   <tr font-weight: 700;>
     <th>Topic</th>
     <th>Education Material</th>
@@ -117,7 +117,7 @@
     <td><a href="https://www.ibm.com/developerworks/bpm/library/techarticles/1404_booz/1404_booz.html" target="_blank">[Publication] Tuning branch and snapshot</a>  </td>
   </tr>
   <tr>
-    <td><a href="https://developer.ibm.com/answers/questions/310443/what-is-the-maximum-recommended-heap-size-in-bpm" target="_blank">[Publication] Recommend Heap Size </a>  </td>
+    <td><a href="https://developer.ibm.com/answers/questions/310443/what-is-the-maximum-recommended-heap-size-in-bpm" target="_blank">[Publication] Recommend Heap Size </a> </td>
   </tr>
   <tr>
     <td rowspan="4">High CPU </td>

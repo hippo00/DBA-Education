@@ -18,6 +18,6 @@
 | High CPU  | <a href="https://hippo00.github.io/vueblog/" target="_blank"></a>  | 
 | Out of Memory/High Memory  | <a href="https://hippo00.github.io/vueblog/" target="_blank"></a>  | 
 | Timeouts/Hangs | <a href="https://hippo00.github.io/vueblog/" target="_blank"></a>  | 
-| Database | <a href="https://hippo00.github.io/vueblog/" target="_blank"></a>  | 
+| Database | | 
 | Housekeeping  | <a href="https://hippo00.github.io/vueblog/" target="_blank"></a>  | 
 | Process Portal | <a href="https://hippo00.github.io/vueblog/" target="_blank"></a>  | 

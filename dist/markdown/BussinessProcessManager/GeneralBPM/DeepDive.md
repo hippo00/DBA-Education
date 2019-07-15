@@ -1,6 +1,6 @@
 
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
-  <tr font-weight: 700;text-align: center;>
+  <tr font-weight: 700; align: center;>
     <th>Topic</th>
     <th>Education Material</th>
   </tr>

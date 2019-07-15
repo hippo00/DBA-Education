@@ -1,6 +1,4 @@
 
-<<<<<<< HEAD
-
 <table>
   <tr font-weight: 700;>
     <th>Topic</th>
@@ -327,5 +325,3 @@
   </tr>
   
 </table>
-=======
->>>>>>> 7e6e81e86b2f14aa93b2094080c4f8ae57784085

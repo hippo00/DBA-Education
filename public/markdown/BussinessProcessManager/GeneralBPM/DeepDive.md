@@ -1,6 +1,5 @@
 
 | Topic | Education Material | 
-
 | ------------- | ------------ |
 | Install/DE Configuration | <a href="https://hippo00.github.io/vueblog/" target="_blank"></a>  | 
 | Upgrade  | <a href="https://hippo00.github.io/vueblog/" target="_blank"></a>  | 

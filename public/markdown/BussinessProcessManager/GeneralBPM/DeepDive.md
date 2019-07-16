@@ -1,11 +1,11 @@
 
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
-    <th width="30%" text-align: center;>Topic</th>
+    <th width="30%" align=center;>Topic</th>
     <th>Education Material</th>
   </tr>
   <tr>
-    <td rowspan="9" text-align: center;>Install/DE Configuration</td>
+    <td rowspan="9" align=center;>Install/DE Configuration</td>
     <td><a href="https://ibm.ent.box.com/folder/43248527637" target="_blank">[Presentation] Installation Manager General</a> </td>
   </tr>
   <tr>

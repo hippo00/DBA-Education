@@ -24,7 +24,7 @@
     <td><a href="https://github.ibm.com/steffen-baumann/baw-iam-support/wiki/Installation-BPM%5CBAW" target="_blank">[Publication] BPM Overall Installation Guide By Steffen</a> </td>
   </tr>
    <tr>
-    <td><a href="https://github.ibm.com/steffen-baumann/baw-iam-support/raw/master/BPM_BAW%20Installation/IBM%20BPM%20%26%20BAW%20Installation.pptx" target="_blank">[Presentation] BPM Overall Installation Guide</a> </td>
+    <td><a href="https://ibm.ent.box.com/file/492335466870" target="_blank">[Presentation] BPM Overall Installation Guide By Steffen</a> </td>
   </tr>
    <tr>
     <td><a href="https://ibm.ent.box.com/file/344592733326" target="_blank">[Recording] DBA oncloud installation</a> </td>
@@ -62,11 +62,11 @@
   </tr>
   <tr>
     <td rowspan="2" style="text-align:center">Configuration</td>
-    <td><a href="https://github.ibm.com/steffen-baumann/baw-iam-support/blob/master/BPM_BAW%20Configuration/BPM%20Configuration.pdf" target="_blank">[Presentation] BPM Configuration</a>  </td>
+    <td><a href="https://ibm.ent.box.com/file/492337102630 " target="_blank">[Presentation] BPM Configuration</a>  </td>
   </tr>
 
   <tr>
-    <td><a href="https://raw.github.ibm.com/steffen-baumann/baw-iam-support/master/BPM_BAW%20Configuration/Presenation%20about%20Configuration.mp4?token=AACezrLZxtWLl-t0zefX3Vn8ek409dDFks5dJZqFwA%3D%3D" target="_blank">[Recording] BPM Configuration</a>  </td>
+    <td><a href="https://ibm.ent.box.com/file/492335087492" target="_blank">[Recording] BPM Configuration</a>  </td>
   </tr>
   <tr>
     <td style="text-align:center">EAR Deployment</td>
@@ -77,10 +77,10 @@
     <td><a href="https://ibm.ent.box.com/file/170283106484" target="_blank">[Presentation] Online Deployment </a>  </td>
   </tr>
   <tr>
-    <td><a href="http://ausgsa.ibm.com/projects/b/bpm_support/EducationSessions/BrownBagSeries/StdDeploy.ppt" target="_blank">[Presentation] STD deployment</a>  </td>
+    <td><a href="https://ibm.ent.box.com/file/492346190001 " target="_blank">[Presentation] STD deployment</a>  </td>
   </tr>
 <tr>
-    <td><a href="http://ausgsa.ibm.com/projects/b/bpm_support/EducationSessions/BrownBagSeries/StdDeployTroubleshoot.mov" target="_blank">[Recording] STD deployment troubleshooting</a>  </td>
+    <td><a href="https://ibm.ent.box.com/file/492336146150" target="_blank">[Recording] STD deployment troubleshooting</a>  </td>
   </tr>
   <tr>
     <td rowspan="3" style="text-align:center">Instance Migration</td>
@@ -97,10 +97,10 @@
     <td><a href="https://ibm.ent.box.com/file/349720780731" target="_blank">[Presentation] Life Cycle full guide</a>  </td>
   </tr>
   <tr>
-    <td><a href="http://ausgsa.ibm.com/projects/b/bpm_support/EducationSessions/BrownBagSeries/BrownBagL2.Snapshots.mov" target="_blank">[Recording]Processes, Snapshots, and Tracks</a>  </td>
+    <td><a href="https://ibm.ent.box.com/file/492338236813" target="_blank">[Recording]Processes, Snapshots, and Tracks</a>  </td>
   </tr>
   <tr>
-    <td><a href="http://ausgsa.ibm.com/projects/b/bpm_support/EducationSessions/BrownBagSeries/Snapshots.ppt" target="_blank">[Presentation]Processes, Snapshots, and Tracks</a>  </td>
+    <td><a href="https://ibm.ent.box.com/file/492337649747 " target="_blank">[Presentation]Processes, Snapshots, and Tracks</a>  </td>
   </tr>
   <tr>
     <td><a href="https://ibm.ent.box.com/file/292882909910" target="_blank">[Presentation] PC index</a>  </td>
@@ -160,18 +160,42 @@
   </tr>
   <tr>
     <td rowspan="2" style="text-align:center">Housekeeping </td>
-    <td><a href="https://support.bp-3.com/hc/en-us/articles/115015928207-IBM-BPM-8-5-x-8-6-and-IBM-BAW-v-18-0-0-x-purging-cleanup-full-guide#know" target="_blank">[Publication] Cleanup Full Guide</a>  </td>
+    <td><a href="" target="_blank">[Publication] Cleanup Full Guide</a>  </td>
   </tr>
   <tr>
     <td><a href="https://developer.ibm.com/answers/questions/193115/how-do-i-know-the-when-the-bpm-databases-should-be/" target="_blank">[Publication] DB Cleanup </a>  </td>
   </tr>
   <tr>
-    <td style="text-align:center">Process Portal </td>
-    <td><a href="" target="_blank"></a>  </td>
+    <td rowspan="8" style="text-align:center">Process Portal </td>
+    <td><a href="https://ibm.ent.box.com/file/173421539968" target="_blank">[Presentation] Overview Process Portal Search Index</a>  </td>
   </tr>
   <tr>
-    <td style="text-align:center">Coaches</td>
-    <td><a href="" target="_blank"></a>  </td>
+    <td><a href="https://ibm.ent.box.com/file/173421638214" target="_blank">[Presentation] Process Portal Search Index - Process Instance Creation Trace </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/file/173421291406 " target="_blank"> [Presentation] Process Portal Search Index - Task Update & Completed Trace</a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/file/173421643157 " target="_blank">[Recording] Search Indexing Process  </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/file/118960155849 " target="_blank">[Presentation] Process Portal Performance Tuning  </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/file/118961113786 " target="_blank">[Recording] Process Portal Performance Tuning  </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/file/118960131151" target="_blank">[Presentation] Process Portal UI & Coaches: Database Tables </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/file/138332678397 " target="_blank">[Recording] Process Portal UI & Coaches: Database Tables </a>  </td>
+  </tr>
+  <tr>
+    <td rowspan="2" style="text-align:center">Coaches</td>
+    <td><a href="https://ibm.ent.box.com/file/100062542470" target="_blank">[Presentation] Coach Best Practices </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/file/100062589663" target="_blank">[Recording] Coach Best Practices  </a>  </td>
   </tr>
   <tr>
     <td style="text-align:center">Human Services</td>
@@ -179,27 +203,90 @@
   </tr>
   <tr>
     <td style="text-align:center">Toolkit Controls </td>
-    <td><a href="" target="_blank"></a>  </td>
+    <td><a href="https://ibm.ent.box.com/file/78127894598 " target="_blank">[Presentation] SPARK UI Toolkits </a>  </td>
   </tr>
   <tr>
     <td style="text-align:center">Business Space </td>
     <td><a href="" target="_blank"></a>  </td>
   </tr>
   <tr>
-    <td style="text-align:center">Process Federated Server </td>
-    <td><a href="" target="_blank"></a>  </td>
+    <td rowspan="4" style="text-align:center">Process Federated Server </td>
+    <td><a href="https://ibm.ent.box.com/file/106204549562 " target="_blank">[Presentation] PFS Technical Overview</a>  </td>
   </tr>
   <tr>
-    <td style="text-align:center">Business Automation Insights</td>
-    <td><a href="" target="_blank"></a>  </td>
+    <td><a href="https://ibm.ent.box.com/file/105923865516 " target="_blank">[Recording] PFS Configuration</a>  </td>
   </tr>
   <tr>
-    <td style="text-align:center">Business Monitor</td>
-    <td><a href="" target="_blank"></a>  </td>
+    <td><a href="https://ibm.ent.box.com/file/106204551615 " target="_blank">[Presentation] PFS BPD and BPEL Indexing</a>  </td>
   </tr>
   <tr>
-    <td style="text-align:center">Performance Data Warehouse </td>
-    <td><a href="" target="_blank"></a>  </td>
+    <td><a href="https://ibm.ent.box.com/file/106204558199" target="_blank">[Presentation] PFS REST Service </a>  </td>
+  </tr>
+  <tr>
+    <td rowspan="12" style="text-align:center">Business Automation Insights</td>
+    <td><a href="https://ibm.ent.box.com/s/xc7vv6mnoxzaxv1ohpggis8f06e19bn7" target="_blank">[Presentation] BAI - Architecture </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/s/xz1aa8ucg61hofgbixi7iqq06zummwlh/file/311940565353" target="_blank">[Presentation] BAI - Install and Prereqs</a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/s/xz1aa8ucg61hofgbixi7iqq06zummwlh/file/312410925227" target="_blank">[Recording] BAI - Install and Prereqs </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/s/xz1aa8ucg61hofgbixi7iqq06zummwlh/file/312511975680 " target="_blank">[Presentation] BAI - Flink </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/s/xz1aa8ucg61hofgbixi7iqq06zummwlh/file/312763150349 " target="_blank">[Recording] BAI - Flink </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/s/xz1aa8ucg61hofgbixi7iqq06zummwlh/file/314107358124" target="_blank">[Presentation] BAI – Elasticsearch and Kibana </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/s/xz1aa8ucg61hofgbixi7iqq06zummwlh/file/314776025585 " target="_blank">[Recording] BAI – Elasticsearch and Kibana</a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/s/xz1aa8ucg61hofgbixi7iqq06zummwlh/file/307982219718 " target="_blank">[Presentation] BAI - BPMN Event Processing </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/s/xz1aa8ucg61hofgbixi7iqq06zummwlh/file/305177983081" target="_blank">[Presentation] BAI - Business Data Protection - Anonymization </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/s/xz1aa8ucg61hofgbixi7iqq06zummwlh/file/315052606934 " target="_blank">[Recording] BAI - BPMN & anonymization </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/s/xz1aa8ucg61hofgbixi7iqq06zummwlh/file/351595473564 " target="_blank">[Presentation] BAI - Troubleshooting</a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/s/xz1aa8ucg61hofgbixi7iqq06zummwlh/file/351555820709" target="_blank">[Recording] BAI - Troubleshooting </a>  </td>
+  </tr>
+  <tr>
+    <td rowspan="3" style="text-align:center">Business Monitor</td>
+    <td><a href="https://ibm.ent.box.com/file/253726689702" target="_blank">[Presentation] Cognos Monitor Overview</a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/file/253726419268 " target="_blank">[Recording] Cognos Monitor Overview </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://ibm.ent.box.com/file/253726290751" target="_blank">[Presentation] Cognos BI Architecture Overview</a>  </td>
+  </tr>
+  <tr>
+    <td rowspan="6" style="text-align:center">Performance Data Warehouse </td>
+    <td><a href="https://ibm.ent.box.com/file/255612025966 " target="_blank">[Presentation] PDW Survival Guide</a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://developer.ibm.com/answers/questions/241191/performance-data-warehouse-database-pdwdb-growing/ " target="_blank">[Publication] Performance Data Warehouse database (PDWDB) growing fast. How can we reduce the size? </a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://developer.ibm.com/answers/questions/424466/how-to-resolve-comibmwssibprocessorexceptionssimpl/ " target="_blank">[Publication] How to resolve com.ibm.ws.sib.processor.exceptions.SIMPLimitExceededException for PostLoadCalculationQueue?</a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://developer.ibm.com/answers/questions/236664/how-to-resolve-huge-amount-of-pdw-tracking-data-tr/ " target="_blank">[Publication] How to resolve huge amount of PDW tracking data transfer errors on DB table LSW_DATA_TRANSFER_ERRORS ?</a>  </td>
+  </tr>
+  <tr>
+    <td><a href="http://www-01.ibm.com/support/docview.wss?uid=swg21612755" target="_blank">[Publication] How to clean up the Performance Data Warehouse database and the LSW_PERF_DATA_TRANSFER table for IBM Business Process Manager (BPM)</a>  </td>
+  </tr>
+  <tr>
+    <td><a href="https://developer.ibm.com/answers/questions/163383/how-to-identify-processes-bpds-and-toolkits-where/ " target="_blank">[Publication] How to identify processes (BPDs) and toolkits where autotracking is enabled? </a>  </td>
   </tr>
   <tr>
     <td style="text-align:center">Security Scans</td>
@@ -214,7 +301,10 @@
     <td><a href="https://www.ibm.com/developerworks/websphere/library/techarticles/0809_lansche/0809_lansche.html " target="_blank">[Publication] Administering SPNEGO within WebSphere Application Server</a>  </td>
   </tr>
   <tr>
-    <td style="text-align:center">User and Group Security </td>
+    <td rowspan="2" style="text-align:center">User and Group Security </td>
+    <td><a href="" target="_blank"></a>  </td>
+  </tr>
+  <tr>
     <td><a href="" target="_blank"></a>  </td>
   </tr>
   <tr>

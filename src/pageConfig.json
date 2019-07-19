@@ -72,7 +72,7 @@
             {
               "route": "/DeepDive",
               "name": "Deep Dive",
-              "description": "qingzou@cn.ibm.com",
+              "description": "",
               "owner":"@Qing Zou",
               "icon": "street-view",
               "topics": [],

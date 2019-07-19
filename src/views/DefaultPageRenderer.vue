@@ -6,13 +6,15 @@
       v-if="pageConfig && !pageConfig.tiles"
       :data-name="pageConfig.name"
     >
-      <h2 class="banner__title">{{ pageConfig.name }}</h2>
-      <h4 class="banner__text">{{ pageConfig.description }}</h4>
-      <p class="banner__timestamp">{{ lastModified }}</p>
+      <h1 class="banner__title">{{ pageConfig.name }}</h1>
+      <!--<h4 class="banner__text">{{ pageConfig.description }}</h4>-->
 
+      <p class="banner__timestamp">Last Update: {{ lastModified }}</p>
+
+      <section class="banner__timestamp">Owner: <a :href="'mailto:'+ pageConfig.description ">{{ pageConfig.owner }}</a></section>
       <div class="banner__btns">
 
-        <div class="banner__btnLike">
+      <div class="banner__btnLike">
           <button class="banner__btn banner__btn--like" @keyup="submitLike" @click="submitLike">
             <font-awesome-icon size="1x" icon="thumbs-up" class="btn--like"/>
             <!--
@@ -32,13 +34,13 @@
           </button>
         </div>
 
-        <div class="banner__search">
+        <!--<div class="banner__search">
           <input placeholder="Thank you" v-model="comment" :class="{ open: isCommentOpen }" @keyup.enter="submitComment" readonly/>
           <button class="banner__btn banner__btn--search" @click="isCommentOpen = !isCommentOpen">
             <font-awesome-icon v-if="!isCommentOpen" size="1x" icon="comments" class="btn--comment"/>
             <font-awesome-icon v-else size="1x" icon="times" class="btn--comment"/>
           </button>
-        </div>
+        </div> -->
       </div>
     </section>
 

@@ -1,7 +1,7 @@
 * Digital Business Automation (DBA) Series
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
-    <th width="27%" style="text-align:center;";>Topic</th>
+    <th width="29%" style="text-align:center;";>Topic</th>
     <th style="text-align:center">Link</th>
   </tr>
   <tr>
@@ -21,7 +21,7 @@
 * Digital Business Automation (DBA) Platform Series
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
-    <th width="27%" style="text-align:center;";>Topic</th>
+    <th width="29%" style="text-align:center;";>Topic</th>
     <th style="text-align:center">Link</th>
   </tr>
   <tr>
@@ -43,7 +43,7 @@
     <td><a href="https://ibm.ent.box.com/s/0tlw7jn35sm5m6rw6q6ynzmm4eyaf0w0/file/467650875017" target="_blank">[Recording]</a></td>
   </tr>
   <tr>
-    <td rowspan="2" style="text-align:center;background-color:white">Base Images Introduction</td>
+    <td rowspan="2" style="background-color:white">Base Images Introduction</td>
     <td><a href="https://ibm.ent.box.com/s/0tlw7jn35sm5m6rw6q6ynzmm4eyaf0w0/file/469907979294" target="_blank">[Presentation]</a></td>
   </tr>
   <tr>
@@ -57,7 +57,7 @@
     <td><a href="https://ibm.ent.box.com/s/0tlw7jn35sm5m6rw6q6ynzmm4eyaf0w0/file/477819857834" target="_blank">[Recording]</a></td>
   </tr>
   <tr>
-    <td style="text-align:center;background-color:white">IBM Content Navigator Architecture Overview</td>
+    <td style="background-color:white">IBM Content Navigator Architecture Overview</td>
     <td><a href="https://ibm.ent.box.com/s/0tlw7jn35sm5m6rw6q6ynzmm4eyaf0w0/file/493012675082" target="_blank">[Presentation]</a></td>
   </tr>
   </table>
@@ -65,7 +65,7 @@
 * BPM Troubleshooting Session
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
-    <th width="27%" style="text-align:center;";>Topic</th>
+    <th width="29%" style="text-align:center;";>Topic</th>
     <th style="text-align:center">Link</th>
   </tr>
   <tr>

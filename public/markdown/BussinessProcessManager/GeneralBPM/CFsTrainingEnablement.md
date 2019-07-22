@@ -33,11 +33,11 @@
     <td style="text-align:center;background-color:white">Relationships between Case Role, BPM Team, and User Group</td>
     <td><a href="https://ibm.ent.box.com/file/488697947438" target="_blank">https://ibm.ent.box.com/file/488697947438</a></td>
   </tr>
-  </table>
+</table>
 
 
-  * IBM Business Automation Workflow 19.0.0.1 - Education & Deep Dive
-  <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
+* IBM Business Automation Workflow 19.0.0.1 - Education & Deep Dive
+<table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
     <th width="27%" style="text-align:center;";>Topic</th>
     <th style="text-align:center">Link</th>
@@ -88,7 +88,7 @@
   <tr>
     <td><a href="https://ibm.ent.box.com/file/359058622139" target="_blank">https://ibm.ent.box.com/file/359058622139</a></td>
   </tr>
-<tr>
+  <tr>
     <td rowspan="3" style="text-align:center;background-color:white">Runtime serviceability items</td>
     <td><a href="https://ibm.ent.box.com/file/369643828623" target="_blank">https://ibm.ent.box.com/file/369643828623</a></td>
   </tr>
@@ -134,11 +134,11 @@
     <td style="text-align:center;background-color:white">Business Rules improvements and fixes</td>
     <td><a href="https://ibm.ent.box.com/file/380999677045" target="_blank">https://ibm.ent.box.com/file/380999677045</a></td>
   </tr>
-  </table>
+</table>
 
 
-  * IBM Business Automation Workflow 18.0.0.1 - Education & Deep Dive
-  <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
+* IBM Business Automation Workflow 18.0.0.1 - Education & Deep Dive
+<table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
     <th width="27%" style="text-align:center;";>Topic</th>
     <th style="text-align:center">Link</th>
@@ -188,7 +188,7 @@
     <td style="text-align:center;background-color:white">BAI Process Flow - Enable Event Correlation</td>
     <td><a href="https://ibm.ent.box.com/file/323374318383" target="_blank">https://ibm.ent.box.com/file/323374318383</a></td>
   </tr>
-<tr>
+  <tr>
     <td style="text-align:center;background-color:white">BAI Service Flow - Enable Event Correlation</td>
     <td><a href="https://ibm.ent.box.com/file/322646577972" target="_blank">https://ibm.ent.box.com/file/322646577972</a></td>
   </tr>
@@ -216,11 +216,11 @@
     <td style="text-align:center;background-color:white">BAW-CAM - Installation & Configuration</td>
     <td><a href="https://ibm.ent.box.com/file/334838782848" target="_blank">https://ibm.ent.box.com/file/334838782848</a></td>
   </tr>
-  </table>
+</table>
 
 
-  * IBM Business Automation Workflow 18.0.0.0 - Education & Deep Dive
-  <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
+* IBM Business Automation Workflow 18.0.0.0 - Education & Deep Dive
+<table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
     <th width="27%" style="text-align:center;";>Topic</th>
     <th style="text-align:center">Link</th>
@@ -257,7 +257,7 @@
     <td style="text-align:center;background-color:white">IBM Robotic Process Automation with Automation Anywhere</td>
     <td><a href="https://ibm.ent.box.com/file/287476146285" target="_blank">https://ibm.ent.box.com/file/287476146285</a></td>
   </tr>
-<tr>
+  <tr>
     <td style="text-align:center;background-color:white">GDPR relevant REST_APIs</td>
     <td><a href="https://ibm.ent.box.com/file/287454979261" target="_blank">https://ibm.ent.box.com/file/287454979261</a></td>
   </tr>
@@ -301,11 +301,11 @@
     <td style="text-align:center;background-color:white">Monitoring improvement with JMX</td>
     <td><a href="https://ibm.ent.box.com/file/282585680936" target="_blank">https://ibm.ent.box.com/file/282585680936</a></td>
   </tr>
-  </table>
+</table>
 
 
-  * IBM Business Process Manager 8.6 CF2017.12 - Education & Deep Dive
- <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
+* IBM Business Process Manager 8.6 CF2017.12 - Education & Deep Dive
+<table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
     <th width="27%" style="text-align:center;";>Topic</th>
     <th style="text-align:center">Link</th>
@@ -342,7 +342,7 @@
     <td style="text-align:center;background-color:white">BAL Rule Support in Service Flows</td>
     <td><a href="https://ibm.ent.box.com/file/263765080890" target="_blank">https://ibm.ent.box.com/file/263765080890</a></td>
   </tr>
-<tr>
+  <tr>
     <td style="text-align:center;background-color:white">Indexers monitoring and administration with JMX</td>
     <td><a href="https://ibm.ent.box.com/file/258859800684" target="_blank">https://ibm.ent.box.com/file/258859800684</a></td>
   </tr>
@@ -366,11 +366,11 @@
     <td style="text-align:center;background-color:white">BPM Work List in IBM Content Navigator</td>
     <td><a href="https://ibm.ent.box.com/file/257980318823" target="_blank">https://ibm.ent.box.com/file/257980318823</a></td>
   </tr>
-  </table>
+</table>
 
 
   * IBM Business Process Manager 8.6 GA - Education & Deep Dive
-  <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
+<table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
     <th width="27%" style="text-align:center;";>Topic</th>
     <th style="text-align:center">Link</th>
@@ -407,7 +407,7 @@
     <td style="text-align:center;background-color:white">Global Where Used In WebPD</td>
     <td><a href="https://ibm.ent.box.com/file/235624961754" target="_blank">https://ibm.ent.box.com/file/235624961754</a></td>
   </tr>
-<tr>
+  <tr>
     <td style="text-align:center;background-color:white">UI Conversion</td>
     <td><a href="https://ibm.ent.box.com/file/235587994074" target="_blank">https://ibm.ent.box.com/file/235587994074</a></td>
   </tr>
@@ -435,4 +435,4 @@
     <td style="text-align:center;background-color:white">BPD and BPEL index logging improvements</td>
     <td><a href="https://ibm.ent.box.com/file/219913919576" target="_blank">https://ibm.ent.box.com/file/219913919576</a></td>
   </tr>
-  </table>
+</table>

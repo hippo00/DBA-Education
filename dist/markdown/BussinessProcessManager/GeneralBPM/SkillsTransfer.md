@@ -18,7 +18,7 @@
   </tr>
   </table>
 
-
+<br>
 * Digital Business Automation (DBA) Platform Series
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
@@ -63,7 +63,7 @@
   </tr>
   </table>
 
-
+<br>
 * BPM Troubleshooting Session
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >

@@ -1,8 +1,4 @@
-<br>
 * Digital Business Automation (DBA) Series
-
-
-
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
     <th width="27%" style="text-align:center;";>Topic</th>
@@ -21,13 +17,8 @@
     <td><a href="https://ec.yourlearning.ibm.com/w3/event/10037341" target="_blank">https://ec.yourlearning.ibm.com/w3/event/10037355</a></td>
   </tr>
   </table>
-
-<br>
-<br>
+<P></P>
 * Digital Business Automation (DBA) Platform Series
-
-
-
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
     <th width="27%" style="text-align:center;";>Topic</th>
@@ -70,13 +61,8 @@
     <td><a href="https://ibm.ent.box.com/s/0tlw7jn35sm5m6rw6q6ynzmm4eyaf0w0/file/493012675082" target="_blank">[Presentation]</a></td>
   </tr>
   </table>
-
-<br>
-<br>
+<P></P>
 * BPM Troubleshooting Session
-
-
-
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
     <th width="27%" style="text-align:center;";>Topic</th>

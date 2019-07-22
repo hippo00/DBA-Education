@@ -81,7 +81,7 @@
            
             {
               "route": "/SkillsTransfer",
-              "name": "Skills Transfer (L3-L2, SWAT-L2)",
+              "name": "Skills Transfer (Dev/L3-L2, SWAT-L2)",
               "description": "",
               "icon": "exchange-alt",
               "topics": [],
@@ -124,7 +124,8 @@
             {
               "route": "/InstallDEConfiguration",
               "name": "Install/DE Configuration",
-              "description": "",
+              "description": "steffen.baumann@de.ibm.com",
+              "owner":"@Steffen Baumann",
               "topics": [],
               "icon": "wrench",
               "markdown": "/markdown/BussinessProcessManager/Install,Upgrade,Migration/InstallDEConfig.md"

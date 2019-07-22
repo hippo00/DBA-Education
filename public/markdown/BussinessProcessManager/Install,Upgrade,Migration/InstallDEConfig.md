@@ -5,29 +5,29 @@ BPM/BAW (Business Process Manager/Business Automation Workflow) Fundamentals Edu
 ### 1. IBM Installation Manager (IIM):
 IBM Installation Manager is a tool that you can use to install and maintain your IBM software packages. Wizards guide you through the steps that you must take to install, modify, update, roll back, or uninstall your IBM products. 
 IBM Installation Manager is used to install WAS/BPM binary files. 
-&ensp;&ensp;&ensp;&ensp;A. How to reinstall Installation Manager without removing installed IBM product 
-      http://www-01.ibm.com/support/docview.wss?uid=swg21290142 
+&ensp;&ensp;&ensp;&ensp;a. How to reinstall Installation Manager without removing installed IBM product 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;http://www-01.ibm.com/support/docview.wss?uid=swg21290142 
 
-   2. What are the critical directories that you must back up in case of Installation Manager data loss or corruption?
-      http://www-01.ibm.com/support/docview.wss?uid=swg21665878
+&ensp;&ensp;&ensp;&ensp;b. What are the critical directories that you must back up in case of Installation Manager data loss or corruption?
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;http://www-01.ibm.com/support/docview.wss?uid=swg21665878
 
-   3. Installing packages by using Installation Manager command line tool (imcl) 
-      https://www.ibm.com/support/knowledgecenter/en/SSDV2W_1.8.1/com.ibm.cic.commandline.doc/topics/t_imcl_install.html
+&ensp;&ensp;&ensp;&ensp;c. Installing packages by using Installation Manager command line tool (imcl) 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;https://www.ibm.com/support/knowledgecenter/en/SSDV2W_1.8.1/com.ibm.cic.commandline.doc/topics/t_imcl_install.html
 
-   4. IM log files 
-        https://www.ibm.com/support/knowledgecenter/en/SSVJJU_6.4.0/com.ibm.IBMDS.doc_6.4/c_ig_ibmim_sds_log_files.html
+&ensp;&ensp;&ensp;&ensp;d. IM log files 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;https://www.ibm.com/support/knowledgecenter/en/SSVJJU_6.4.0/com.ibm.IBMDS.doc_6.4/c_ig_ibmim_sds_log_files.html
 
-        * the IM log is a xml file you will find it under IM_HOME/data/logs i.e 20180404_1014.xml
-        * there are different tags available: 
-            * Info = Green
-            * Warning = Yellow
-            * Error = Red
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* the IM log is a xml file you will find it under IM_HOME/data/logs i.e 20180404_1014.xml
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* there are different tags available: 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Info = Green
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Warning = Yellow
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Error = Red
 
-   5. Using the imcl command to rollback:
-      https://www.ibm.com/developerworks/community/blogs/aimsupport/entry/using_imcl_command_line_to_rollback_websphere_application_server_fix_packs?lang=en
+&ensp;&ensp;&ensp;&ensp;e. Using the imcl command to rollback:
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;https://www.ibm.com/developerworks/community/blogs/aimsupport/entry/using_imcl_command_line_to_rollback_websphere_application_server_fix_packs?lang=en
 
-   6. KC link to Rolling back packages by using imcl commands:
-      https://www.ibm.com/support/knowledgecenter/en/SSDV2W_1.8.5/com.ibm.cic.commandline.doc/topics/t_imcl_rollingback.html
+&ensp;&ensp;&ensp;&ensp;f. KC link to Rolling back packages by using imcl commands:
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;https://www.ibm.com/support/knowledgecenter/en/SSDV2W_1.8.5/com.ibm.cic.commandline.doc/topics/t_imcl_rollingback.html
 &nbsp;
 ### 2. BPM Installation
 Each of the IBM Business Process Manager configurations has its own roadmap to guide through installing and configuring that version of the software

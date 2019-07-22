@@ -1,4 +1,4 @@
-### * Digital Business Automation (DBA) Series
+* Digital Business Automation (DBA) Series
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
     <th width="27%" style="text-align:center;";>Topic</th>
@@ -18,7 +18,7 @@
   </tr>
   </table>
 
-  ### * Digital Business Automation (DBA) Platform Series
+* Digital Business Automation (DBA) Platform Series
   <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
     <th width="27%" style="text-align:center;";>Topic</th>
@@ -62,7 +62,7 @@
   </tr>
   </table>
 
-  ### * BPM Troubleshooting Session
+* BPM Troubleshooting Session
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
     <th width="27%" style="text-align:center;";>Topic</th>

@@ -16,16 +16,15 @@ http://www-01.ibm.com/support/docview.wss?uid=swg21665878
 https://www.ibm.com/support/knowledgecenter/en/SSDV2W_1.8.1/com.ibm.cic.commandline.doc/topics/t_imcl_install.html
 
 4. IM log files 
-https://www.ibm.com/support/knowledgecenter/en/SSVJJU_6.4.0/com.ibm.IBMDS.doc_6.4/c_ig_ibmim_sds_log_files.html
-
+    https://www.ibm.com/support/knowledgecenter/en/SSVJJU_6.4.0/com.ibm.IBMDS.doc_6.4/c_ig_ibmim_sds_log_files.html
 
     * the IM log is a xml file you will find it under IM_HOME/data/logs i.e 20180404_1014.xml
     * there are different tags available: 
         * Info = Green
         * Warning = Yellow
         * Error = Red
-
-5. e) Using the imcl command to rollback:
+        
+5. Using the imcl command to rollback:
 https://www.ibm.com/developerworks/community/blogs/aimsupport/entry/using_imcl_command_line_to_rollback_websphere_application_server_fix_packs?lang=en
 
 6. KC link to Rolling back packages by using imcl commands:
@@ -50,7 +49,7 @@ Check in the KC for the <b> "Deprecated and removed features"</b> for the specif
     * IBM Business Process Manager Tools & Add-Ons detailed system requirements
     https://www-01.ibm.com/support/docview.wss?uid=swg27023009
 
-4. BAW software requirements 
+4. BAW software requirements
     * IBM Business Automation Workflow detailed system requirements
     https://www-01.ibm.com/support/docview.wss?uid=swg27051102 
 &nbsp;

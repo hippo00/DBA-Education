@@ -1,4 +1,3 @@
-&nbsp;
 * IBM Business Automation Workflow 19.0.0.2 - Education & Deep Dive
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
@@ -35,7 +34,8 @@
     <td><a href="https://ibm.ent.box.com/file/488697947438" target="_blank">https://ibm.ent.box.com/file/488697947438</a></td>
   </tr>
   </table>
-&nbsp;
+
+
   * IBM Business Automation Workflow 19.0.0.1 - Education & Deep Dive
   <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
@@ -135,7 +135,8 @@
     <td><a href="https://ibm.ent.box.com/file/380999677045" target="_blank">https://ibm.ent.box.com/file/380999677045</a></td>
   </tr>
   </table>
-&nbsp;
+
+
   * IBM Business Automation Workflow 18.0.0.1 - Education & Deep Dive
   <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
@@ -216,7 +217,8 @@
     <td><a href="https://ibm.ent.box.com/file/334838782848" target="_blank">https://ibm.ent.box.com/file/334838782848</a></td>
   </tr>
   </table>
-&nbsp;
+
+
   * IBM Business Automation Workflow 18.0.0.0 - Education & Deep Dive
   <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
@@ -300,7 +302,8 @@
     <td><a href="https://ibm.ent.box.com/file/282585680936" target="_blank">https://ibm.ent.box.com/file/282585680936</a></td>
   </tr>
   </table>
-&nbsp;
+
+
   * IBM Business Process Manager 8.6 CF2017.12 - Education & Deep Dive
  <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
@@ -364,7 +367,8 @@
     <td><a href="https://ibm.ent.box.com/file/257980318823" target="_blank">https://ibm.ent.box.com/file/257980318823</a></td>
   </tr>
   </table>
-&nbsp;
+
+
   * IBM Business Process Manager 8.6 GA - Education & Deep Dive
   <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >

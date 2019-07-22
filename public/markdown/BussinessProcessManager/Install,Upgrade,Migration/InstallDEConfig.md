@@ -2,11 +2,10 @@
 &nbsp;
 BPM/BAW (Business Process Manager/Business Automation Workflow) Fundamentals Education is an overview of BPM/BAW products. This module teaches the basics of installing and troubleshooting BPM/BAW. This module serves as the basis for in-depth education modules on BPM/BAW Installation. 
 &nbsp;
-### 1) IBM Installation Manager (IIM):
+### 1. IBM Installation Manager (IIM):
 IBM Installation Manager is a tool that you can use to install and maintain your IBM software packages. Wizards guide you through the steps that you must take to install, modify, update, roll back, or uninstall your IBM products. 
 IBM Installation Manager is used to install WAS/BPM binary files. 
-
--  1.  How to reinstall Installation Manager without removing installed IBM product <br>
+   1. 1. How to reinstall Installation Manager without removing installed IBM product <br>
       http://www-01.ibm.com/support/docview.wss?uid=swg21290142 
 
    2. What are the critical directories that you must back up in case of Installation Manager data loss or corruption?

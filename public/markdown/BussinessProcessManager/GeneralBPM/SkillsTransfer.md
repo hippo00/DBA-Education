@@ -17,7 +17,7 @@
     <td><a href="https://ec.yourlearning.ibm.com/w3/event/10037341" target="_blank">https://ec.yourlearning.ibm.com/w3/event/10037355</a></td>
   </tr>
   </table>
-
+<br/>
 * Digital Business Automation (DBA) Platform Series
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
@@ -32,7 +32,7 @@
     <td><a href="https://ibm.ent.box.com/s/0tlw7jn35sm5m6rw6q6ynzmm4eyaf0w0/file/463490081123" target="_blank">[Recording]</a></td>
   </tr>
   <tr>
-    <td style="text-align:center;background-color:white">DBA Studio Architecture Overview</td>
+    <td style="background-color:white">DBA Studio Architecture Overview</td>
     <td><a href="https://ibm.ent.box.com/s/0tlw7jn35sm5m6rw6q6ynzmm4eyaf0w0/file/463506418115" target="_blank">[Presentation]</a></td>
   </tr>
   <tr>

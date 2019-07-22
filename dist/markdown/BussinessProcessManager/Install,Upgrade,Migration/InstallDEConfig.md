@@ -7,28 +7,28 @@ IBM Installation Manager is a tool that you can use to install and maintain your
 IBM Installation Manager is used to install WAS/BPM binary files. 
 
    1. How to reinstall Installation Manager without removing installed IBM product 
-http://www-01.ibm.com/support/docview.wss?uid=swg21290142 
+      http://www-01.ibm.com/support/docview.wss?uid=swg21290142 
 
    2. What are the critical directories that you must back up in case of Installation Manager data loss or corruption?
-http://www-01.ibm.com/support/docview.wss?uid=swg21665878
+      http://www-01.ibm.com/support/docview.wss?uid=swg21665878
 
    3. Installing packages by using Installation Manager command line tool (imcl) 
-https://www.ibm.com/support/knowledgecenter/en/SSDV2W_1.8.1/com.ibm.cic.commandline.doc/topics/t_imcl_install.html
+      https://www.ibm.com/support/knowledgecenter/en/SSDV2W_1.8.1/com.ibm.cic.commandline.doc/topics/t_imcl_install.html
 
    4. IM log files 
         https://www.ibm.com/support/knowledgecenter/en/SSVJJU_6.4.0/com.ibm.IBMDS.doc_6.4/c_ig_ibmim_sds_log_files.html
 
-    * the IM log is a xml file you will find it under IM_HOME/data/logs i.e 20180404_1014.xml
-    * there are different tags available: 
-        * Info = Green
-        * Warning = Yellow
-        * Error = Red
+        * the IM log is a xml file you will find it under IM_HOME/data/logs i.e 20180404_1014.xml
+        * there are different tags available: 
+            * Info = Green
+            * Warning = Yellow
+            * Error = Red
 
    5. Using the imcl command to rollback:
-    https://www.ibm.com/developerworks/community/blogs/aimsupport/entry/using_imcl_command_line_to_rollback_websphere_application_server_fix_packs?lang=en
+      https://www.ibm.com/developerworks/community/blogs/aimsupport/entry/using_imcl_command_line_to_rollback_websphere_application_server_fix_packs?lang=en
 
    6. KC link to Rolling back packages by using imcl commands:
-    https://www.ibm.com/support/knowledgecenter/en/SSDV2W_1.8.5/com.ibm.cic.commandline.doc/topics/t_imcl_rollingback.html
+      https://www.ibm.com/support/knowledgecenter/en/SSDV2W_1.8.5/com.ibm.cic.commandline.doc/topics/t_imcl_rollingback.html
 &nbsp;
 ### 2. BPM Installation
 Each of the IBM Business Process Manager configurations has its own roadmap to guide through installing and configuring that version of the software

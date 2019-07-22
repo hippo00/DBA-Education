@@ -157,7 +157,7 @@
     <td><a href="https://ibm.ent.box.com/file/138332678397 " target="_blank">[Recording] Process Portal UI & Coaches: Database Tables </a>  </td>
   </tr>
   <tr>
-    <td rowspan="2" style="text-align:center">Coaches</td>
+    <td rowspan="2" style="text-align:center";background-color:white>Coaches</td>
     <td><a href="https://ibm.ent.box.com/file/100062542470" target="_blank">[Presentation] Coach Best Practices </a>  </td>
   </tr>
   <tr>

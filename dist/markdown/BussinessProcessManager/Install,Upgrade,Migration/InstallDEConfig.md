@@ -11,11 +11,9 @@ IBM Installation Manager is used to install WAS/BPM binary files.
 &ensp;&ensp;&ensp;&ensp;b. What are the critical directories that you must back up in case of Installation Manager data loss or corruption?
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;http://www-01.ibm.com/support/docview.wss?uid=swg21665878
 
-&ensp;&ensp;&ensp;&ensp;c. Installing packages by using Installation Manager command line tool (imcl) 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;https://www.ibm.com/support/knowledgecenter/en/SSDV2W_1.8.1/com.ibm.cic.commandline.doc/topics/t_imcl_install.html
+&ensp;&ensp;&ensp;&ensp;c. Installing packages by using Installation Manager command line tool (imcl) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;https://www.ibm.com/support/knowledgecenter/en/SSDV2W_1.8.1/com.ibm.cic.commandline.doc/topics/t_imcl_install.html
 
-&ensp;&ensp;&ensp;&ensp;d. IM log files 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;https://www.ibm.com/support/knowledgecenter/en/SSVJJU_6.4.0/com.ibm.IBMDS.doc_6.4/c_ig_ibmim_sds_log_files.html
+&ensp;&ensp;&ensp;&ensp;d. IM log files &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; https://www.ibm.com/support/knowledgecenter/en/SSVJJU_6.4.0/com.ibm.IBMDS.doc_6.4/c_ig_ibmim_sds_log_files.html
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* the IM log is a xml file you will find it under IM_HOME/data/logs i.e 20180404_1014.xml
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* there are different tags available: 

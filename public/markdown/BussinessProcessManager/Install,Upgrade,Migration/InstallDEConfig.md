@@ -92,10 +92,10 @@ https://www.ibm.com/support/knowledgecenter/SSFPJS_8.6.0/com.ibm.wbpm.imuc.doc/t
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3. The data repository is corrupted (in this case only L3 can help) 
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Ask for the versioninfo: Exporting a versioninfo from install_root/bin/ 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;versionInfo -fixpacks -ifixes > versioninfo.txt
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;versionInfo -fixpacks -ifixes > versioninfo.txt
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Installation Manager (IM) Saved Files for Rollback:
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Files are saved in the IMShared directory. The default behavior is to save the files for rollback. To view or change this option: 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Files are saved in the IMShared directory. The default behavior is to save the files for rollback. To view or change this option: 
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Using Graphical mode:  File > Preferences > Files for RollBack > Check or Uncheck "Save Files for RollBack 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Using console mode:  imcl -c (from IM_HOME/eclipse/tools ) 

@@ -58,14 +58,14 @@ Check in the KC for the <b> "Deprecated and removed features"</b> for the specif
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;http://www-01.ibm.com/support/docview.wss?uid=swg21506937 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2. Ask for the versioninfo: 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Exporting a versioninfo from install_root/bin/ using
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* versionInfo -fixpacks -ifixes > versioninfo.txt 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;or
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* versionInfo -long > versioninfo.txt
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* versionInfo -fixpacks -ifixes > versioninfo.txt 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;or
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* versionInfo -long > versioninfo.txt
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3. Check for the following points:
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Is configuration described in the problem description supported? 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Check the software requirement report
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Is there any errors in the problem description or logs? 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Search for the error in RTC or Prosol to check if this is a known issue 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Is configuration described in the problem description supported? 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Check the software requirement report
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Is there any errors in the problem description or logs? 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Search for the error in RTC or Prosol to check if this is a known issue 
 
 &ensp;&ensp;&ensp;&ensp;c. important files to request/review
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* install_root/logs/* --> general installation log files (BPMConfig) 
@@ -98,26 +98,26 @@ Check in the KC for the <b> "Deprecated and removed features"</b> for the specif
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Files are saved in the IMShared directory. The default behavior is to save the files for rollback. To view or change this option: 
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Using Graphical mode:  File > Preferences > Files for RollBack > Check or Uncheck "Save Files for RollBack 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Using console mode:  imcl -c (from IM_HOME/eclipse/tools ) 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Select "P" 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Select "3" 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Select "1" to save or not to save files for rollback
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Using console mode:  imcl -c (from IM_HOME/eclipse/tools ) 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Select "P" 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Select "3" 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Select "1" to save or not to save files for rollback
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Questions to ask to the customer 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* if can tell you the product installation History. 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* to see the possible rollback versions run the command imcl listInstalledPackages -verbose
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* to see the versions to which the customer can perform a rollback imcl listInstalledPackages –rollbackVersions 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*&ensp;&ensp;Questions to ask to the customer 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*&ensp;&ensp;if can tell you the product installation History. 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*&ensp;&ensp;to see the possible rollback versions run the command imcl listInstalledPackages -verbose
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;*&ensp;&ensp;to see the versions to which the customer can perform a rollback imcl listInstalledPackages –rollbackVersions 
 &nbsp;
 ### 4. iFix Installation:
 
 &ensp;&ensp;&ensp;&ensp;a. the instructions how to install a an ifix is always in the readme file 
 &ensp;&ensp;&ensp;&ensp;b. check if the ifix has a prerequisite, if yes inform the customer
 &ensp;&ensp;&ensp;&ensp;c. Technote explaining how to install an ifix:
-&ensp;&ensp;&ensp;&ensp;https://www-01.ibm.com/support/docview.wss?uid=swg21417656
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;https://www-01.ibm.com/support/docview.wss?uid=swg21417656
 
 
 Exporting a versioninfo from install_root/bin/ checking it for the iFix number is sufficient: 
-&ensp;&ensp;&ensp;&ensp;* versionInfo -fixpacks -ifixes > versioninfo.txt 
-     or
-&ensp;&ensp;&ensp;&ensp;* versionInfo -long > versioninfo.txt 
+&ensp;&ensp;&ensp;&ensp;*&ensp;&ensp;versionInfo -fixpacks -ifixes > versioninfo.txt 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;or
+&ensp;&ensp;&ensp;&ensp;*&ensp;&ensp;versionInfo -long > versioninfo.txt 
 

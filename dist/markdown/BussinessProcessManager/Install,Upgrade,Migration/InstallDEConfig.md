@@ -32,7 +32,7 @@ Each of the IBM Business Process Manager configurations has its own roadmap to g
 https://www.ibm.com/support/knowledgecenter/SSFPJS_8.6.0/com.ibm.wbpm.imuc.doc/topics/rins_installation_paths.html
 
 &ensp;&ensp;&ensp;&ensp;b. Deprecated and removed features 
-Check in the KC for the <b> "Deprecated and removed features"</b> for the specific versions
+&ensp;&ensp;&ensp;&ensp;Check in the KC for the <b> "Deprecated and removed features"</b> for the specific versions
 
 &ensp;&ensp;&ensp;&ensp;c. BPM Software Requirements: 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Business Process Manager detailed system requirements 
@@ -59,13 +59,13 @@ Check in the KC for the <b> "Deprecated and removed features"</b> for the specif
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2. Ask for the versioninfo: 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Exporting a versioninfo from install_root/bin/ using
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* versionInfo -fixpacks -ifixes > versioninfo.txt 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;or
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;or
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* versionInfo -long > versioninfo.txt
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;3. Check for the following points:
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Is configuration described in the problem description supported? 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Check the software requirement report
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Check the software requirement report
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Is there any errors in the problem description or logs? 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Search for the error in RTC or Prosol to check if this is a known issue 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Search for the error in RTC or Prosol to check if this is a known issue 
 
 &ensp;&ensp;&ensp;&ensp;c. important files to request/review
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* install_root/logs/* --> general installation log files (BPMConfig) 
@@ -85,7 +85,7 @@ Check in the KC for the <b> "Deprecated and removed features"</b> for the specif
 
 &ensp;&ensp;&ensp;&ensp;e. Rollback failed
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Most part of the time the problem is:
+&ensp;&ensp;&ensp;&ensp;Most part of the time the problem is:
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;1. There is no installation history anymore. The customer has a new installation of IM and did not make     a backup of his data repository. 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2. The data repository is in other path, not in the same as the IM_HOME
@@ -97,11 +97,11 @@ Check in the KC for the <b> "Deprecated and removed features"</b> for the specif
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Installation Manager (IM) Saved Files for Rollback:
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Files are saved in the IMShared directory. The default behavior is to save the files for rollback. To view or change this option: 
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Using Graphical mode:  File > Preferences > Files for RollBack > Check or Uncheck "Save Files for RollBack 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Using console mode:  imcl -c (from IM_HOME/eclipse/tools ) 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Select "P" 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Select "3" 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Select "1" to save or not to save files for rollback
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Using Graphical mode:  File > Preferences > Files for RollBack > Check or Uncheck "Save Files for RollBack 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Using console mode:  imcl -c (from IM_HOME/eclipse/tools ) 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Select "P" 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Select "3" 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Select "1" to save or not to save files for rollback
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* Questions to ask to the customer 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;* if can tell you the product installation History. 
@@ -117,6 +117,6 @@ Check in the KC for the <b> "Deprecated and removed features"</b> for the specif
 
 Exporting a versioninfo from install_root/bin/ checking it for the iFix number is sufficient: 
 &ensp;&ensp;&ensp;&ensp;&ensp;* versionInfo -fixpacks -ifixes > versioninfo.txt 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;or
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;or
 &ensp;&ensp;&ensp;&ensp;&ensp;* versionInfo -long > versioninfo.txt 
 

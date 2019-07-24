@@ -10,6 +10,8 @@ This section provides links and information about building and maintaining softw
 ## Test Environments - Day 1
 *(Overview, architecture diagram, one overview training)*
 
+*(Klaus' Docker envioronment?)*
+
 *(Full BAW solution with all components?)*
 
 *(End-to-end practice scenerio, e.g. Hiring process app)*

@@ -1,7 +1,7 @@
 
-Owner: [@Enrico Monteleone](mailto:enricom@cn.ibm.com "enricom@cn.ibm.com")
+Owner: [@Jin Shang](mailto:shangjin@cn.ibm.com"shangjin@cn.ibm.com")
 
-Updated: 2019-07-24
+Updated: 2019-07-23
 
 * IBM Business Automation Workflow 19.0.0.2 - Education & Deep Dive
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">

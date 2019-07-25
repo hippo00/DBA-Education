@@ -98,12 +98,12 @@
               "markdown": "/markdown/BussinessProcessManager/GeneralBPM/CFsTrainingEnablement.md"
             },
             {
-              "route": "/Troubleshooting",
-              "name": "Troubleshooting",
+              "route": "/TestEnvironments",
+              "name": "TestEnvironments",
               "description": "",
               "icon": "sitemap",
               "topics": [],
-              "markdown": "/markdown/BussinessProcessManager/GeneralBPM/Troubleshooting.md"
+              "markdown": "/markdown/BussinessProcessManager/GeneralBPM/TestEnvironments.md"
             },
             {
               "route": "/Knowledgebuckets",

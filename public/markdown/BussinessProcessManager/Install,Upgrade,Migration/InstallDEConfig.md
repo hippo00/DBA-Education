@@ -1,5 +1,5 @@
 
-Owner: [@Steffen Baumann](mailto:steffen.baumann@de.ibm.com" steffen.baumann@de.ibm.com")
+Owner: [@Steffen Baumann](mailto:steffen.baumann@de.ibm.com "steffen.baumann@de.ibm.com")
 
 Updated: 2019-07-20
 

@@ -23,62 +23,55 @@ Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so
 
 ### Business Process Manager (BPM) and Business Automation Workflow (BAW)
 
-BPM Overview
+* BPM Overview: https://www.ibm.com/support/knowledgecenter/SSFTBX_8.5.7/com.ibm.wbpm.main.doc/topics/ibmbmp_overview.html
 
-BAW Overview
+* BAW Overview: https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/overview.html
 
-Test Environment
+* Test Environment: *(Need local BAW vm due to w3 ID requirements)*
 
 <p style="margin-top:1em;">&nbsp;</p>
 
 ### Operation Decision Manager (ODM)
 
-ODM Overview
+* ODM Overview: https://www.ibm.com/products/operational-decision-manager
 
-ODM Test Environment
+* ODM Test Environment *(Need local BAW vm due to w3 ID requirements)*
 
 
 <p style="margin-top:1em;">&nbsp;</p>
 
 ### Blueworks Live (BWL)
 
-BWL Overview
+* BWL Overview: https://www.ibm.com/products/blueworkslive
 
-BWL Test Environment
+* Blueworks Live: :https://www.blueworkslive.com/sLogin.html
 
 
 <p style="margin-top:1em;">&nbsp;</p>
 
 ### Robotic Process Automation (RPA)
 
-RPA Overview
+* RPA Overview: https://www.ibm.com/automation/software/rpa
 
-RPA Test Environment
+* RPA Test Environment *(Need local BAW vm due to w3 ID requirements)*
 
 ---
 
 ## Virtualization Basics
-*(Add links to Your Learning resources)*
 
-Virtual machines, virtual hardware, snapshots
+VMware Virtualization 101: https://yourlearning.ibm.com/#activity/URL-6LDY9BATAQC
 
-Containers
+Docker and Containers: https://yourlearning.ibm.com/#activity/URL-TE77BE4006052:BE387B81-043C-4B0D-8CAE-25E5F47E8F88
+
+
+<p style="margin-top:1em;">&nbsp;</p>
+
+For additional learning, search Your Learning: https://yourlearning.ibm.com/
 
 
 <p style="margin-top:1em;">&nbsp;</p>
 
 This is the end of the Day 1 section. To continue to the next sections, you may need to wait for your IBM w3 ID or wait for additional security access requests.
-
----
-
-## Workstation Virtual Test Environment (Advanced)
-
-If you know how to use Docker:
-*(Klaus' Docker envioronment?)*
-
-*(Full BAW solution with all components?)*
-
-*(End-to-end practice scenerio, e.g. Hiring process app)*
 
 ---
 
@@ -90,44 +83,51 @@ To access different remote servers and test environments, setup the necessary so
 
 ### Apple MacOS
 
-Mac@IBM: In MacOS, open the Mac@IBM App Store.
+* Mac@IBM: In MacOS, open the Mac@IBM App Store.
 
-Microsoft Remote Desktop: Install from Apple App Store (ensure you download the official Microsoft app)
+* Microsoft Remote Desktop: Install from Apple App Store (Install official Microsoft app)
 
-SSH: In MacOS, open Terminal to use SSH to connect to remote hosts.
+* SSH: In MacOS, open Terminal to use SSH to connect to remote hosts.
 
-VNC: Currently, there are no IBM officially supported VNC options.
+* VNC: Currently, there are no IBM officially supported VNC options.
 
 
 <p style="margin-top:1em;">&nbsp;</p>
 
 ### Microsoft Windows
 
-PC@IBM: http://w3-01.ibm.com/download/standardsoftware/PC/lang_en/issiCatalogPC.html
+* PC@IBM: http://w3-01.ibm.com/download/standardsoftware/PC/lang_en/issiCatalogPC.html
 
-PuTTY: In PC@IBM, search for "PuTTY"
+* PuTTY: In PC@IBM, search for "PuTTY"
 
-Microsoft Remote Desktop (RDP): In Microsoft Windows, Start > type "mstsc" [Enter]
+* Microsoft Remote Desktop (RDP): In Microsoft Windows, Start > type "mstsc" [Enter]
 
-VNC: Currently, there are no IBM officially supported VNC options.
+* VNC: Currently, there are no IBM officially supported VNC options.
 
 
 <p style="margin-top:1em;">&nbsp;</p>
 
 ### Redhat Linux
-Linux@IBM: https://w3-connections.ibm.com/communities/service/html/communitystart?communityUuid=801cf8e1-364a-48ec-ac2d-aa091376fff6
 
-Software: You can use the Linux graphical user interface to install software or use the yum package manager in the terminal. The IBM Linux OpenClient has most of the software you will need pre-installed.
+* Linux@IBM: https://w3-connections.ibm.com/communities/service/html/communitystart?communityUuid=801cf8e1-364a-48ec-ac2d-aa091376fff6
 
-SSH: Use the terminal.
+* Software: You can use the Linux graphical user interface to install software or use the yum package manager in the terminal. The IBM Linux OpenClient has most of the software you will need pre-installed.
 
-VNC: Currently, there are no IBM officially supported VNC options.
+* SSH: Use the terminal.
+
+* VNC: Currently, there are no IBM officially supported VNC options.
 
 ---
 
 ## Test Environments for Training
 
 You can use the following resources to create test environments for learning or for case testing, but do not copy or import any client data into these enviornments. For handling cases with client information, use Salesforce and Castle systems.
+
+### Blue Demos
+
+* https://ibm.ent.box.com/v/DBADaL19-0GettingStarted
+
+* https://bluedemos.com/search
 
 ### Ring Cloud
 

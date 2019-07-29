@@ -115,7 +115,7 @@ To access different remote servers and test environments, setup the necessary so
 
 * SSH: Use the terminal.
 
-* VNC: Currently, there are no IBM officially supported VNC options.
+* SSH, RDP, VNC: Use the Remmina application preinstalled on the IBM Openclient7.
 
 ---
 

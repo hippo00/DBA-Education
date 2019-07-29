@@ -153,6 +153,8 @@ For team members located in Beijing, you can use the Ring Cloud.
 
 * 7a. Primary (Windows example) C:\> net use s: \\9.111.141.56\dba-share1 /user:dba-share
 
+* To get Windows credentials, run C:\> net view 9.111.141.56
+
 * 7b. Alternate: https://w3-03.ibm.com/software/xl/download/ticket.wss, Example search, "IBM Business Process Manager 8.6 Windows" or search for the Assembly number.
 
 

@@ -49,8 +49,8 @@
 ],
   "pages": [
     {
-      "route": "/BussinessProcessManager",
-      "name": "Bussiness Process Manager/Business Automation Workflow",
+      "route": "/BusinessProcessManager",
+      "name": "Business Process Manager/Business Automation Workflow",
       "description": "",
       "icon": "",
       "children": [
@@ -99,7 +99,7 @@
             },
             {
               "route": "/TestEnvironments",
-              "name": "TestEnvironments",
+              "name": "Test Environments",
               "description": "",
               "icon": "sitemap",
               "topics": [],

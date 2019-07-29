@@ -1,8 +1,3 @@
-
-Owner: [@Jin Shang](mailto:shangjin@cn.ibm.com"shangjin@cn.ibm.com")
-
-Updated: 2019-07-23
-
 * Digital Business Automation (DBA) Series
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >

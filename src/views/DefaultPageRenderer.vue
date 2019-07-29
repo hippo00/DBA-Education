@@ -9,9 +9,9 @@
       <h1 class="banner__title">{{ pageConfig.name }}</h1>
       <!--<h4 class="banner__text">{{ pageConfig.description }}</h4>-->
 
-      <!--<p class="banner__timestamp">Last Update: {{ lastModified }}</p>
+      <p class="banner__timestamp">Last Update: {{ lastModified }}</p>
 
-      <section class="banner__timestamp">Owner: <a :href="'mailto:'+ pageConfig.description ">{{ pageConfig.owner }}</a></section>-->
+      <section class="banner__timestamp">Owner: <a :href="'mailto:'+ pageConfig.description ">{{ pageConfig.owner }}</a></section>
       <div class="banner__btns">
 
       <div class="banner__btnLike">

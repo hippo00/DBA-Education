@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-# Test Environments
-
-Owner: [@Enrico Monteleone](mailto:enricom@cn.ibm.com "enricom@cn.ibm.com")
-
-Updated: 2019-07-26
->>>>>>> 5afa22592740ea2aaaead882c0fda492430865f2
 
 ## Summary
 This section provides links and information about building and maintaining software testing environments for training and for case handling. For case handling, always use an IBM-approved environment and properly secure and maintain your environment to ensure security compliance.

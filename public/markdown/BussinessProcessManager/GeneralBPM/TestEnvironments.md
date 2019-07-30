@@ -27,7 +27,12 @@ Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so
 
 * BAW Overview: https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/overview.html
 
-* Test Environment: *(Need local BAW vm due to w3 ID requirements)*
+* Test Environment: *(Team requests Blue Demo prior to new-hire start date.)*
+
+<span style="margin-left:4em;">https://ibm.ent.box.com/v/DBADaL19-0GettingStarted</span>
+
+<span style="margin-left:4em;">https://bluedemos.com/search</span>
+
 
 <p style="margin-top:1em;">&nbsp;</p>
 
@@ -35,7 +40,12 @@ Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so
 
 * ODM Overview: https://www.ibm.com/products/operational-decision-manager
 
-* ODM Test Environment *(Need local BAW vm due to w3 ID requirements)*
+* Test Environment: *(Team requests Blue Demo prior to new-hire start date.)*
+
+<span style="margin-left:4em;">https://ibm.ent.box.com/v/DBADaL19-0GettingStarted</span>
+
+<span style="margin-left:4em;">https://bluedemos.com/search</span>
+
 
 
 <p style="margin-top:1em;">&nbsp;</p>
@@ -53,7 +63,13 @@ Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so
 
 * RPA Overview: https://www.ibm.com/automation/software/rpa
 
-* RPA Test Environment *(Need local BAW vm due to w3 ID requirements)*
+* Test Environment: *(Team requests Blue Demo prior to new-hire start date.)*
+
+<span style="margin-left:4em;">https://ibm.ent.box.com/v/DBADaL19-0GettingStarted</span>
+
+<span style="margin-left:4em;">https://bluedemos.com/search</span>
+
+
 
 ---
 
@@ -121,7 +137,7 @@ To access different remote servers and test environments, setup the necessary so
 
 ## Test Environments for Training
 
-You can use the following resources to create test environments for learning or for case testing, but do not copy or import any client data into these enviornments. For handling cases with client information, use Salesforce and Castle systems.
+You can use the following resources to create test environments for learning or for case testing, but do not copy or import any client data into these enviornments. For handling cases with client information, use Salesforce and Castle.
 
 ### Blue Demos
 
@@ -162,7 +178,7 @@ For team members located in Beijing, you can use the Ring Cloud.
 
 ### Local workstation with Docker
 
-If you are familiar with Docker, you can setup a local test environment. See the following gitHub repository for details.
+If you are familiar with Docker, you can setup a local test environment. See the following GitHub repository for details. Due to workstation disk space limitations, you may need to use a limited feature set or use an "Express" product version.
 
 https://github.ibm.com/klaus-ulrich/bpm
 

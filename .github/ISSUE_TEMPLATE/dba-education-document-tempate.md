@@ -21,6 +21,4 @@ Component:
 
 ## Troubleshooting
 
-```
-Guides to reverse engineer what areas should be reviewed/investigated in order to resolvea problem related to the subject component.Suggested topics include: Tools and Scripts, Common Problems, Troubleshooting Guides, Mustgathers, etc.
-```
+`Guides to reverse engineer what areas should be reviewed/investigated in order to resolvea problem related to the subject component.Suggested topics include: Tools and Scripts, Common Problems, Troubleshooting Guides, Mustgathers, etc.`

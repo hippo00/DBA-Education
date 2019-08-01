@@ -1,7 +1,7 @@
 ---
 name: DBA Education Document Tempate
-about: DBA Education Document Tempate
-title: Please input your [Product] and [Category] and [Subject] at here
+about: Organize and format your content using this template
+title: Please input your [Product] ,[Category] and [Component] at here
 labels: draft
 assignees: ''
 
@@ -10,22 +10,17 @@ assignees: ''
 <!-- REQUIRED: Please input your Product and Category:
 Product:
 Category:
+Component:
 -->
 
-<!-- REQUIRED: Please select the proper lables:
-draft: When doc is still in the edit status
-completed: When the doc is completed for publish.
--->
+## Overview
 
-# Doc Subject
+## Prerequisites (Optional)
 
-## Doc Summary
+## Component: <component name/area of concentration>
 
-## Doc Descrption
+## Troubleshooting
 
-## Product Version
-
-- 1
-- 2
-- 3
-- 4
+```
+Guides to reverse engineer what areas should be reviewed/investigated in order to resolvea problem related to the subject component.Suggested topics include: Tools and Scripts, Common Problems, Troubleshooting Guides, Mustgathers, etc.
+```

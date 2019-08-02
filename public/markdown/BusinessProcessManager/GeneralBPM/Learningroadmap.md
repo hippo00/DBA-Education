@@ -50,12 +50,12 @@ IBM Workflow Center includes a complete Hiring Sample process application that y
 The instructions for recreating the sample for yourself are in the Hiring tutorial for Process Designer. See [Hiring tutorial](https://developer.ibm.com/bpm/docs/tutorials/hiring-tutorial/).
 
 [Instructions for running the Hiring Sample process application:](https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/working_with_the_shipped_sample.html)
-1. **Hiring Sample Overview:** The Hiring Sample is included with Workflow Center. The sample introduces the features of Process Designer by showing you how to run a sample process.
-2. **Managing access to the Hiring Sample process application (for administrators):** Administrators must provide access to the Hiring Sample process application so that users can view and run the process.
-3. **Verifying access to the Hiring Sample process application:** If the Hiring Sample process application is not already available in the IBM Workflow Center Console, you must import it.
-4. **Opening the Hiring Sample process application:** To begin running the process in IBM Process Desinger.
-5. **Changing the Hiring Sample:** Using the Hiring Sample process application to learn the product. Do not use it as a starting point for your own application because changing this process application might cause errors later.
-6. **Playing back the Standard HR Open New Position process:** Run the Standard HR Open New Position process in the Inspector view in IBM Process Designer to see the process run step by step.
+_ 1. **Hiring Sample Overview:** The Hiring Sample is included with Workflow Center. The sample introduces the features of Process Designer by showing you how to run a sample process.
+_ 2. **Managing access to the Hiring Sample process application (for administrators):** Administrators must provide access to the Hiring Sample process application so that users can view and run the process.
+_ 3. **Verifying access to the Hiring Sample process application:** If the Hiring Sample process application is not already available in the IBM Workflow Center Console, you must import it.
+_ 4. **Opening the Hiring Sample process application:** To begin running the process in IBM Process Desinger.
+_ 5. **Changing the Hiring Sample:** Using the Hiring Sample process application to learn the product. Do not use it as a starting point for your own application because changing this process application might cause errors later.
+_ 6. **Playing back the Standard HR Open New Position process:** Run the Standard HR Open New Position process in the Inspector view in IBM Process Designer to see the process run step by step.
 
 
 ## Recommended Badges

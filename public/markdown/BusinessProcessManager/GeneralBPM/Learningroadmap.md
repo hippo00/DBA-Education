@@ -12,6 +12,8 @@ Workflow applications coordinate work between tasks performed by humans and auto
 ### See how Business Automation Workflow improves the productivity of a new account opening workflow:
 https://www.youtube.com/watch?v=LhSFN57J_Ks
 
+<p style="margin-top:1em;">&nbsp;</p>
+
 ## IBM Business Automation Workflow Product Architecture:
 
 ![image](https://media.github.ibm.com/user/172872/files/76314c80-b44b-11e9-95f6-124e5702c5d4)
@@ -37,6 +39,8 @@ You can use a set of administration tools to accomplish tasks ranging from insta
 **[Process Portal](https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/processportal_overview.html)**
 Process Portal is the user interface that is provided with all editions of Business Automation Workflow for participating in processes. It can be configured for a single Business Automation Workflow system or federated environments that include IBM Process Federation Server. From Process Portal, users can launch processes, dashboards, and startable services, and work on their tasks.
 
+<p style="margin-top:1em;">&nbsp;</p>
+
 ## Hands-on Sample Workflow
 IBM Workflow Center includes a complete Hiring Sample process application that you can view and run in IBM Process Designer.
 
@@ -50,7 +54,7 @@ The instructions for recreating the sample for yourself are in the Hiring tutori
 5. **Changing the Hiring Sample:** Using the Hiring Sample process application to learn the product. Do not use it as a starting point for your own application because changing this process application might cause errors later.
 6. **Playing back the Standard HR Open New Position process:** Run the Standard HR Open New Position process in the Inspector view in IBM Process Designer to see the process run step by step.
 
-
+<p style="margin-top:1em;">&nbsp;</p>
 
 ## Recommended Badges
 

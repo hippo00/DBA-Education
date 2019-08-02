@@ -24,6 +24,7 @@ https://www.youtube.com/watch?v=LhSFN57J_Ks
 ### IBM BPM Key Components
 
 **[Authoring tools](https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/cbpm_ae.html)**
+
 IBM Process Designer is the primary authoring tool for business processes; use it to efficiently model and test business processes in all editions of the product. An Business Automation Workflow Advanced deployment environment also includes IBM Integration Designer for building services that are self-contained, or that start other existing services (for example, web services, enterprise resource applications, or applications running in CICS and IMS).
 
 **[The Workflow Center repository](https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/cbpm_processcenter.html)**

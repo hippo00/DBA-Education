@@ -1,3 +1,5 @@
+Date: 2019-08-02
+
 ## IBM Business Automation Workflow Product Overview
 
 IBM Business Automation Workflow is software that combines **IBM Business Process Manager (BPM)** and **IBM Case Manager** capabilities in a single integrated workflow solution. It unites information process, and users to provide a 360-degree view of work to help drive more successful business outcomes.
@@ -50,12 +52,12 @@ IBM Workflow Center includes a complete Hiring Sample process application that y
 The instructions for recreating the sample for yourself are in the Hiring tutorial for Process Designer. See [Hiring tutorial](https://developer.ibm.com/bpm/docs/tutorials/hiring-tutorial/).
 
 [Instructions for running the Hiring Sample process application:](https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/working_with_the_shipped_sample.html)
-_ 1. **Hiring Sample Overview:** The Hiring Sample is included with Workflow Center. The sample introduces the features of Process Designer by showing you how to run a sample process.
-_ 2. **Managing access to the Hiring Sample process application (for administrators):** Administrators must provide access to the Hiring Sample process application so that users can view and run the process.
-_ 3. **Verifying access to the Hiring Sample process application:** If the Hiring Sample process application is not already available in the IBM Workflow Center Console, you must import it.
-_ 4. **Opening the Hiring Sample process application:** To begin running the process in IBM Process Desinger.
-_ 5. **Changing the Hiring Sample:** Using the Hiring Sample process application to learn the product. Do not use it as a starting point for your own application because changing this process application might cause errors later.
-_ 6. **Playing back the Standard HR Open New Position process:** Run the Standard HR Open New Position process in the Inspector view in IBM Process Designer to see the process run step by step.
+1. **Hiring Sample Overview:** The Hiring Sample is included with Workflow Center. The sample introduces the features of Process Designer by showing you how to run a sample process.
+2. **Managing access to the Hiring Sample process application (for administrators):** Administrators must provide access to the Hiring Sample process application so that users can view and run the process.
+3. **Verifying access to the Hiring Sample process application:** If the Hiring Sample process application is not already available in the IBM Workflow Center Console, you must import it.
+4. **Opening the Hiring Sample process application:** To begin running the process in IBM Process Desinger.
+5. **Changing the Hiring Sample:** Using the Hiring Sample process application to learn the product. Do not use it as a starting point for your own application because changing this process application might cause errors later.
+6. **Playing back the Standard HR Open New Position process:** Run the Standard HR Open New Position process in the Inspector view in IBM Process Designer to see the process run step by step.
 
 
 ## Recommended Badges
@@ -78,6 +80,6 @@ _ 6. **Playing back the Standard HR Open New Position process:** Run the Standar
   </tr>
   <tr>
     <td style="background-color:white"><center><a href="https://www-03.ibm.com/services/learning/ites.wss/zz-en?pageType=badges&id=fe01c26f-5104-4d0b-89eb-7ee4f1bdeb7d" target="_blank"><img align="middle" src="https://raw.github.ibm.com/dba-support/Picture-Store/master/badge/1564642943006.jpg?token=AAN8x2qANw20_VxXZfTdpIhkFbXODYIEks5dS-HPwA%3D%3D" title="IBM Certified Application Developer using Process Designer - Business Process Manager V8.6" /><br/>IBM Certified Application Developer using Process Designer - Business Process Manager V8.6 </a><center></td>
-    <td style="background-color:white"><center><a href="https://www.ibm.com/services/learning/ites.wss/zz-en?pageType=badges&id=03891df7-04e1-40b9-ba24-813cd8b2909e" target="_blank"><img align="middle" src="https://raw.github.ibm.com/dba-support/Picture-Store/master/badge/1564642970562.jpg?token=AAN8xzJdDqPdu2DB-Rpptfb2UMODDLByks5dS-JjwA%3D%3D" title="IBM Business Automation Workflow V19 Developer" /><br/>IBM Business Automation Workflow V19 Developer</a><center></td>
+    <td style="background-color:white"><center><a href="https://www.ibm.com/services/learning/ites.wss/zz-en?pageType=badges&id=03891df7-04e1-40b9-ba24-813cd8b2909e" target="_blank"><img align="middle" src="https://raw.github.ibm.com/dba-support/Picture-Store/master/badge/1564642970562.jpg?token=AAN8xzJdDqPdu2DB-Rpptfb2UMODDLByks5dS-JjwA%3D%3D" title="IBM Certified Business Analyst - Blueworks Live and Business Automation Workflow v18" /><br/>IBM Business Automation Workflow V19 Developer</a><center></td>
   </tr>
 </table>

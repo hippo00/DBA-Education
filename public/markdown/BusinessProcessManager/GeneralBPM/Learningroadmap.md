@@ -66,16 +66,16 @@ The instructions for recreating the sample for yourself are in the Hiring tutori
   </tr>
   <tr>
     <td style="background-color:white; text-align:center" >Basic</td>
-    <td><center><a href="https://www-03.ibm.com/services/learning/ites.wss/zz-en?pageType=badges&id=5bf38a9f-066b-4a46-bca0-67a26e5f7344" target="_blank"><img align="middle" src="https://media.github.ibm.com/user/228551/files/54ed4900-beac-11e9-924c-f5516e90ec1d" /><br/>IBM Business Process Manager Introduction </a><center></td>
+    <td><center><a href="https://www-03.ibm.com/services/learning/ites.wss/zz-en?pageType=badges&id=5bf38a9f-066b-4a46-bca0-67a26e5f7344" target="_blank"><img align="middle" src="https://media.github.ibm.com/user/228551/files/fc6b7b00-beae-11e9-8fbd-a93e15eaa4b6" /><br/>IBM Business Process Manager Introduction </a><center></td>
     <td></td>
   </tr>
   <tr>
     <td rowspan="2" style="background-color:white; text-align:center">Intermediate</td>
-    <td style="background-color:white"><center><a href="https://www.ibm.com/services/learning/ites.wss/zz-en?pageType=badges&id=f72abfbd-791f-4d40-89f1-db3bf6c6c490" target="_blank"><img align="middle" src="https://media.github.ibm.com/user/228551/files/65052880-beac-11e9-8b31-c36e4899bd16" /><br/>IBM Business Process Manager Advanced V8.6 Developer </a><center></td>
-    <td style="background-color:white"><center><a href="https://www.ibm.com/services/learning/ites.wss/zz-en?pageType=badges&id=e88a39cb-cb86-4deb-8692-0b2ba5c1eea0" target="_blank"><img align="middle" src="https://media.github.ibm.com/user/228551/files/6d5d6380-beac-11e9-821e-773fbf3f1105"  /><br/>IBM Certified Business Analyst - Blueworks Live and Business Automation Workflow v18 </a><center></td>
+    <td style="background-color:white"><center><a href="https://www.ibm.com/services/learning/ites.wss/zz-en?pageType=badges&id=f72abfbd-791f-4d40-89f1-db3bf6c6c490" target="_blank"><img align="middle" src="https://media.github.ibm.com/user/228551/files/0a210080-beaf-11e9-8fbd-da1f8fa9d3d5" /><br/>IBM Business Process Manager Advanced V8.6 Developer </a><center></td>
+    <td style="background-color:white"><center><a href="https://www.ibm.com/services/learning/ites.wss/zz-en?pageType=badges&id=e88a39cb-cb86-4deb-8692-0b2ba5c1eea0" target="_blank"><img align="middle" src="https://media.github.ibm.com/user/228551/files/1311d200-beaf-11e9-84aa-51c345715f3c"  /><br/>IBM Certified Business Analyst - Blueworks Live and Business Automation Workflow v18 </a><center></td>
   </tr>
   <tr>
-    <td style="background-color:white"><center><a href="https://www-03.ibm.com/services/learning/ites.wss/zz-en?pageType=badges&id=fe01c26f-5104-4d0b-89eb-7ee4f1bdeb7d" target="_blank"><img align="middle" src="https://media.github.ibm.com/user/228551/files/76e6cb80-beac-11e9-98e1-c25d156cf3f7" /><br/>IBM Certified Application Developer using Process Designer - Business Process Manager V8.6 </a><center></td>
-    <td style="background-color:white"><center><a href="https://www.ibm.com/services/learning/ites.wss/zz-en?pageType=badges&id=03891df7-04e1-40b9-ba24-813cd8b2909e" target="_blank"><img align="middle" src="https://media.github.ibm.com/user/228551/files/7e0dd980-beac-11e9-98e0-72bedb79edc0" /><br/>IBM Business Automation Workflow V18 Developer</a><center></td>
+    <td style="background-color:white"><center><a href="https://www-03.ibm.com/services/learning/ites.wss/zz-en?pageType=badges&id=fe01c26f-5104-4d0b-89eb-7ee4f1bdeb7d" target="_blank"><img align="middle" src="https://media.github.ibm.com/user/228551/files/0db48780-beaf-11e9-9e30-b09c853ee617" /><br/>IBM Certified Application Developer using Process Designer - Business Process Manager V8.6 </a><center></td>
+    <td style="background-color:white"><center><a href="https://www.ibm.com/services/learning/ites.wss/zz-en?pageType=badges&id=03891df7-04e1-40b9-ba24-813cd8b2909e" target="_blank"><img align="middle" src="https://media.github.ibm.com/user/228551/files/16a55900-beaf-11e9-9d2d-a1911d8e9fa7" /><br/>IBM Business Automation Workflow V18 Developer</a><center></td>
   </tr>
 </table>

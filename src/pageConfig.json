@@ -64,7 +64,8 @@
              {
               "route": "/Learningroadmap",
               "name": "Learning Plan",
-              "description": "",
+              "description": "qingzou@cn.ibm.com;shangjin@cn.ibm.com",
+              "owner":"@Qing Zou,@Jin Shang",
               "icon": "chalkboard-teacher",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/GeneralBPM/Learningroadmap.md"

@@ -15,7 +15,6 @@ Workflow applications coordinate work between tasks performed by humans and auto
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LhSFN57J_Ks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 ## IBM BPM Architecture
 
 <img alt="image" src="https://media.github.ibm.com/user/77004/files/61ed4100-b3b2-11e9-939a-cdbf3d1b43ff">
@@ -61,7 +60,7 @@ The instructions for recreating the sample for yourself are in the Hiring tutori
 
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
   <tr font-weight: 700; >
-    <th width="20%" style="text-align:center;";></th>
+    <th width="15%" style="text-align:center;";></th>
     <th style="text-align:center">Business Process Manager</th>
     <th style="text-align:center">Business Automation Workflow</th>
   </tr>

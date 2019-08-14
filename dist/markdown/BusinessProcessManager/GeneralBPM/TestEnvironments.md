@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-# Test Environments
-
-Owner: [@Enrico Monteleone](mailto:enricom@cn.ibm.com "enricom@cn.ibm.com")
-
-Updated: 2019-07-26
->>>>>>> 5afa22592740ea2aaaead882c0fda492430865f2
 
 ## Summary
 This section provides links and information about building and maintaining software testing environments for training and for case handling. For case handling, always use an IBM-approved environment and properly secure and maintain your environment to ensure security compliance.
@@ -30,12 +22,7 @@ Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so
 
 * BAW Overview: https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/overview.html
 
-* Test Environment: *(Team requests Blue Demo prior to new-hire start date.)*
-
-<span style="margin-left:4em;">https://ibm.ent.box.com/v/DBADaL19-0GettingStarted</span>
-
-<span style="margin-left:4em;">https://bluedemos.com/search</span>
-
+* Test Environment: *(Need local BAW vm due to w3 ID requirements)*
 
 <p style="margin-top:1em;">&nbsp;</p>
 
@@ -43,12 +30,7 @@ Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so
 
 * ODM Overview: https://www.ibm.com/products/operational-decision-manager
 
-* Test Environment: *(Team requests Blue Demo prior to new-hire start date.)*
-
-<span style="margin-left:4em;">https://ibm.ent.box.com/v/DBADaL19-0GettingStarted</span>
-
-<span style="margin-left:4em;">https://bluedemos.com/search</span>
-
+* ODM Test Environment *(Need local BAW vm due to w3 ID requirements)*
 
 
 <p style="margin-top:1em;">&nbsp;</p>
@@ -66,13 +48,7 @@ Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so
 
 * RPA Overview: https://www.ibm.com/automation/software/rpa
 
-* Test Environment: *(Team requests Blue Demo prior to new-hire start date.)*
-
-<span style="margin-left:4em;">https://ibm.ent.box.com/v/DBADaL19-0GettingStarted</span>
-
-<span style="margin-left:4em;">https://bluedemos.com/search</span>
-
-
+* RPA Test Environment *(Need local BAW vm due to w3 ID requirements)*
 
 ---
 
@@ -134,13 +110,13 @@ To access different remote servers and test environments, setup the necessary so
 
 * SSH: Use the terminal.
 
-* SSH, RDP, VNC: Use the Remmina application preinstalled on the IBM Openclient7.
+* VNC: Currently, there are no IBM officially supported VNC options.
 
 ---
 
 ## Test Environments for Training
 
-You can use the following resources to create test environments for learning or for case testing, but do not copy or import any client data into these enviornments. For handling cases with client information, use Salesforce and Castle.
+You can use the following resources to create test environments for learning or for case testing, but do not copy or import any client data into these enviornments. For handling cases with client information, use Salesforce and Castle systems.
 
 ### Blue Demos
 
@@ -181,7 +157,7 @@ For team members located in Beijing, you can use the Ring Cloud.
 
 ### Local workstation with Docker
 
-If you are familiar with Docker, you can setup a local test environment. See the following GitHub repository for details. Due to workstation disk space limitations, you may need to use a limited feature set or use an "Express" product version.
+If you are familiar with Docker, you can setup a local test environment. See the following gitHub repository for details.
 
 https://github.ibm.com/klaus-ulrich/bpm
 

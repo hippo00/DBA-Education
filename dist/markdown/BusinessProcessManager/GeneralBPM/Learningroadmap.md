@@ -1,3 +1,5 @@
+Date: 2019-08-02
+
 ## IBM Business Automation Workflow Product Overview
 
 IBM Business Automation Workflow is software that combines **IBM Business Process Manager (BPM)** and **IBM Case Manager** capabilities in a single integrated workflow solution. It unites information process, and users to provide a 360-degree view of work to help drive more successful business outcomes.
@@ -12,7 +14,6 @@ Workflow applications coordinate work between tasks performed by humans and auto
 ### See how Business Automation Workflow improves the productivity of a new account opening workflow:
 https://www.youtube.com/watch?v=LhSFN57J_Ks
 
-<p style="margin-top:1em;">&nbsp;</p>
 
 ## IBM Business Automation Workflow Product Architecture:
 
@@ -25,21 +26,25 @@ https://www.youtube.com/watch?v=LhSFN57J_Ks
 ### IBM BPM Key Components
 
 **[Authoring tools](https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/cbpm_ae.html)**
+
 IBM Process Designer is the primary authoring tool for business processes; use it to efficiently model and test business processes in all editions of the product. An Business Automation Workflow Advanced deployment environment also includes IBM Integration Designer for building services that are self-contained, or that start other existing services (for example, web services, enterprise resource applications, or applications running in CICS and IMS).
 
 **[The Workflow Center repository](https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/cbpm_processcenter.html)**
+
 The Workflow Center (aka Process Center) includes a repository for all processes, services, and other assets created in the Process Designer and Integration Designer.
 
 **[Workflow Server and runtime environments](https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/cbpm_ps.html)**
+
 Workflow Server (aka Process Server) provides a single runtime environment that can support a range of business processes, service orchestration, and integration capabilities.
 
 **[Business process administration tools](https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/cbpm_admintools.html)**
+
 You can use a set of administration tools to accomplish tasks ranging from installing and managing snapshots to administering processes and working with the resources in your IT environment, including of Workflow Center Console (aka Process Center Console), Process Admin Console, Business Performance Admin Console, WAS administrative console, etc.
 
 **[Process Portal](https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/processportal_overview.html)**
+
 Process Portal is the user interface that is provided with all editions of Business Automation Workflow for participating in processes. It can be configured for a single Business Automation Workflow system or federated environments that include IBM Process Federation Server. From Process Portal, users can launch processes, dashboards, and startable services, and work on their tasks.
 
-<p style="margin-top:1em;">&nbsp;</p>
 
 ## Hands-on Sample Workflow
 IBM Workflow Center includes a complete Hiring Sample process application that you can view and run in IBM Process Designer.
@@ -54,7 +59,6 @@ The instructions for recreating the sample for yourself are in the Hiring tutori
 5. **Changing the Hiring Sample:** Using the Hiring Sample process application to learn the product. Do not use it as a starting point for your own application because changing this process application might cause errors later.
 6. **Playing back the Standard HR Open New Position process:** Run the Standard HR Open New Position process in the Inspector view in IBM Process Designer to see the process run step by step.
 
-<p style="margin-top:1em;">&nbsp;</p>
 
 ## Recommended Badges
 

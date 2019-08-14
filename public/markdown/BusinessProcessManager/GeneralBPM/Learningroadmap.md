@@ -12,18 +12,15 @@ Workflow applications coordinate work between tasks performed by humans and auto
 - Administrative tools for optimizing how the application runs, deploying new versions and managing security.
 
 ### See how Business Automation Workflow improves the productivity of a new account opening workflow:
-https://www.youtube.com/watch?v=LhSFN57J_Ks
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LhSFN57J_Ks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## IBM Business Automation Workflow Product Architecture:
+## IBM BPM Architecture
 
-![image](https://media.github.ibm.com/user/172872/files/76314c80-b44b-11e9-95f6-124e5702c5d4)
+<img alt="image" src="https://media.github.ibm.com/user/77004/files/61ed4100-b3b2-11e9-939a-cdbf3d1b43ff">
 
-### IBM BPM Architecture
-
-<img width="415" alt="image" src="https://media.github.ibm.com/user/77004/files/61ed4100-b3b2-11e9-939a-cdbf3d1b43ff">
-
-### IBM BPM Key Components
+## IBM BPM Key Components
 
 **[Authoring tools](https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/cbpm_ae.html)**
 

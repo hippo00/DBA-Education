@@ -124,6 +124,21 @@ You can use the following resources to create test environments for learning or 
 
 * https://bluedemos.com/search
 
+### Fyre
+
+(2019-08-28)
+
+The onboarding process did change as announced in the #fyre-announcemnents Slack channel:
+https://ibm-cloud.slack.com/archives/C0ZF8PWBY/p1566847241033700
+ 
+Fyre onboarding: The process has now been streamlined.  The new process is:
+
+1)  The new user requests onboarding at https://fyre.ibm.com and is quickly (almost immediate) onboarded and sent a welcome email describing the next steps to take.
+
+2)  They go to https://fyre.ibm.com again which lands them in their account settings where they set their default password and request access to a resource group.
+
+3) The respective group owners receive an email asking them to approve or reject access to the requested group.All Fyre onboard requests made in 2H2019 up to August 23rd have been onboarded and need to proceed to step 2.Any requests older than 2h2019 have been archived and those users can simply reapply as per the steps above.
+
 ### Ring Cloud
 
 *(Can we deploy Klaus' Docker solution on Ring Cloud fyre.ibm.com?)*

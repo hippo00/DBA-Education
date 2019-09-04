@@ -30,21 +30,23 @@ GUI - Graphical User Interface
 
 ### WebSphere
 
-manageprofiles
+manageprofiles (BAW 19.0.0.2)<br>
+https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.ref.doc/topics/rins_manageprofiles.html
 
-wsadmin
+wsadmin (BAW 19.0.0.2)<br>
+https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.ref.doc/topics/welc_ref_adm_script.html
 
 
 ### BPMConfig
 
-BPMConfig 8.5.7<br>
+BPMConfig (BPM 8.5.7)<br>
 https://www.ibm.com/support/knowledgecenter/en/SSFTN5_8.5.7/com.ibm.wbpm.ref.doc/topics/rbpmconfig.html
 
-BPMConfig - 8.6<br>
+BPMConfig (BPM 8.6)<br>
 https://www.ibm.com/support/knowledgecenter/en/SSFPJS_8.6.0/com.ibm.wbpm.ref.doc/topics/rbpmconfig.html
 
-BPMConfig - 19.0.0.2<br>
+BPMConfig (BAW 19.0.0.2)<br>
 https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.ref.doc/topics/rbpmconfig.html
 
-BPM 8.6.0 - Creating profiles, network deployment environments and database tables using BPMConfig<br>
+Creating profiles, network deployment environments and database tables using BPMConfig (BPM 8.6.0)<br>
 https://www.ibm.com/support/knowledgecenter/en/SSFPJS_8.6.0/com.ibm.wbpm.imuc.ebpm.doc/topics/bpmcfg_create_win_db2.html

@@ -154,25 +154,21 @@ For team members located in Beijing, you can use the Ring Cloud.
 
 1. Ensure you have your IBM w3 ID.
 
-2. Request access to the Beijing Lab firewall. (Need details.)
+2. Login to https://itaas.cn.ibm.com/
 
-3. Authenticate to the Beijing Lab firewall.
+3. Contact your team lead or manager to request team resources in the Ring Cloud. Estimate a minimum of 4 CPU, 16GB RAM, 100GB disk per test server.
 
-4. Login to https://itaas.cn.ibm.com/
+4. Create a virtual machine, Linux or Microsoft Windows.
 
-5. Contact your team lead or manager to request team resources in the Ring Cloud. Estimate a minimum of 4 CPU, 16GB RAM, 100GB disk per test server.
+5. Download installation software.
 
-6. Create a virtual machine, Linux or Microsoft Windows.
+* 5a. Primary (Linux example) > mount -t nfs 9.111.141.56:/dba-share1 /mnt/dba-share1
 
-7. Download installation software.
+* 5a. Primary (Windows example) C:\> net use s: \\9.111.141.56\dba-share1 /user:dba-share
 
-* 7a. Primary (Linux example) > mount -t nfs 9.111.141.56:/dba-share1 /mnt/dba-share1
+* To get Windows credentials for \\9.111.141.56\dba-share1, run C:\> net view 9.111.141.56
 
-* 7a. Primary (Windows example) C:\> net use s: \\9.111.141.56\dba-share1 /user:dba-share
-
-* To get Windows credentials, run C:\> net view 9.111.141.56
-
-* 7b. Alternate: https://w3-03.ibm.com/software/xl/download/ticket.wss, Example search, "IBM Business Process Manager 8.6 Windows" or search for the Assembly number.
+* 5b. Alternate: https://w3-03.ibm.com/software/xl/download/ticket.wss, Example search, "IBM Business Process Manager 8.6 Windows" or search for the Assembly number.
 
 
 <p style="margin-top:1em;">&nbsp;</p>

@@ -44,14 +44,14 @@ https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.cloud.vap.doc/to
 
 ## WebSphere (WAS)
 
-Since IBM Business Process Manager (BPM) runs on WebSphere Application Server (WAS), you may also need to consider WAS HA and DR, especially if other non-BPM application are hosted on WAS. Clients often must work with their WAS and infrastructure teams to ensure an overall and comlete HA and DR configuration.
+Since IBM Business Process Manager (BPM) runs on WebSphere Application Server (WAS), you may also need to consider WAS HA and DR, especially if other non-BPM applications are hosted on WAS. Clients often must work with their WAS and infrastructure teams to ensure an overall and complete HA and DR configuration.
 
 WebSphere Application Server
 https://www.ibm.com/support/knowledgecenter/SSAW57/mapfiles/product_welcome_wasnd.html
 
 ## Database
 
-Since IBM Business Process Manager supports IBM Db2, Microsoft SQL Server and Oracle databases, you also must consider the database HA and DR strategy and configuration. Clients often must work with their database administrators (DBAs) to ensure an overall and comlete database HA and DR configuration.
+Since IBM Business Process Manager supports IBM Db2, Microsoft SQL Server and Oracle databases, you also must consider the database HA and DR strategy and configuration. Clients often must work with their database administrators (DBAs) to ensure an overall and complete database HA and DR configuration.
 
 IBM Db2
 

@@ -26,7 +26,7 @@ Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so
 
 * BAW Overview: https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/overview.html
 
-* Test Environment: *(Need local BAW vm due to w3 ID requirements)*
+* Test Environment: *(Need local BAW virtual machine due to w3 ID requirements)*
 
 <p style="margin-top:1em;">&nbsp;</p>
 
@@ -34,7 +34,7 @@ Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so
 
 * ODM Overview: https://www.ibm.com/products/operational-decision-manager
 
-* ODM Test Environment *(Need local BAW vm due to w3 ID requirements)*
+* ODM Test Environment *(Need local BAW virtual machine due to w3 ID requirements)*
 
 
 <p style="margin-top:1em;">&nbsp;</p>
@@ -52,7 +52,11 @@ Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so
 
 * RPA Overview: https://www.ibm.com/automation/software/rpa
 
-* RPA Test Environment *(Need local BAW vm due to w3 ID requirements)*
+* RPA Test Environment *(Need local BAW virtual machine due to w3 ID requirements)*
+
+<p style="margin-top:1em;">&nbsp;</p>
+
+This is the end of the Day 1 section. To continue to the next sections, you may need to wait for your IBM w3 ID or wait for additional security access requests.
 
 ---
 
@@ -63,15 +67,11 @@ VMware Virtualization 101: https://yourlearning.ibm.com/#activity/URL-6LDY9BATAQ
 
 Docker and Containers: https://yourlearning.ibm.com/#activity/URL-TE77BE4006052:BE387B81-043C-4B0D-8CAE-25E5F47E8F88
 
+Red Hat OpenShift 101: https://yourlearning.ibm.com/#activity/URL-1FC0F699E132
 
 <p style="margin-top:1em;">&nbsp;</p>
 
 For additional learning, search Your Learning: https://yourlearning.ibm.com/
-
-
-<p style="margin-top:1em;">&nbsp;</p>
-
-This is the end of the Day 1 section. To continue to the next sections, you may need to wait for your IBM w3 ID or wait for additional security access requests.
 
 ---
 

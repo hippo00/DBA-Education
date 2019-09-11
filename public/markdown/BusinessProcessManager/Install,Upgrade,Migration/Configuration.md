@@ -50,3 +50,11 @@ https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.ref.doc/topics/r
 
 Creating profiles, network deployment environments and database tables using BPMConfig (BPM 8.6.0)<br>
 https://www.ibm.com/support/knowledgecenter/en/SSFPJS_8.6.0/com.ibm.wbpm.imuc.ebpm.doc/topics/bpmcfg_create_win_db2.html
+
+
+## Troubleshooting
+
+### Log files
+
+
+

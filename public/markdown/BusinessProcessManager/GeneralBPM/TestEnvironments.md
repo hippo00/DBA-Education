@@ -2,11 +2,14 @@
 ## Summary
 This section provides links and information about building and maintaining software testing environments for training and for case handling. For case handling, always use an IBM-approved environment and properly secure and maintain your environment to ensure security compliance.
 
-## Contents
+Please send feedback to <a href="mailto:enricom@cn.ibm.com?subject=IBadges%20-%20Test%20Environments">enricom@cn.ibm.com</a>.
 
+## Contents
 * <a href="#day1">Test Environments for New IBMers on Day 1</a>
-* Test Environments for Training
-* Test Environments for Cases
+* <a href="#virtualization">Virtualization Basics</a>
+* <a href="#workstation">Workstation Software</a>
+* <a href="#training">Test Environments for Training</a>
+* <a href="#cases">Test Environments for Cases</a>
 
 ---
 
@@ -53,6 +56,7 @@ Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so
 
 ---
 
+<a name="virtualization"></a>
 ## Virtualization Basics
 
 VMware Virtualization 101: https://yourlearning.ibm.com/#activity/URL-6LDY9BATAQC
@@ -71,6 +75,7 @@ This is the end of the Day 1 section. To continue to the next sections, you may 
 
 ---
 
+<a name="workstation"></a>
 ## Workstation Software
 
 To access different remote servers and test environments, setup the necessary software on your laptop or workstation.
@@ -115,6 +120,7 @@ To access different remote servers and test environments, setup the necessary so
 
 ---
 
+<a name="training"></a>
 ## Test Environments for Training
 
 You can use the following resources to create test environments for learning or for case testing, but do not copy or import any client data into these enviornments. For handling cases with client information, use Salesforce and Castle systems.
@@ -191,6 +197,7 @@ https://console.ng.bluemix.net/
 
 ---
 
+<a name="cases"></a>
 ## Test Environments for Cases
 
 Do not copy case information outside of the official case handling IBM systems, Salesforce for Support (Cognitive Support Platform) and Castle. These are special systems designed to comply with all security requirments.

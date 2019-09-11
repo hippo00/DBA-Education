@@ -62,8 +62,7 @@ Db2 - Troubleshooting HADR
 https://www.ibm.com/support/knowledgecenter/SSEPGG_11.1.0/com.ibm.db2.luw.admin.trb.doc/doc/c0060652.html
 
 Microsoft SQL Server
+https://docs.microsoft.com/en-us/sql
 
-
-Oracle
-
-
+Oracle Database
+https://docs.oracle.com/en/database/oracle/oracle-database/index.html

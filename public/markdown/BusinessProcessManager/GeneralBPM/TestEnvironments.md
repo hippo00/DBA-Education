@@ -140,11 +140,11 @@ https://ibm-cloud.slack.com/archives/C0ZF8PWBY/p1566847241033700
  
 Fyre onboarding: The process has now been streamlined.  The new process is:
 
-1)  The new user requests onboarding at https://fyre.ibm.com and is quickly (almost immediate) onboarded and sent a welcome email describing the next steps to take.
+Step 1)  The new user requests onboarding at https://fyre.ibm.com and is quickly (almost immediate) onboarded and sent a welcome email describing the next steps to take.
 
-2)  They go to https://fyre.ibm.com again which lands them in their account settings where they set their default password and request access to a resource group.
+Step 2)  They go to https://fyre.ibm.com again which lands them in their account settings where they set their default password and request access to a resource group.
 
-3) The respective group owners receive an email asking them to approve or reject access to the requested group.All Fyre onboard requests made in 2H2019 up to August 23rd have been onboarded and need to proceed to step 2.Any requests older than 2h2019 have been archived and those users can simply reapply as per the steps above.
+Step 3) The respective group owners receive an email asking them to approve or reject access to the requested group.All Fyre onboard requests made in 2H2019 up to August 23rd have been onboarded and need to proceed to step 2.Any requests older than 2h2019 have been archived and those users can simply reapply as per the steps above.
 
 ### Ring Cloud
 
@@ -152,22 +152,22 @@ Fyre onboarding: The process has now been streamlined.  The new process is:
 
 For team members located in Beijing, you can use the Ring Cloud.
 
-1. Ensure you have your IBM w3 ID.
+Step 1) Ensure you have your IBM w3 ID.
 
-2. Login to https://itaas.cn.ibm.com/
+Step 2) Login to https://itaas.cn.ibm.com/
 
-3. Contact your team lead or manager to request team resources in the Ring Cloud. Estimate a minimum of 4 CPU, 16GB RAM, 100GB disk per test server.
+Step 3) Contact your team lead or manager to request team resources in the Ring Cloud. Estimate a minimum of 4 CPU, 16GB RAM, 100GB disk per test server.
 
-4. Create a virtual machine, Linux or Microsoft Windows.
+Step 4) Create a virtual machine, Linux or Microsoft Windows.
 
-5. Download your desired IBM product installation software.
+Step 5) Download your desired IBM product installation software.
 
-5a. Primary (Linux example) > mount -t nfs 9.111.141.56:/dba-share1 /mnt/dba-share1
+Step 5a) Primary (Linux example) > mount -t nfs 9.111.141.56:/dba-share1 /mnt/dba-share1
 
-5a. Primary (Windows example) C:\> net use s: \\9.111.141.56\dba-share1 /user:dba-share<br>
+Step 5a) Primary (Windows example) C:\> net use s: \\9.111.141.56\dba-share1 /user:dba-share<br>
 To get Windows credentials for \\9.111.141.56\dba-share1, run C:\> net view 9.111.141.56
 
-5b. Alternate: https://w3-03.ibm.com/software/xl/download/ticket.wss, Example search, "IBM Business Process Manager 8.6 Windows" or search for the Assembly number.
+Step 5b) Alternate: https://w3-03.ibm.com/software/xl/download/ticket.wss, Example search, "IBM Business Process Manager 8.6 Windows" or search for the Assembly number.
 
 <p style="margin-top:1em;">&nbsp;</p>
 
@@ -199,4 +199,3 @@ Do not copy case information outside of the official case handling IBM systems, 
 Castle secure enviroment for support cases: https://castle1.fyre.ibm.com/
 
 See the Castle website for onboarding and use details.
-

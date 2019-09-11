@@ -53,7 +53,7 @@ https://www.ibm.com/support/knowledgecenter/SSAW57/mapfiles/product_welcome_wasn
 
 Since IBM Business Process Manager supports IBM Db2, Microsoft SQL Server and Oracle databases, you also must consider the database HA and DR strategy and configuration. Clients often must work with their database administrators (DBAs) to ensure an overall and complete database HA and DR configuration.
 
-IBM Db2
+### IBM Db2
 
 IBM Db2 Version 11.1 Knowledge Center
 https://www.ibm.com/support/knowledgecenter/SSEPGG_11.1.0/com.ibm.db2.luw.welcome.doc/doc/welcome.html
@@ -61,8 +61,8 @@ https://www.ibm.com/support/knowledgecenter/SSEPGG_11.1.0/com.ibm.db2.luw.welcom
 Db2 - Troubleshooting HADR
 https://www.ibm.com/support/knowledgecenter/SSEPGG_11.1.0/com.ibm.db2.luw.admin.trb.doc/doc/c0060652.html
 
-Microsoft SQL Server
+### Microsoft SQL Server
 https://docs.microsoft.com/en-us/sql
 
-Oracle Database
+### Oracle Database
 https://docs.oracle.com/en/database/oracle/oracle-database/index.html

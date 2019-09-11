@@ -160,7 +160,7 @@ For team members located in Beijing, you can use the Ring Cloud.
 
 4. Create a virtual machine, Linux or Microsoft Windows.
 
-5. Download installation software.
+5. Download your desired IBM product installation software.
 
 * 5a. Primary (Linux example) > mount -t nfs 9.111.141.56:/dba-share1 /mnt/dba-share1
 

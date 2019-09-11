@@ -1,6 +1,6 @@
 Owner: @Enrico Monteleone
 
-# Backup, High Availability, and Disaster Recovery
+# Backup, High Availability (HA), and Disaster Recovery (DR)
 
 ## Business Automation Workflow (BAW) / Business Process Manager (BPM)
 
@@ -22,7 +22,9 @@ Backing up databases
 
 https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.imuc.doc/topics/tins_backup_databases.html
 
-### HADR
+#### Troubleshooting Backups
+
+### High-Availability (HA)
 
 Considerations for HADR setup and configuration
 
@@ -32,30 +34,36 @@ Business Automation Workflow Workflow with DB2 HADR for Production
 
 https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.cloud.vap.doc/topics/rbpm_priclovsp_predfconfig.html
 
-### Recovery
+#### Troubleshooting HA
+
+
+### Disaster Recovery (DR)
+
+#### Troubleshooting DR
 
 
 ## WebSphere (WAS)
 
-### Strategy
+Since IBM Business Process Manager (BPM) runs on WebSphere Application Server (WAS), you may also need to consider WAS HA and DR, especially if other non-BPM application are hosted on WAS. Clients often must work with their WAS and infrastructure teams to ensure an overall and comlete HA and DR configuration.
 
-### Tools
+WebSphere Application Server
+https://www.ibm.com/support/knowledgecenter/SSAW57/mapfiles/product_welcome_wasnd.html
 
-### Backup
+## Database
 
-### HADR
+Since IBM Business Process Manager supports IBM Db2, Microsoft SQL Server and Oracle databases, you also must consider the database HA and DR strategy and configuration. Clients often must work with their database administrators (DBAs) to ensure an overall and comlete database HA and DR configuration.
 
-### Recovery
+IBM Db2
+
+IBM Db2 Version 11.1 Knowledge Center
+https://www.ibm.com/support/knowledgecenter/SSEPGG_11.1.0/com.ibm.db2.luw.welcome.doc/doc/welcome.html
+
+Db2 - Troubleshooting HADR
+https://www.ibm.com/support/knowledgecenter/SSEPGG_11.1.0/com.ibm.db2.luw.admin.trb.doc/doc/c0060652.html
+
+Microsoft SQL Server
 
 
-## Db2
+Oracle
 
-### Strategy
 
-### Tools
-
-### Backup
-
-### HADR
-
-### Recovery

@@ -4,12 +4,13 @@ This section provides links and information about building and maintaining softw
 
 ## Contents
 
-* Test Environments for New IBMers on Day 1
+* <a href="#day1">Test Environments for New IBMers on Day 1</a>
 * Test Environments for Training
 * Test Environments for Cases
 
 ---
 
+<a name="day1"></a>
 ## Test Environments for New IBMers on Day 1
 
 Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so here are some quick ways to get started now. Find your product below, check the overview, and explore the test environment.

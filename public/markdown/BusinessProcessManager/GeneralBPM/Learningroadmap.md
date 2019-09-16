@@ -13,7 +13,7 @@ Workflow applications coordinate work between tasks performed by humans and auto
 
 ### See how Business Automation Workflow improves the productivity of a new account opening workflow:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LhSFN57J_Ks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1QcH4bTns-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## IBM BPM Architecture
 

@@ -57,6 +57,3 @@ https://support.bp-3.com/hc/en-us/articles/202784686-IBM-BPM-8-5-x-BPMConfig-com
 ## Troubleshooting
 
 ### Log files
-
-
-

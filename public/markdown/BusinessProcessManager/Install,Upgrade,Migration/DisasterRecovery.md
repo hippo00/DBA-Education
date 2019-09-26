@@ -1,4 +1,4 @@
-Owner: @Enrico Monteleone
+
 
 # Backup, High Availability (HA), and Disaster Recovery (DR)
 

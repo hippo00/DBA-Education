@@ -1,5 +1,3 @@
-Owner: Jin Shang
-Date: 2019-09-10
 
 ## Overview
 
@@ -29,9 +27,10 @@ https://www.ibm.com/support/knowledgecenter/SSFPJS_8.6.0/com.ibm.wbpm.wle.editor
 Below article including many screenshots to introduce how to the SOAP connector to call a web service.
 https://www.ibm.com/support/pages/using-soap-connector-call-web-service-websphere-lombardi-edition
 
-3.Web Service Integration
+<p>3.Web Service Integration<br/>
 Use a Web Service Integration component to invoke a web service that is hosted externally. You can configure the WSDL properties, SOAP header information, authentication, signature and encryption properties for the web service integration. Refer to below topic on knowledge center for detailed introduction.
-https://www.ibm.com/support/knowledgecenter/SSFPJS_8.6.0/com.ibm.wbpm.wle.editor.doc/topics/configuring_web_service_integration_step.html
+  <a href="https://www.ibm.com/support/knowledgecenter/SSFPJS_8.6.0/com.ibm.wbpm.wle.editor.doc/topics/configuring_web_service_integration_step.html">https://www.ibm.com/support/knowledgecenter/SSFPJS_8.6.0/com.ibm.wbpm.wle.editor.doc/topics/configuring_web_service_integration_step.html</a></p>
+
 
 #### Inbound Processing
 
@@ -59,16 +58,16 @@ Add **?WSDL** to the end of web service URL. Paste the URL into a browser window
 
 #### Data Collection
 
-1.To trace the problems that are specific to External Service/Web Service/SOAP Connector/Web Service Integration in BPM, below trace string should be enabled on application server:
-1)Base trace:
-*=info:WLE.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all
-2)If you see IOException related to Webservice requests:
-*=info:WLE.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all:HTTPChannel=all:GenericBNF=all:TCPChannel=all
-3)If it’s performance related issue or it’s in a production environment, you can use this slighter trace setting:
-*=info:WLE.wle_outbnd_ws=all:com.ibm.bpm.ws.jaxws.*=all
+<p>1.To trace the problems that are specific to External Service/Web Service/SOAP Connector/Web Service Integration in BPM, below trace string should be enabled on application server:<br/>
+1)Base trace:<br/>
+*=info:WLE.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all<br/>
+2)If you see IOException related to Webservice requests:<br/>
+*=info:WLE.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all:HTTPChannel=all:GenericBNF=all:TCPChannel=all<br/>
+3)If it’s performance related issue or it’s in a production environment, you can use this slighter trace setting:<br/>
+*=info:WLE.wle_outbnd_ws=all:com.ibm.bpm.ws.jaxws.*=all</p>
 
-2.To trace the problems that are specific to Web Service Binding in BPM, below trace string should be enabled on application server:
-*=info:SCA.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all
+<p>2.To trace the problems that are specific to Web Service Binding in BPM, below trace string should be enabled on application server:<br/>
+*=info:SCA.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all</p>
 
 3.For Outbound web service issue, the following materials are required.
 1)The WSDL of the actual Web Service (including any included/imported .xsd files)
@@ -127,7 +126,6 @@ Sample:
 …
 
 [9/5/19 09:30:42:875 GMT] 00008cb0 wle_outbnd_ws 1   response = <?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"><soapenv:Body><ns5:iQueueUpdateDataResponse xmlns:ns5="http://hsbc.com/glt/bpm/services/webservice/iqueueupdatedata"><ns5:resultCode>SUCCESS</ns5:resultCode></ns5:iQueueUpdateDataResponse></soapenv:Body></soapenv:Envelope> 
-
 ```
 
 2.Key words:
@@ -139,11 +137,9 @@ Methods to set and get SOAP messages before and after the web service invocation
 
 Sample: 
 ```
-
 [9/5/19 14:02:53:645 GMT] 00000793 wle_outbnd_ws 1 com.ibm.bpm.ws.jaxws.connector.SOAPConnector setInputParameters setInputParameters(), parameterValues = [{http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}retrieveNewApp=false, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}countryCode=HAS, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}snapshotVersion=HASE.Cards.V.0.0.0.72, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}wsdlVersion=wsdl002, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}entityId=HAS, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}entityCode=HAS, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}processStepInfo=null, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}requesterInfo=TWObject[(Active: Y), (Type: 1), (TWClassID: TWClass.848854a5-b044-4fb7-86a2-ac10bad5a84b), (Property names: ID, name), (MetaData: dirty=true, shared=false, key=null, version=null, rootVersionContextID=2064.cebe74fe-ef69-4e12-8c8d-6147a5fb95ea, className=WebUserInfo)], {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}applicationId=201607846081, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}type=0]
 
 [9/5/19 14:02:54:292 GMT] 00000793 wle_outbnd_ws 1 com.ibm.bpm.ws.jaxws.connector.SOAPConnector getOutputParameters getOutputParameters(), outputParameterValues = {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}returnCode=SUCCESS, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}workItemId=2563, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}instanceId=41498, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}requesterInfo=TWObject[(Active: Y), (Type: 1), (TWClassID: TWClass.848854a5-b044-4fb7-86a2-ac10bad5a84b), (Property names: ID, name, groups), (MetaData: dirty=true, shared=false, key=null, version=null, rootVersionContextID=2064.cebe74fe-ef69-4e12-8c8d-6147a5fb95ea, className=WebUserInfo)], {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}applicationData=TWObject[(Active: Y), (Type: 1), (TWClassID: TWClass.ac644f76-4913-40df-adf8-4a535e7ddded), (Property names: applicationId, workItemId, currentStatus, smg3CallForSCL, requestedLoanAmount, recommendedLoanAmount, captureDateStr, annualInterestRate, aapsUpdated, mortgageUpdated, maxLTVProject, maxLTVCampaign, avaliableExposureProject, avaliableExposureCampaign, specialIndicator, documents, requiredDocuments, customers, scoringResults, verficationTasks, groupTotalApprovedWIP, totalUnapprovedWIPAppl, textAttrs, accountInfos, cardInfos, appCIFException, appHITException, appFraudException, appExceptionSummary, customerMiscellaneousReference, remarks, uuid, entityId), (MetaData: dirty=true, shared=false, key=null, version=null, rootVersionContextID=2064.cebe74fe-ef69-4e12-8c8d-6147a5fb95ea, className=WebApplicationData)]}
-
 ```
 
 3.Key word:
@@ -154,7 +150,6 @@ Indicates whether WS address can be found in cache or need to read from WSDL fil
 
 Sample:  
 ```
-
 [9/5/19 09:30:42:584 GMT] 00008cb0 WSAddress     >  WSAddress.getAddress() with targetURL https://test-bpmcl:443/silws1/ws1/iqAdapter.wsdl Entry 
 [9/5/19 09:30:42:584 GMT] 00008cb0 WSAddress     3   cacheKey = https://test-bpmcl:443/silws1/ws1/iqAdapter.wsdl 
 [9/5/19 09:30:42:584 GMT] 00008cb0 WSAddress     3   Using key https://test-bpmcl:443/silws1/ws1/iqAdapter.wsdl, found cached WSAddress https://test-bpmcl:443/silws1/ws1/iqAdapter.wsdl, -644025203 
@@ -170,7 +165,6 @@ Indicates the status of socket channel connection.
 
 Sample:  
 ```
-
 [9/5/19 09:30:18:754 GMT] 0000000d WorkQueueMana 1   SocketChannel connect failed, local: /128.161.56.13:60994 remote: null
 [9/5/19 09:30:18:754 GMT] 0000000d WorkQueueMana 3   SocketChannel.finishConnect Exception Caught: java.net.ConnectException: Connection refused
 [9/5/19 09:30:40:336 GMT] 00008c37 NBAcceptChann 1   SocketChannel accepted, local: /128.161.56.13:9081 remote: /128.161.56.13:59229
@@ -188,12 +182,10 @@ Indicates TCP communication read and wrote bytes.
 
 Sample:  
 ```
-
 [9/5/19 09:30:42:591 GMT] 00008cb0 TCPBaseReques 1   Wrote 90(90) bytes, 90 requested on local: gbl12070.systems.uk.hsbc/128.161.56.13:59456 remote: test-bpmcl/128.162.104.57:443 
 [9/5/19 09:30:42:591 GMT] 00008cb0 TCPBaseReques 3   write complete, at least minimum amount of data written 
 [9/5/19 09:30:42:593 GMT] 00008cb0 TCPBaseReques 1   Read 86(86) bytes, 1 requested on local: gbl12070.systems.uk.hsbc/128.161.56.13:59456 remote: test-bpmcl/128.162.104.57:443 
 [9/5/19 09:30:42:593 GMT] 00008cb0 TCPBaseReques 3   read complete, at least minimum amount of data read
-
 ```
 
 #### Reference

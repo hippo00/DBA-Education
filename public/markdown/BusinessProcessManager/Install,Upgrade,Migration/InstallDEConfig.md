@@ -1,4 +1,4 @@
-# <center> BPM/BAW Installation Fundamentals Education </center>
+# BPM/BAW Installation Fundamentals Education 
 &nbsp;
 BPM/BAW (Business Process Manager/Business Automation Workflow) Fundamentals Education is an overview of BPM/BAW products. This module teaches the basics of installing and troubleshooting BPM/BAW. This module serves as the basis for in-depth education modules on BPM/BAW Installation. 
 &nbsp;

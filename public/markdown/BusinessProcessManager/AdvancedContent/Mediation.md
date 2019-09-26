@@ -1,7 +1,4 @@
 
-Owner: Jin Shang
-Date: 2019-09-10
-
 ## Overview
 The mediation module is a new type of SCA component that can process or mediate service interactions. Inside a mediation module there can be one mediation flow component. Mediation flows contain the high-level mediation logic. Mediation flows consist of a sequence of processing steps for
    * **Routing** communications between services

@@ -8,15 +8,15 @@ Please send feedback to <a href="mailto:enricom@cn.ibm.com?subject=IBadges%20-%2
 * <a href="#day1">Test Environments for New IBMers on Day 1</a>
 * <a href="#virtualization">Virtualization Basics</a>
 * <a href="#workstation">Workstation Software</a>
-* <a href="#training">Test Environments for Training</a>
-* <a href="#cases">Test Environments for Cases</a>
+* <a href="#cases">Test Environments for Cases - Use Castle</a>
+* <a href="#training">Test Environments for Training (everything else)</a>
 
 ---
 
 <a name="day1"></a>
 ## Test Environments for New IBMers on Day 1
 
-Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so here are some quick ways to get started now. Find your product below, check the overview, and explore the test environment.
+Welcome to IBM! As a new IBMer, it may take time to setup your user accounts, so here are some quick ways to get started now. Find your product below, check the overview, and explore the test environment. Work with your team lead or onboarding buddy to assist with setup and access.
 
 <p style="margin-top:1em;">&nbsp;</p>
 
@@ -120,35 +120,79 @@ To access different remote servers and test environments, setup the necessary so
 
 ---
 
+<a name="cases"></a>
+## Test Environments for Cases
+
+Do not copy case information outside of the official case handling IBM systems, Salesforce for Support (Cognitive Support Platform) and Castle. These are special systems designed to comply with all security requirments.
+
+Castle secure enviroment for support cases: https://castle1.fyre.ibm.com/
+
+See the Castle website for onboarding and use details.
+
+---
+
 <a name="training"></a>
-## Test Environments for Training
+## Test Environments for Training - No Client Data Here!
 
 You can use the following resources to create test environments for learning or for case testing, but do not copy or import any client data into these enviornments. For handling cases with client information, use Salesforce and Castle systems.
 
-### Blue Demos
+### BAI on OpenShift (2019-09)
 
-* https://ibm.ent.box.com/v/DBADaL19-0GettingStarted
+https://github.ibm.com/klaus-ulrich/openshift
 
-* https://bluedemos.com/search
+<p style="margin-top:1em;">&nbsp;</p>
 
-### Fyre
 
-(2019-08-28)
+### Install a private Docker Registry with a Web admin interface (2019-09)
 
-The onboarding process did change as announced in the #fyre-announcemnents Slack channel:
-https://ibm-cloud.slack.com/archives/C0ZF8PWBY/p1566847241033700
- 
-Fyre onboarding: The process has now been streamlined.  The new process is:
+https://github.ibm.com/klaus-ulrich/registry
 
-Step 1)  The new user requests onboarding at https://fyre.ibm.com and is quickly (almost immediate) onboarded and sent a welcome email describing the next steps to take.
+<p style="margin-top:1em;">&nbsp;</p>
 
-Step 2)  They go to https://fyre.ibm.com again which lands them in their account settings where they set their default password and request access to a resource group.
 
-Step 3) The respective group owners receive an email asking them to approve or reject access to the requested group.All Fyre onboard requests made in 2H2019 up to August 23rd have been onboarded and need to proceed to step 2.Any requests older than 2h2019 have been archived and those users can simply reapply as per the steps above.
+### Local workstation with Docker (2019-09)
 
-### Ring Cloud
+https://github.ibm.com/klaus-ulrich/bpm
 
-*(Can we deploy Klaus' Docker solution on Ring Cloud fyre.ibm.com?)*
+<p style="margin-top:1em;">&nbsp;</p>
+
+
+### Fyre (2019-09)
+
+Fyre.ibm.com (currently at capacity, but you can submit your request for onboarding.)  
+https://fyre.ibm.com/
+
+Fyre Help  
+Fyre can be used by a developer to deploy individual VMs (we call them "Embers") or sets of VMs (which we call "Stacks"). Fyre can also deploy clusters of baremetal systems on various types of hardware.  
+https://fyre.ibm.com/help  
+
+Slack: #fyre-announcements
+
+
+<p style="margin-top:1em;">&nbsp;</p>
+
+
+### Ring Cloud + Minishift (2019-09)
+
+If you want a small Openshift test environment, then you can try Minishift. Although not efficient, it is possible to install Minishift on top of a virtual machine in the Ring Cloud, so you do not need to install any extra software on your laptop.
+
+<a href="https://docs.okd.io/latest/minishift/index.html" target="_blank">Minishift Home</a>
+
+Genral Instructions:
+
+1. Create a <a href="https://itaas.cn.ibm.com/" target="_blank">Ring Cloud</a> virtual machine.
+
+2. Submit a <a href="https://oneticket.rtp.raleigh.ibm.com/OneTicket/frontend/mainpage/index.html#!/login" target="_blank">OneTicket</a> request to enable VT/VX on the virtual machine. Requires virtual machine to be shutdown.
+
+3. <a href="https://docs.okd.io/latest/minishift/getting-started/setting-up-virtualization-environment.html#setting-up-virtualbox-driver" target="_blank">Install Virtual Box</a>.
+
+4. <a href="https://docs.okd.io/latest/minishift/getting-started/installing.html" target="_blank"></a>
+<a href="" target="_blank">Install Minishift</a>.
+
+<p style="margin-top:1em;">&nbsp;</p>
+
+
+### Ring Cloud (2019-09)
 
 For team members located in Beijing, you can use the Ring Cloud.
 
@@ -171,32 +215,22 @@ Step 5b) Alternate: https://w3-03.ibm.com/software/xl/download/ticket.wss, Examp
 
 <p style="margin-top:1em;">&nbsp;</p>
 
-### Local workstation with Docker
 
-If you are familiar with Docker, you can setup a local test environment. See the following gitHub repository for details.
+### Blue Demos (2019-09)
 
-https://github.ibm.com/klaus-ulrich/bpm
+* https://ibm.ent.box.com/v/DBADaL19-0GettingStarted
 
+* https://bluedemos.com/search
 
 <p style="margin-top:1em;">&nbsp;</p>
 
-### IBM Cloud (CIO internal)
+### IBM Cloud (CIO internal) (2019-09)
 https://console.w3ibm.bluemix.net/
 
 
 <p style="margin-top:1em;">&nbsp;</p>
 
-### IBM Cloud (Public)
+### IBM Cloud (Public) (2019-09)
 https://console.ng.bluemix.net/
 
 ---
-
-<a name="cases"></a>
-## Test Environments for Cases
-
-Do not copy case information outside of the official case handling IBM systems, Salesforce for Support (Cognitive Support Platform) and Castle. These are special systems designed to comply with all security requirments.
-
-Castle secure enviroment for support cases: https://castle1.fyre.ibm.com/
-
-See the Castle website for onboarding and use details.
-

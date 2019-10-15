@@ -73,6 +73,11 @@ BAW supports different databases and versions, including DB2, Oracle and Microso
 
 ### WebSphere
 
+Overview:
+[TO DO: Add WAS disagram with Cell, DMGR, Nodes, Single/Multi Cluster]
+
+Deployment Environment
+
 WebSphere Graphical User Interface (GUI)  
 [To Do: add how to determine WAS console URL, how to use WAS console.]
 

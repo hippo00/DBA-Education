@@ -126,10 +126,10 @@
           "topics": [],
           "children": [
             {
-              "route": "/InstallDEConfiguration",
-              "name": "Install/DE Configuration",
-              "description": "steffen.baumann@de.ibm.com",
-              "owner":"@Steffen Baumann",
+              "route": "/Installation",
+              "name": "Installation",
+              "description": "FHERDADE@de.ibm.com",
+              "owner":"@Fabiola Herdade",
               "topics": [],
               "icon": "wrench",
               "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/InstallDEConfig.md"
@@ -137,8 +137,8 @@
             {
               "route": "/Upgrade",
               "name": "Upgrade",
-              "description": "enricom@cn.ibm.com",
-              "owner":"@Enrico Monteleone",
+              "description": "bjzysun@cn.ibm.com",
+              "owner":"@Zhen Ye Sun",
               "topics": [],
               "icon": "cogs",
               "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/Upgrade.md"
@@ -146,7 +146,8 @@
             {
               "route": "/Migration",
               "name": "Migration",
-              "description": "",
+              "description": "bjzysun@cn.ibm.com",
+              "owner":"@Zhen Ye Sun",
               "topics": [],
               "icon": "dolly-flatbed",
               "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/Migration.md"
@@ -161,8 +162,8 @@
               "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/DisasterRecovery.md"
             },
             {
-              "route": "/Configuration",
-              "name": "Configuration",
+              "route": "/Configuration/DE Configuration",
+              "name": "Configuration/DE Configuration",
               "description": "enricom@cn.ibm.com",
               "owner":"@Enrico Monteleone",
               "topics": [],
@@ -182,7 +183,8 @@
             {
               "route": "/EARDeployment",
               "name": "EAR Deployment",
-              "description": "",
+              "description": "shyuan@cn.ibm.com",
+              "owner":"@Yuan Shang",
               "icon": "flag",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/ApplicationManagement/EARDeployment.md"
@@ -190,19 +192,19 @@
             {
               "route": "/SnapshotManagement",
               "name": "Snapshot Management",
-              "description": "",
+              "description": "shyuan@cn.ibm.com",
+              "owner":"@Yuan Shang",
               "icon": "folder-open",
               "topics": [],
-              "owner": "",
               "markdown": "/markdown/BusinessProcessManager/ApplicationManagement/SnapshotManagement.md"
             },
             {
               "route": "/InstanceMigration",
               "name": "Instance Migration",
-              "description": "",
+              "description": "shyuan@cn.ibm.com",
+              "owner":"@Yuan Shang",
               "icon": "dolly-flatbed",
               "topics": [],
-              "owner": "",
               "markdown": "/markdown/BusinessProcessManager/ApplicationManagement/InstanceMigration.md"
             }
     
@@ -220,7 +222,8 @@
             {
               "route": "/IBMIntegrationDesigner",
               "name": "IBM Integration Designer",
-              "description": "",
+              "description": "Andreas.Jaensch@de.ibm.com",
+              "owner":"@Andreas Jaensch",
               "icon": "ruler-combined",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/BPMDevToolsandRepository/IBMIntegrationDesigner.md"
@@ -228,7 +231,8 @@
             {
               "route": "/DesktopProcessDesigner",
               "name": "Desktop Process Designer/Web PD",
-              "description": "",
+              "description": "michaela.trautwein@de.ibm.com",
+              "owner":"@Michaela Trautwein-Ostner",
               "icon": "tape",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/BPMDevToolsandRepository/DesktopProcessDesigner.md"
@@ -236,23 +240,18 @@
             {
               "route": "/Inspector",
               "name": "Inspector",
-              "description": "",
+              "description": "fangyyan@cn.ibm.com",
+              "owner":"@Yan Fang",
               "icon": "list-alt",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/BPMDevToolsandRepository/Inspector.md"
             },
-            {
-              "route": "/Repository",
-              "name": "Repository",
-              "description": "",
-              "icon": "warehouse",
-              "topics": [],
-              "markdown": "/markdown/BusinessProcessManager/BPMDevToolsandRepository/Repository.md"
-            },
+            
             {
               "route": "/ServerConnection",
               "name": "Server Connection",
-              "description": "",
+              "description": "qingzou@cn.ibm.com",
+              "owner":"@Qing Zou",
               "icon": "map-marker-alt",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/BPMDevToolsandRepository/ServerConnection.md"
@@ -269,17 +268,10 @@
           "topics": [],
           "children": [
             {
-              "route": "/CacheTuning",
-              "name": "Cache Tuning",
-              "description": "",
-              "icon": "history",
-              "topics": [],
-              "markdown": "/markdown/BusinessProcessManager/GeneralPerformance/CacheTuning.md" 
-            },
-            {
               "route": "/HighCPU",
               "name": "High CPU",
-              "description": "",
+              "description": "jennthom@us.ibm.com",
+              "owner":"@Jennifer Thompson",
               "icon": "microchip",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/GeneralPerformance/HighCPU.md"
@@ -287,7 +279,8 @@
             {
               "route": "/OutofMemory",
               "name": "Out of Memory/High Memory",
-              "description": "",
+              "description": "jennthom@us.ibm.com",
+              "owner":"@Jennifer Thompson",
               "icon": "ellipsis-h",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/GeneralPerformance/OutofMemory.md"
@@ -295,7 +288,8 @@
             {
               "route": "/TimeoutsHangs",
               "name": "Timeouts/Hangs",
-              "description": "",
+              "description": "jennthom@us.ibm.com",
+              "owner":"@Jennifer Thompson",
               "icon": "hand-paper",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/GeneralPerformance/TimeoutsHangs.md"
@@ -303,7 +297,8 @@
             {
               "route": "/Database",
               "name": "Database",
-              "description": "",
+              "description": "michaela.trautwein@de.ibm.com",
+              "owner":"@Michaela Trautwein-Ostner",
               "icon": "sitemap",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/GeneralPerformance/Database.md"
@@ -311,7 +306,8 @@
             {
               "route": "/Housekeeping",
               "name": "Housekeeping",
-              "description": "",
+              "description": "qingzou@cn.ibm.com",
+              "owner":"@Qing Zou",
               "icon": "tape",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/GeneralPerformance/Housekeeping.md"
@@ -329,7 +325,8 @@
             {
               "route": "/ProcessPortal",
               "name": "Process Portal",
-              "description": "",
+              "description": "smmerris@us.ibm.com",
+              "owner":"@Seth Merriss",
               "icon": "bookmark",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/BusinessUserExperience/ProcessPortal.md"
@@ -337,18 +334,18 @@
             {
               "route": "/Coaches",
               "name": "Coaches",
-              "description": "",
+              "description": "ellia@ca.ibm.com",
+              "owner": "Elli Afshar",
               "icon": "terminal",
-              "owner": "",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/BusinessUserExperience/Coaches.md"
             },
             {
               "route": "/HumanServices",
               "name": "Human Services",
-              "description": "",
+              "description": "ellia@ca.ibm.com",
+              "owner": "Elli Afshar",
               "icon": "podcast",
-              "owner": "",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/BusinessUserExperience/HumanServices.md"
             },
@@ -356,27 +353,27 @@
             {
               "route": "/ToolkitControls",
               "name": "Toolkit Controls",
-              "description": "",
+              "description": "ellia@ca.ibm.com",
+              "owner": "Elli Afshar",
               "icon": "toolbox",
-              "owner": "",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/BusinessUserExperience/ToolkitControls.md"
             },
             {
               "route": "/BusinessSpace",
               "name": "Business Space",
-              "description": "",
+              "description": "fangyyan@cn.ibm.com",
+              "owner":"@Yan Fang",
               "icon": "user",
-              "owner": "",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/BusinessUserExperience/BusinessSpace.md"
             },
             {
               "route": "/ProcessFederatedServer",
               "name": "Process Federated Server",
-              "description": "",
+              "description": "smmerris@us.ibm.com",
+              "owner":"@Seth Merriss",
               "icon": "print",
-              "owner": "",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/BusinessUserExperience/PFS.md"
             } 
@@ -392,7 +389,8 @@
             {
               "route": "/BusinessAutomationInsights",
               "name": "Business Automation Insights",
-              "description": "",
+              "description": "mluczkowiak@us.ibm.com",
+              "owner":"@Matt Luczkowiak",
               "icon": "archive",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/Monitoring/BusinessAutomationInsights.md"
@@ -400,7 +398,8 @@
             {
               "route": "/BusinessMonitor",
               "name": "Business Monitor",
-              "description": "",
+              "description": "klaus.ulrich@de.ibm.com",
+              "owner":"@Klaus Ulrich",
               "icon": "desktop",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/Monitoring/BusinessMonitor.md"
@@ -409,7 +408,8 @@
             {
               "route": "/PerformanceDataWarehouse",
               "name": "Performance Data Warehouse",
-              "description": "",
+              "description": "klaus.ulrich@de.ibm.com",
+              "owner":"@Klaus Ulrich",
               "icon": "database",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/Monitoring/PerformanceDataWarehouse.md"
@@ -426,7 +426,8 @@
             {
               "route": "/SecurityScans",
               "name": "Security Scans",
-              "description": "",
+              "description": "qingzou@cn.ibm.com",
+              "owner":"@Qing Zou",
               "icon": "hourglass-start",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/Security/SecurityScans.md"
@@ -434,7 +435,8 @@
             {
               "route": "/SSL",
               "name": "SSL",
-              "description": "",
+              "description": "shangjin@cn.ibm.com",
+              "owner":"@Jin Shang",
               "icon": "shield-alt",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/Security/SSL.md"
@@ -442,7 +444,8 @@
             {
               "route": "/SSO",
               "name": "SSO",
-              "description": "",
+              "description": "shangjin@cn.ibm.com",
+              "owner":"@Jin Shang",
               "icon": "sign-in-alt",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/Security/SSO.md"
@@ -450,9 +453,9 @@
             {
               "route": "/User&GroupSecurity",
               "name": "User and Group Security",
-              "description": "",
+              "description": "bkonopik@us.ibm.com",
               "icon": "users",
-              "owner": "",
+              "owner": "@Brad Konopik",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/Security/User&GroupSecurity.md"
             }
@@ -468,7 +471,8 @@
             {
               "route": "/AIS",
               "name": "Advanced Integration Service",
-              "description": "",
+              "description": "shangjin@cn.ibm.com;lifengbj@cn.ibm.com",
+              "owner":"@Jin Shang,@Feng Li",
               "icon": "file-archive",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/AIS.md"
@@ -476,7 +480,8 @@
             {
               "route": "/BPC",
               "name": "Business Process Choreographer",
-              "description": "",
+              "description": "ILGUEN@de.ibm.com;siro@it.ibm.com",
+              "owner":"@Serhad Ilgün,@Dino Sironi",
               "icon": "square",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/BPC.md"
@@ -484,7 +489,8 @@
             {
               "route": "/BO",
               "name": "Business Object",
-              "description": "",
+              "description": "shangjin@cn.ibm.com;lifengbj@cn.ibm.com",
+              "owner":"@Jin Shang,@Feng Li",
               "icon": "box",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/BO.md"
@@ -492,16 +498,17 @@
             {
               "route": "/Bindings",
               "name": "Bindings",
-              "description": "",
+              "description": "shangjin@cn.ibm.com;lifengbj@cn.ibm.com",
+              "owner":"@Jin Shang,@Feng Li",
               "icon": "industry",
-              "owner": "",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/Bindings.md"
             },
             {
               "route": "/SCA",
               "name": "Service Component Architecture",
-              "description": "",
+              "description": "shangjin@cn.ibm.com;lifengbj@cn.ibm.com",
+              "owner":"@Jin Shang,@Feng Li",
               "icon": "stream",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/SCA.md"
@@ -509,7 +516,8 @@
             {
               "route": "/SIB",
               "name": "Service Integration Bus",
-              "description": "",
+              "description": "shangjin@cn.ibm.com;lifengbj@cn.ibm.com",
+              "owner":"@Jin Shang,@Feng Li",
               "icon": "star",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/SIB.md"
@@ -517,7 +525,8 @@
             {
               "route": "/FailedEvent",
               "name": "Failed Event",
-              "description": "",
+              "description": "shangjin@cn.ibm.com;lifengbj@cn.ibm.com",
+              "owner":"@Jin Shang,@Feng Li",
               "icon": "calendar-times",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/FailedEvent.md"
@@ -525,7 +534,8 @@
             {
               "route": "/Adapters",
               "name": "Adapters",
-              "description": "",
+              "description": "lifengbj@cn.ibm.com",
+              "owner":"@Feng Li",
               "icon": "sliders-h",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/Adapters.md"
@@ -551,7 +561,8 @@
             {
               "route": "/BPD",
               "name": "BPD & Service Engine",
-              "description": "",
+              "description": "nldillard@us.ibm.com",
+              "owner":"@Nathan Dillard",
               "icon": "file-alt",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/StandardRuntime/BPD.md"
@@ -559,7 +570,8 @@
             {
               "route": "/EventManager",
               "name": "Event Manager",
-              "description": "",
+              "description": "nldillard@us.ibm.com",
+              "owner":"@Nathan Dillard",
               "icon": "calendar-minus",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/StandardRuntime/EventManager.md"
@@ -567,7 +579,8 @@
             {
               "route": "/JSAPI,RESTAPI",
               "name": "JavaScript & REST API",
-              "description": "",
+              "description": "nldillard@us.ibm.com",
+              "owner":"@Nathan Dillard",
               "icon": "retweet",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/StandardRuntime/JSAPI,RESTAPI.md"
@@ -584,7 +597,8 @@
             {
               "route": "/UCA",
               "name": "Undercover Agent (UCA)",
-              "description": "",
+              "description": "lifengbj@cn.ibm.com",
+              "owner":"@Feng Li",
               "icon": "star",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/StandardRuntime/UCA.md"
@@ -592,7 +606,8 @@
             {
               "route": "/ProcessAdminConsole",
               "name": "Process Admin Console",
-              "description": "",
+              "description": "shangjin@cn.ibm.com",
+              "owner":"@Jin Shang",
               "icon": "user",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/StandardRuntime/ProcessAdminConsole.md"
@@ -600,21 +615,14 @@
             {
               "route": "/DocumentStore&ECMIntegration",
               "name": "Document Store & ECM Integration",
-              "description": "",
+              "description": "shangjin@cn.ibm.com",
+              "owner":"@Jin Shang",
               "icon": "sitemap",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/StandardRuntime/DocumentStore&ECMIntegration.md"
             }
 
           ]
-        },
-        {
-          "route": "/BPMonCloud",
-          "name": "BPM on Cloud",
-          "description": "",
-          "icon": "cloud",
-          "topics": [],
-          "markdown": "/markdown/BusinessProcessManager/BPMonCloud.md"
         }
       ]
     },
@@ -634,7 +642,7 @@
           "children": [
             {
               "route": "/Learningroadmap",
-              "name": "Learning roadmap",
+              "name": "Learning Roadmap",
               "description": "renyren@cn.ibm.com",
               "owner":"@Ren Yan",
               "icon": "chalkboard-teacher",
@@ -644,8 +652,8 @@
             {
               "route": "/SkillsTransfer",
               "name": "Skills Transfer",
-              "description": "renyren@cn.ibm.com",
-              "owner":"@Ren Yan",
+              "description": "",
+              "owner":"",
               "icon": "exchange-alt",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/GeneralODM/SkillsTransfer.md"
@@ -653,8 +661,8 @@
             {
               "route": "/Knowledgebuckets",
               "name": "Knowledge Buckets",
-              "description": "renyren@cn.ibm.com",
-              "owner":"@Ren Yan",
+              "description": "",
+              "owner":"",
               "icon": "graduation-cap",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/GeneralODM/Knowledgebuckets.md"
@@ -663,51 +671,7 @@
            
           ]
         },
-        {
-          "route": "/Accessing And Using Customer Data",
-          "name": "Accessing And Using Customer Data",
-          "description": "",
-          "icon": "warehouse",
-          "topics": [],
-          "children": [
-            {
-              "route": "/Ecurep/Citrix",
-              "name": "Ecurep/Citrix",
-              "description": "ELEBRAS@jp.ibm.com",
-              "owner":"@Erwan Le Bras",
-              "icon": "chalkboard-teacher",
-              "topics": [],
-              "markdown": "/markdown/OperationalDecisionManager/AccessingAndUsingCustomerData/EcurepCitrix.md"
-            },
-            {
-              "route": "/Castle",
-              "name": "Castle",
-              "description": "ELEBRAS@jp.ibm.com",
-              "owner":"@Erwan Le Bras",
-              "icon": "sitemap",
-              "topics": [],
-              "markdown": "/markdown/OperationalDecisionManager/AccessingAndUsingCustomerData/Castle.md"
-            },
-            {
-              "route": "/Blue diamond",
-              "name": "Blue Diamond",
-              "description": "ELEBRAS@jp.ibm.com",
-              "owner":"@Erwan Le Bras",
-              "icon": "gem",
-              "topics": [],
-              "markdown": "/markdown/OperationalDecisionManager/AccessingAndUsingCustomerData/Bluediamond.md"
-            },
-            {
-              "route": "/Importing Database Dump",
-              "name": "Importing Database Dump",
-              "description": "ELEBRAS@jp.ibm.com",
-              "owner":"@Erwan Le Bras",
-              "icon": "clone",
-              "topics": [],
-              "markdown": "/markdown/OperationalDecisionManager/AccessingAndUsingCustomerData/Importingdatabasedump.md"
-            }
-          ]
-        },
+        
         {
           "route": "/Install,Upgrade,Migration",
           "name": "Install, Upgrade, Migration",
@@ -782,15 +746,17 @@
             {
               "route": "/Hungthread&highCPU",
               "name": "Hung thread & high CPU",
-              "description": "",
+              "description": "wyouli@cn.ibm.com",
+              "owner":"@May Wang",
               "icon": "microchip",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/Performance/Hungthread&highCPU.md"
             },
             {
               "route": "/OOM",
-              "name": "OOM",
-              "description": "",
+              "name": "Out of Memory",
+              "description": "wyouli@cn.ibm.com",
+              "owner":"@May Wang",
               "icon": "ellipsis-h",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/Performance/OOM.md"
@@ -830,9 +796,19 @@
           "topics": [],
           "children": [
             {
+              "route": "/Database",
+              "name": "Database",
+              "description": "ELEBRAS@jp.ibm.com",
+              "owner":"@Erwan Le Bras",
+              "icon": "sitemap",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/DecisionCenter/Database.md"
+            },
+            {
               "route": "/Managing Decision Service",
               "name": "Managing Decision Service",
-              "description": "",
+              "description": "wyouli@cn.ibm.com",
+              "owner":"@May Wang",
               "icon": "calendar-minus",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionCenter/ManagingDecisionService.md"
@@ -886,7 +862,8 @@
             {
               "route": "/RuleDesigner",
               "name": "Rule Designer",
-              "description": "",
+              "description": "ELEBRAS@jp.ibm.com",
+              "owner":"@Erwan Le Bras",
               "icon": "user-tag",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionServerRules/RuleDesigner.md"
@@ -894,15 +871,17 @@
             {
               "route": "/RESConsole",
               "name": "RES Console",
-              "description": "",
+              "description": "ELEBRAS@jp.ibm.com",
+              "owner":"@Erwan Le Bras",
               "icon": "terminal",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionServerRules/RESConsole.md"
             },
             {
               "route": "/RESruntime",
-              "name": "RES runtime",
-              "description": "",
+              "name": "RES Runtime",
+              "description": "ELEBRAS@jp.ibm.com",
+              "owner":"@Erwan Le Bras",
               "icon": "redo",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionServerRules/RESruntime.md"
@@ -919,8 +898,8 @@
             {
               "route": "/REST API",
               "name": "REST API",
-              "description": "renyren@cn.ibm.com",
-              "owner":"@Ren Yan",
+              "description": "",
+              "owner":"",
               "icon": "check-circle",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionServerRules/RESTAPI.md"
@@ -933,26 +912,12 @@
               "route": "/DecisionServerInsights",
               "name": "Decision Server Insights",
               "description": "",
+              "owner":"",
               "icon": "server",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionServerInsights.md"
-        },
-        {
-          "route": "/ODM on ICP",
-          "name": "ODM On ICP",
-          "description": "",
-          "icon": "anchor",
-          "topics": [],
-          "markdown": "/markdown/OperationalDecisionManager/ODMonicp.md"
-        },
-        {
-          "route": "/ODM On Cloud",
-          "name": "ODM On Cloud",
-          "description": "",
-          "icon": "cloud",
-          "topics": [],
-          "markdown": "/markdown/OperationalDecisionManager/ODMOnCloud.md"
         }
+        
       ]
     },
     
@@ -973,7 +938,8 @@
              {
               "route": "/Customproperties",
               "name": "Custom properties",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "edit",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/Customproperties.md"
@@ -981,7 +947,8 @@
             {
               "route": "/Customizeaccount",
               "name": "Customize account",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "lock-open",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/Customizeaccount.md"
@@ -989,7 +956,8 @@
             {
               "route": "/Manageusers",
               "name": "Manage users",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "user-circle",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/Manageusers.md"
@@ -997,7 +965,8 @@
             {
               "route": "/ManageBilling",
               "name": "Manage Billing",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "bullseye",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/ManageBilling.md"
@@ -1005,7 +974,8 @@
             {
               "route": "/ManageDiskspace",
               "name": "Manage Disk space",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "save",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/ManageDiskspace.md"
@@ -1013,7 +983,8 @@
             {
               "route": "/Security",
               "name": "Security",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "shield-alt",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/Security.md"
@@ -1021,7 +992,8 @@
             {
               "route": "/SinglesignonSSO",
               "name": "Single sign on(SSO)",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "sign-in-alt",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/AdminConsole/Singlesignon(SSO).md"
@@ -1039,7 +1011,8 @@
             {
               "route": "/API",
               "name": "API",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "topics": [],
               "icon": "retweet",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/API.md"
@@ -1047,7 +1020,8 @@
             {
               "route": "/Attachfiles",
               "name": "Attach files",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "topics": [],
               "icon": "file",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Attachfiles.md"
@@ -1055,7 +1029,8 @@
             {
               "route": "/CollaborationandSharing",
               "name": "Collaboration and Sharing",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "topics": [],
               "icon": "share-square",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/CollaborationandSharing.md"
@@ -1063,7 +1038,8 @@
             {
               "route": "/Glossary",
               "name": "Glossary",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "topics": [],
               "icon": "th",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Glossary.md"
@@ -1087,7 +1063,8 @@
             {
               "route": "/Processdiagram",
               "name": "Process diagram",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "topics": [],
               "icon": "chart-pie",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Processdiagram.md"
@@ -1095,7 +1072,8 @@
             {
               "route": "/SearchandFilterTools",
               "name": "Search and Filter Tools",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "topics": [],
               "icon": "search",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/SearchandFilterTools.md"
@@ -1103,7 +1081,8 @@
             {
               "route": "/Space",
               "name": "Space",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "topics": [],
               "icon": "newspaper",
               "markdown": "/markdown/BlueworksLive/BlueworksLiveService/Space.md"
@@ -1121,7 +1100,8 @@
             {
               "route": "/PersonalizeAccount",
               "name": "Personalize Account",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "user-circle",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/Account/PersonalizeAccount.md"
@@ -1129,7 +1109,8 @@
             {
               "route": "/UserSettings",
               "name": "User Settings",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "user-cog",
               "topics": [],
               "owner": "",
@@ -1138,17 +1119,6 @@
     
           ]
         },
-
-
-        {
-          "route": "/BusinessProcessManagement",
-          "name": "Business Process Management(BPM)",
-          "description": "",
-          "icon": "bold",
-          "topics": [],
-          "markdown": "/markdown/BlueworksLive/BusinessProcessManagement.md"
-        },
-
         {
           "route": "/Operations",
           "name": "Operations",
@@ -1159,7 +1129,8 @@
             {
               "route": "/SSAErequest",
               "name": "SSAE request",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "chevron-right",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/Operations/SSAErequest.md"
@@ -1168,7 +1139,8 @@
             {
               "route": "/VulnerabilityRequest",
               "name": "Vulnerability Request",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "chevron-left",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/Operations/VulnerabilityRequest.md"
@@ -1188,7 +1160,8 @@
             {
               "route": "/Account",
               "name": "Account",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "user-circle",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/SalesandBilling/Account.md"
@@ -1196,9 +1169,9 @@
             {
               "route": "/Billing",
               "name": "Billing",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "bullseye",
-              "owner": "",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/SalesandBilling/Billing.md"
             }
@@ -1215,10 +1188,20 @@
             {
               "route": "/RequestAccesstoCommunity",
               "name": "Request Access to Community",
-              "description": "",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
               "icon": "comments",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/Support/RequestAccesstoCommunity.md"
+            },
+            {
+              "route": "/Clients with Special Support",
+              "name": "Clients with Special Support",
+              "description": "sthilini@au1.ibm.com",
+              "owner":"@Thilini Silva",
+              "icon": "chalkboard-teacher",
+              "topics": [],
+              "markdown": "/markdown/BlueworksLive/Support/ClientswithSpecialSupport.md"
             }
             
           ]
@@ -1256,8 +1239,8 @@
         {
           "route": "/Auto-Login",
           "name": "Auto-Login",
-          "description": "bjdickey@us.ibm.com",
-          "owner":"@Brandon Dickey",
+          "description": "kamelio@us.ibm.com",
+          "owner":"@Ken Amelio",
           "icon": "sign-in-alt",
           "topics": [],
           "markdown": "/markdown/RoboticProcessAutomation/Auto-Login.md"
@@ -1283,8 +1266,8 @@
         {
           "route": "/ControlRoom",
           "name": "Control Room",
-          "description": "rusna@my.ibm.com",
-          "owner":"@Rusna Mustaffa",
+          "description": "rHenning.Burgmann@de.ibm.com",
+          "owner":"@Henning Burgmann",
           "icon": "door-closed",
           "topics": [],
           "markdown": "/markdown/RoboticProcessAutomation/ControlRoom.md"
@@ -1310,7 +1293,8 @@
         {
           "route": "/Metabot",
           "name": "Metabot",
-          "description": "",
+           "description": "rusna@my.ibm.com",
+          "owner":"@Rusna Mustaffa",
           "icon": "diagnoses",
           "topics": [],
           "markdown": "/markdown/RoboticProcessAutomation/Metabot.md"
@@ -1318,7 +1302,8 @@
         {
           "route": "/VersionControl",
           "name": "Version Control",
-          "description": "",
+          "description": "rHenning.Burgmann@de.ibm.com",
+          "owner":"@Henning Burgmann",
           "icon": "universal-access",
           "topics": [],
           "markdown": "/markdown/RoboticProcessAutomation/VersionControl.md"

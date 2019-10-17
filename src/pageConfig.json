@@ -162,13 +162,22 @@
               "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/DisasterRecovery.md"
             },
             {
-              "route": "/Configuration/DE Configuration",
-              "name": "Configuration/DE Configuration",
+              "route": "/DE Configuration",
+              "name": "DE Configuration",
               "description": "enricom@cn.ibm.com",
               "owner":"@Enrico Monteleone",
               "topics": [],
               "icon": "sitemap",
               "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/Configuration.md"
+            },
+            {
+              "route": "/Endpoint Configuration",
+              "name": "Endpoint Configuration",
+              "description": "shyuan@cn.ibm.com",
+              "owner":"@Yuan Shang",
+              "topics": [],
+              "icon": "list-alt",
+              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/EndpointConfiguration.md"
             }
            
           ]
@@ -236,15 +245,6 @@
               "icon": "tape",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/BPMDevToolsandRepository/DesktopProcessDesigner.md"
-            },
-            {
-              "route": "/Inspector",
-              "name": "Inspector",
-              "description": "fangyyan@cn.ibm.com",
-              "owner":"@Yan Fang",
-              "icon": "list-alt",
-              "topics": [],
-              "markdown": "/markdown/BusinessProcessManager/BPMDevToolsandRepository/Inspector.md"
             },
             
             {

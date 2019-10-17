@@ -49,14 +49,42 @@ Configuration of BAW/BPM requires a basic understanding of the product and relat
 ## Components
 
 ### Operating System
+* CPU and memory
+* Disk and storage
+* Networking and time synchronization
+* User, gorup, and role management
+* Firewall and security
 
 ### Database
+* Structured Query Language (SQL)
+* Data Definition and Manipulation statements (DDL and DML)
+* Database storage
+* Database indexes
+* Networking
+* User, gorup, and role management
 
 ### WebSphere
+* Cells, nodes, clusters, applications
+* Profiles
+* Deployment environments
+* User, groups, and roles
+* Security and SSL certificates
 
 ### Process Center
+* Installation Manager
+* Installation
+* User, groups, and roles
+* Security and SSL certificates
+* Process Application snapshots
+* Logging
 
 ### Process Server
+* Installation Manager
+* Installation
+* User, groups, and roles
+* Security and SSL certificates
+* Process Application snapshots
+* Logging
 
 ---
 
@@ -65,21 +93,36 @@ Configuration of BAW/BPM requires a basic understanding of the product and relat
 
 ### Operating Systems
 
+[TO-DO: Add RHEL and Windows dba-scripts for common OS configuration tasks.]
+
 BAW supports different operating systems and verisons, so specific operating system configuration is beyond the scope of this document, but you should be familiar with basic operating system configuration concepts and tasks, including networking, security, and file system management.
 
 ### Databases
+
+[TO-DO: Add RHEL and Windows dba-scripts for common DB2 configuration tasks.]
 
 BAW supports different databases and versions, including DB2, Oracle and Microsoft SQL Server databases, so specific database configuration is beyond the scope of this document, but you should be familiar with basic database configuration concepts and tasks, including SQL, security, and database drivers.
 
 ### WebSphere
 
-Overview:
-[TO DO: Add WAS disagram with Cell, DMGR, Nodes, Single/Multi Cluster]
+#### Overview:  
 
-Deployment Environment
+![WAS Diagram](https://media.github.ibm.com/user/17148/files/59042700-f013-11e9-9561-f26a6572dcd1)
 
-WebSphere Graphical User Interface (GUI)  
-[To Do: add how to determine WAS console URL, how to use WAS console.]
+#### WebSphere Graphical User Interface (GUI)  
+
+WebSphere 8.5.5 - Using the administrative console  
+https://www.ibm.com/support/knowledgecenter/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/tcon_console.html
+
+#### WebSphere Command Line
+
+[TO-DO: Add RHEL and Windows dba-scripts scripts for common wsadmin tasks.]
+
+WebSphere 8.5.5 - Command-line utilities  
+https://www.ibm.com/support/knowledgecenter/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/welc_ref_adm_cmd.html
+
+WebSphere 8.5.5 - wsadmin scripting tool  
+https://www.ibm.com/support/knowledgecenter/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/rxml_commandline.html
 
 manageprofiles (BAW 19.0.0.2)  
 https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.ref.doc/topics/rins_manageprofiles.html

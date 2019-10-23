@@ -478,15 +478,7 @@
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/BPC.md"
             },
-            {
-              "route": "/BO",
-              "name": "Business Object",
-              "description": "shangjin@cn.ibm.com;lifengbj@cn.ibm.com",
-              "owner":"@Jin Shang,@Feng Li",
-              "icon": "box",
-              "topics": [],
-              "markdown": "/markdown/BusinessProcessManager/AdvancedContent/BO.md"
-            },
+            
             {
               "route": "/Bindings",
               "name": "Bindings",

@@ -496,15 +496,7 @@
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/Bindings.md"
             },
-            {
-              "route": "/SCA",
-              "name": "Service Component Architecture",
-              "description": "shangjin@cn.ibm.com;lifengbj@cn.ibm.com",
-              "owner":"@Jin Shang,@Feng Li",
-              "icon": "stream",
-              "topics": [],
-              "markdown": "/markdown/BusinessProcessManager/AdvancedContent/SCA.md"
-            },
+            
             {
               "route": "/SIB",
               "name": "Service Integration Bus",

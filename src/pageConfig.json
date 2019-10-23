@@ -177,7 +177,7 @@
               "owner":"@Yuan Shang",
               "topics": [],
               "icon": "list-alt",
-              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/EndpointConfiguration.md"
+              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/perfor.md"
             }
            
           ]
@@ -285,15 +285,7 @@
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/GeneralPerformance/OutofMemory.md"
             },
-            {
-              "route": "/TimeoutsHangs",
-              "name": "Timeouts/Hangs",
-              "description": "jennthom@us.ibm.com",
-              "owner":"@Jennifer Thompson",
-              "icon": "hand-paper",
-              "topics": [],
-              "markdown": "/markdown/BusinessProcessManager/GeneralPerformance/TimeoutsHangs.md"
-            },
+            
             {
               "route": "/Database",
               "name": "Database",

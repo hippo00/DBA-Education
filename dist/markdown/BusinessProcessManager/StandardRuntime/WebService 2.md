@@ -1,8 +1,7 @@
-Date:2019-10-15
 
 ## Overview
 
-Integration services enable outbound integration with web services so that processes can retrieve and update data that is stored on an external system. Web service component provides a way for an external system or application to call into BPM. You can use a web service binding in a SCA module to invoke existing web services and expose functionality within the module as a web service. This topic will talk about these web service related components in BPM.
+Integration services enable outbound integration with web services so that processes can retrieve and update data that is stored on an external system. Web service component provides a way for an external system or application to call into BPM. You can use a web service binding in a SCA module to invoke existing web services and expose functionality within the module as a web service. This topic will talk about these Web Services related components in BPM.
 
 ## Prerequisites
 
@@ -60,59 +59,47 @@ Add **?WSDL** to the end of web service URL. Paste the URL into a browser window
 #### Data Collection
 
 <p>1.To trace the problems that are specific to External Service/Web Service/SOAP Connector/Web Service Integration in BPM, below trace string should be enabled on application server:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.Base trace:
+1)Base trace:<br/>
+*=info:WLE.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all<br/>
+2)If you see IOException related to Webservice requests:<br/>
+*=info:WLE.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all:HTTPChannel=all:GenericBNF=all:TCPChannel=all<br/>
+3)If it’s performance related issue or it’s in a production environment, you can use this slighter trace setting:<br/>
+*=info:WLE.wle_outbnd_ws=all:com.ibm.bpm.ws.jaxws.*=all</p>
 
-```
-*=info:WLE.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all
-```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. If you see IOException related to Webservice requests:<br/>
+<p>2.To trace the problems that are specific to Web Service Binding in BPM, below trace string should be enabled on application server:<br/>
+*=info:SCA.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all</p>
 
-```
-*=info:WLE.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all:HTTPChannel=all:GenericBNF=all:TCPChannel=all
-```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. If it’s performance related issue or it’s in a production environment, you can use this slighter trace setting:<br/>
-
-```
-*=info:WLE.wle_outbnd_ws=all:com.ibm.bpm.ws.jaxws.*=all
-```
-</p>
-
-<p>2.To trace the problems that are specific to Web Service Binding in BPM, below trace string should be enabled on application server:<br/></p>
-
-```
-*=info:SCA.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all
-```
 3.For Outbound web service issue, the following materials are required.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. The WSDL of the actual Web Service (including any included/imported .xsd files)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. A sample response from the Web Service
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. The project (see below point 5 for details)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Sample request SOAP message from BPM
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e. TeamWorksConfiguration.running.xml file from profile configuration directory
+1)The WSDL of the actual Web Service (including any included/imported .xsd files)
+2)A sample response from the Web Service
+3)The project (see below point 5 for details)
+4)Sample request SOAP message from BPM
+5)TeamWorksConfiguration.running.xml file from profile configuration directory
 
 4.For Inbound web service issue, the following materials are required.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. The SOAP request from the web service client
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. The project (see below point 5 for details)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. A sample response SOAP message from BPM (if relevant to problem description)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. TeamWorksConfiguration.running.xml file from profile configuration directory
+1)The SOAP request from the web service client
+2)The project (see below point 5 for details)
+3)A sample response SOAP message from BPM (if relevant to problem description)
+4)TeamWorksConfiguration.running.xml file from profile configuration directory
 
 5.Project file
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. For issue of External Service/Web Service/SOAP Connector/Web Service Integration, request the .twx file for the process application as well as the service name in question.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. For issue of Web Service Binding, request the Project Interchange file as well as which import or export component in the project is in question.
+1)For issue of External Service/Web Service/SOAP Connector/Web Service Integration, request the .twx file for the process application as well as the service name in question.
+2)For issue of Web Service Binding, request the Project Interchange file as well as which import or export component in the project is in question.
 
 #### Recreating Problem
 
 1.Download SoapUI from https://www.soapui.org/. Install the tool using the default configuration.
 
 2.For outbound calls:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Create new SOAP project and specify WSDL URL in SoapUI.
+1)Create new SOAP project and specify WSDL URL in SoapUI.
 ![image](https://media.github.ibm.com/user/172872/files/09dc5980-d570-11e9-8506-87c2cf7d2283)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Generate SOAP mock service. This emulates the customer’s web service so we don’t need direct access to it.
+2)Generate SOAP mock service. This emulates the customer’s web service so we don’t need direct access to it.
 ![image](https://media.github.ibm.com/user/172872/files/1660b200-d570-11e9-9174-54243e423ad4)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. In web service component in process application, modify the host and port information in WSDL URL to match the mock service. Test scenario to invoke the web service. This is a way to see what BPM actually sends in its request (SoapUI will print out requests received, including HTTP Headers if desired).</p>
+3)In web service component in process application, modify the host and port information in WSDL URL to match the mock service. Test scenario to invoke the web service. This is a way to see what BPM actually sends in its request (SoapUI will print out requests received, including HTTP Headers if desired).
 
 3.For inbound calls:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Create new SOAP project and specify WSDL URL in SoapUI.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Create request message to simulate the customer’s use case.
+1)Create new SOAP project and specify WSDL URL in SoapUI.
+2)Create request message to simulate the customer’s use case.
 ![image](https://media.github.ibm.com/user/172872/files/32645380-d570-11e9-9c8a-4d548d344db5)
 
 4.For WSDL discover:
@@ -131,14 +118,14 @@ Print out the request and response SOAP messages invoked by the outbound web ser
 
 Sample: 
 ```
-[9/5/19 09:30:42:558 GMT] 00008cb0 wle_outbnd_ws 1   request = <?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><ns0:iQueueUpdateData xmlns:ns0="http://sample.com/glt/bpm/services/webservice/iqueueupdatedata"><ns0:payload>&lt;cwtNotificationRequest xmlns='http://sample.uk/hbeu/e2e/sil/data/cwt'&gt;&#xD; 
+[9/5/19 09:30:42:558 GMT] 00008cb0 wle_outbnd_ws 1   request = <?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><ns0:iQueueUpdateData xmlns:ns0="http://hsbc.com/glt/bpm/services/webservice/iqueueupdatedata"><ns0:payload>&lt;cwtNotificationRequest xmlns='http://hsbc.uk/hbeu/e2e/sil/data/cwt'&gt;&#xD; 
 &lt;dealId&gt;[Field3]&lt;/dealId&gt;&#xD; 
 &lt;correlationId&gt;[Field2]&lt;/correlationId&gt;&#xD; 
 &lt;router&gt;DATA_UPDATE&lt;/router&gt;&#xD; 
 &lt;additionalFields&gt;&#xD; 
 …
 
-[9/5/19 09:30:42:875 GMT] 00008cb0 wle_outbnd_ws 1   response = <?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"><soapenv:Body><ns5:iQueueUpdateDataResponse xmlns:ns5="http://sample.com/glt/bpm/services/webservice/iqueueupdatedata"><ns5:resultCode>SUCCESS</ns5:resultCode></ns5:iQueueUpdateDataResponse></soapenv:Body></soapenv:Envelope> 
+[9/5/19 09:30:42:875 GMT] 00008cb0 wle_outbnd_ws 1   response = <?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"><soapenv:Body><ns5:iQueueUpdateDataResponse xmlns:ns5="http://hsbc.com/glt/bpm/services/webservice/iqueueupdatedata"><ns5:resultCode>SUCCESS</ns5:resultCode></ns5:iQueueUpdateDataResponse></soapenv:Body></soapenv:Envelope> 
 ```
 
 2.Key words:
@@ -150,9 +137,9 @@ Methods to set and get SOAP messages before and after the web service invocation
 
 Sample: 
 ```
-[9/5/19 14:02:53:645 GMT] 00000793 wle_outbnd_ws 1 com.ibm.bpm.ws.jaxws.connector.SOAPConnector setInputParameters setInputParameters(), parameterValues = [{http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}retrieveNewApp=false, {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}countryCode=HAS, {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}snapshotVersion=HASE.Cards.V.0.0.0.72, {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}wsdlVersion=wsdl002, {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}entityId=HAS, {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}entityCode=HAS, {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}processStepInfo=null, {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}requesterInfo=TWObject[(Active: Y), (Type: 1), (TWClassID: TWClass.848854a5-b044-4fb7-86a2-ac10bad5a84b), (Property names: ID, name), (MetaData: dirty=true, shared=false, key=null, version=null, rootVersionContextID=2064.cebe74fe-ef69-4e12-8c8d-6147a5fb95ea, className=WebUserInfo)], {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}applicationId=201607846081, {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}type=0]
+[9/5/19 14:02:53:645 GMT] 00000793 wle_outbnd_ws 1 com.ibm.bpm.ws.jaxws.connector.SOAPConnector setInputParameters setInputParameters(), parameterValues = [{http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}retrieveNewApp=false, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}countryCode=HAS, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}snapshotVersion=HASE.Cards.V.0.0.0.72, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}wsdlVersion=wsdl002, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}entityId=HAS, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}entityCode=HAS, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}processStepInfo=null, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}requesterInfo=TWObject[(Active: Y), (Type: 1), (TWClassID: TWClass.848854a5-b044-4fb7-86a2-ac10bad5a84b), (Property names: ID, name), (MetaData: dirty=true, shared=false, key=null, version=null, rootVersionContextID=2064.cebe74fe-ef69-4e12-8c8d-6147a5fb95ea, className=WebUserInfo)], {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}applicationId=201607846081, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}type=0]
 
-[9/5/19 14:02:54:292 GMT] 00000793 wle_outbnd_ws 1 com.ibm.bpm.ws.jaxws.connector.SOAPConnector getOutputParameters getOutputParameters(), outputParameterValues = {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}returnCode=SUCCESS, {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}workItemId=2563, {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}instanceId=41498, {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}requesterInfo=TWObject[(Active: Y), (Type: 1), (TWClassID: TWClass.848854a5-b044-4fb7-86a2-ac10bad5a84b), (Property names: ID, name, groups), (MetaData: dirty=true, shared=false, key=null, version=null, rootVersionContextID=2064.cebe74fe-ef69-4e12-8c8d-6147a5fb95ea, className=WebUserInfo)], {http://www.sample.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}applicationData=TWObject[(Active: Y), (Type: 1), (TWClassID: TWClass.ac644f76-4913-40df-adf8-4a535e7ddded), (Property names: applicationId, workItemId, currentStatus, smg3CallForSCL, requestedLoanAmount, recommendedLoanAmount, captureDateStr, annualInterestRate, aapsUpdated, mortgageUpdated, maxLTVProject, maxLTVCampaign, avaliableExposureProject, avaliableExposureCampaign, specialIndicator, documents, requiredDocuments, customers, scoringResults, verficationTasks, groupTotalApprovedWIP, totalUnapprovedWIPAppl, textAttrs, accountInfos, cardInfos, appCIFException, appHITException, appFraudException, appExceptionSummary, customerMiscellaneousReference, remarks, uuid, entityId), (MetaData: dirty=true, shared=false, key=null, version=null, rootVersionContextID=2064.cebe74fe-ef69-4e12-8c8d-6147a5fb95ea, className=WebApplicationData)]}
+[9/5/19 14:02:54:292 GMT] 00000793 wle_outbnd_ws 1 com.ibm.bpm.ws.jaxws.connector.SOAPConnector getOutputParameters getOutputParameters(), outputParameterValues = {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}returnCode=SUCCESS, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}workItemId=2563, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}instanceId=41498, {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}requesterInfo=TWObject[(Active: Y), (Type: 1), (TWClassID: TWClass.848854a5-b044-4fb7-86a2-ac10bad5a84b), (Property names: ID, name, groups), (MetaData: dirty=true, shared=false, key=null, version=null, rootVersionContextID=2064.cebe74fe-ef69-4e12-8c8d-6147a5fb95ea, className=WebUserInfo)], {http://www.hsbc.com/gltc/bpm/rcs/integration/web/services/optimization/web/version/v100}applicationData=TWObject[(Active: Y), (Type: 1), (TWClassID: TWClass.ac644f76-4913-40df-adf8-4a535e7ddded), (Property names: applicationId, workItemId, currentStatus, smg3CallForSCL, requestedLoanAmount, recommendedLoanAmount, captureDateStr, annualInterestRate, aapsUpdated, mortgageUpdated, maxLTVProject, maxLTVCampaign, avaliableExposureProject, avaliableExposureCampaign, specialIndicator, documents, requiredDocuments, customers, scoringResults, verficationTasks, groupTotalApprovedWIP, totalUnapprovedWIPAppl, textAttrs, accountInfos, cardInfos, appCIFException, appHITException, appFraudException, appExceptionSummary, customerMiscellaneousReference, remarks, uuid, entityId), (MetaData: dirty=true, shared=false, key=null, version=null, rootVersionContextID=2064.cebe74fe-ef69-4e12-8c8d-6147a5fb95ea, className=WebApplicationData)]}
 ```
 
 3.Key word:
@@ -195,15 +182,15 @@ Indicates TCP communication read and wrote bytes.
 
 Sample:  
 ```
-[9/5/19 09:30:42:591 GMT] 00008cb0 TCPBaseReques 1   Wrote 90(90) bytes, 90 requested on local: Sample/128.161.56.13:59456 remote: test-bpmcl/128.162.104.57:443 
+[9/5/19 09:30:42:591 GMT] 00008cb0 TCPBaseReques 1   Wrote 90(90) bytes, 90 requested on local: gbl12070.systems.uk.hsbc/128.161.56.13:59456 remote: test-bpmcl/128.162.104.57:443 
 [9/5/19 09:30:42:591 GMT] 00008cb0 TCPBaseReques 3   write complete, at least minimum amount of data written 
-[9/5/19 09:30:42:593 GMT] 00008cb0 TCPBaseReques 1   Read 86(86) bytes, 1 requested on local: Sample/128.161.56.13:59456 remote: test-bpmcl/128.162.104.57:443 
+[9/5/19 09:30:42:593 GMT] 00008cb0 TCPBaseReques 1   Read 86(86) bytes, 1 requested on local: gbl12070.systems.uk.hsbc/128.161.56.13:59456 remote: test-bpmcl/128.162.104.57:443 
 [9/5/19 09:30:42:593 GMT] 00008cb0 TCPBaseReques 3   read complete, at least minimum amount of data read
 ```
 
 #### Reference
 
-Collect troubleshooting data for web service problems in IBM Business Process Manager
+Collect troubleshooting data for web services problems in IBM Business Process Manager
 https://www.ibm.com/support/pages/collect-troubleshooting-data-web-services-problems-ibm-business-process-manager
 
 Troubleshooting web services and outbound web service integrations

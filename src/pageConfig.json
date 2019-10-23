@@ -119,8 +119,8 @@
           ]
         },
         {
-          "route": "/Install,Upgrade,Migration",
-          "name": "Install, Upgrade, Migration",
+          "route": "/Install,Upgrade,Configuration",
+          "name": "Install, Upgrade, Configuration",
           "description": "",
           "icon": "wrench",
           "topics": [],
@@ -132,7 +132,7 @@
               "owner":"@Fabiola Herdade",
               "topics": [],
               "icon": "wrench",
-              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/InstallDEConfig.md"
+              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Configuration/InstallDEConfig.md"
             },
             {
               "route": "/Upgrade",
@@ -141,7 +141,7 @@
               "owner":"@Zhen Ye Sun",
               "topics": [],
               "icon": "cogs",
-              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/Upgrade.md"
+              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Configuration/Upgrade.md"
             },
             {
               "route": "/Migration",
@@ -150,7 +150,7 @@
               "owner":"@Zhen Ye Sun",
               "topics": [],
               "icon": "dolly-flatbed",
-              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/Migration.md"
+              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Configuration/Migration.md"
             },
             {
               "route": "/DisasterRecovery",
@@ -159,7 +159,7 @@
               "owner":"@Enrico Monteleone",
               "topics": [],
               "icon": "toolbox",
-              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/DisasterRecovery.md"
+              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Configuration/DisasterRecovery.md"
             },
             {
               "route": "/DE Configuration",
@@ -168,7 +168,7 @@
               "owner":"@Enrico Monteleone",
               "topics": [],
               "icon": "sitemap",
-              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/Configuration.md"
+              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Configuration/Configuration.md"
             },
             {
               "route": "/Endpoint Configuration",
@@ -177,7 +177,7 @@
               "owner":"@Yuan Shang",
               "topics": [],
               "icon": "list-alt",
-              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Migration/perfor.md"
+              "markdown": "/markdown/BusinessProcessManager/Install,Upgrade,Configuration/perfor.md"
             }
            
           ]

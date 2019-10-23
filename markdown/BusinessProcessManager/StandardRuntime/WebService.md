@@ -1,3 +1,4 @@
+Date:2019-10-15
 
 ## Overview
 
@@ -59,16 +60,28 @@ Add **?WSDL** to the end of web service URL. Paste the URL into a browser window
 #### Data Collection
 
 <p>1.To trace the problems that are specific to External Service/Web Service/SOAP Connector/Web Service Integration in BPM, below trace string should be enabled on application server:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Base trace:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*=info:WLE.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.Base trace:
+
+```
+*=info:WLE.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all
+```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. If you see IOException related to Webservice requests:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*=info:WLE.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all:HTTPChannel=all:GenericBNF=all:TCPChannel=all<br/>
+
+```
+*=info:WLE.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all:HTTPChannel=all:GenericBNF=all:TCPChannel=all
+```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. If it’s performance related issue or it’s in a production environment, you can use this slighter trace setting:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*=info:WLE.wle_outbnd_ws=all:com.ibm.bpm.ws.jaxws.*=all</p>
 
-<p>2.To trace the problems that are specific to Web Service Binding in BPM, below trace string should be enabled on application server:<br/>
-*=info:SCA.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all</p>
+```
+*=info:WLE.wle_outbnd_ws=all:com.ibm.bpm.ws.jaxws.*=all
+```
+</p>
 
+<p>2.To trace the problems that are specific to Web Service Binding in BPM, below trace string should be enabled on application server:<br/></p>
+
+```
+*=info:SCA.*=all:com.ibm.ws.webservices.*=all:org.apache.*=all:com.ibm.ws.websvcs.*=all:com.ibm.ws.metadata.*=all
+```
 3.For Outbound web service issue, the following materials are required.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. The WSDL of the actual Web Service (including any included/imported .xsd files)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. A sample response from the Web Service

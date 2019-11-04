@@ -11,7 +11,7 @@ The Connector Architecture enables Java EE components to interact with enterpris
 This tutorial will be useful for learning the basics of JCA. This is an elementary tutorial that introduces the concepts of WebSphere Adapter. 
 
 J2EE Connector Architecture: 
-https://www.oracle.com/technetwork/java/javaee/index-138715.html 
+https://www.oracle.com/technetwork/java/javaee/index-138715.html
 
 ## Component
 

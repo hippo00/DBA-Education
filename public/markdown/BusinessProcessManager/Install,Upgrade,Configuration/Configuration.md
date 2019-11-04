@@ -4,8 +4,8 @@
 <a href="#acronyms">Acronyms</a>  
 <a href="#overview">Overview</a>  
 <a href="#prerequisites">Prerequisites</a>  
-<a href="#components">Components</a>  
-<a href="#tools">Tools</a>  
+<a href="#components">Components and Scripts</a>  
+<a href="#tools">Command Line Tools</a>  
 
 ---
 
@@ -46,7 +46,7 @@ Configuration of BAW/BPM requires a basic understanding of the product and relat
 ---
 
 <a name="components" style="display:block;position:relative;top:-4em;visibility:hidden;"></a>
-## Components
+## Components and Scripts
 
 ### Operating System
 * CPU and memory
@@ -70,6 +70,14 @@ Configuration of BAW/BPM requires a basic understanding of the product and relat
 * User, groups, and roles
 * Security and SSL certificates
 
+![BPM Single Cluster](https://media.github.ibm.com/user/17148/files/129af480-fbdd-11e9-967c-8e4974ac2df7)  
+
+![BPM Three Cluster](https://media.github.ibm.com/user/17148/files/12025e00-fbdd-11e9-96d8-7aba907e22c6). 
+
+#### WebSphere Graphical User Interface (GUI)  
+WebSphere 8.5.5 - Using the administrative console  
+https://www.ibm.com/support/knowledgecenter/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/tcon_console.html
+
 ### Process Center
 * Installation Manager
 * Installation
@@ -86,16 +94,27 @@ Configuration of BAW/BPM requires a basic understanding of the product and relat
 * Process Application snapshots
 * Logging
 
+#### Script - Process Center to Process Server Communications Configuration  
+
+Several configuration settings are require for Process Center to Process Server communication. When you install a new Process Server, you can choose whether to use Process Server offline or online. The Process Server configuration must match the Process Center configuration, including user names and passwords and SSL settings. Clients who add Process Servers to their environment or make changes to their existing environment may encounter communications issues between Process Center and Process Server. This script assists in checking configurations and troubleshooting. 
+
+BPM 8.6 on Linux: bxPcpscommunication.sh  
+https://github.ibm.com/dba-support/dba-scripts/blob/master/linux/bawbpm/bxPcpscommunication.sh
+
 ---
 
 <a name="tools" style="display:block;position:relative;top:-4em;visibility:hidden;"></a>
-## Tools
+## Command Line Tools
 
 ### Operating Systems
 
-[TO-DO: Add RHEL and Windows dba-scripts for common OS configuration tasks.]
-
 BAW supports different operating systems and verisons, so specific operating system configuration is beyond the scope of this document, but you should be familiar with basic operating system configuration concepts and tasks, including networking, security, and file system management.
+
+#### Linux  
+[TO-DO: Add os-info.sh to dba-scripts - collection of basic OS and networking information.  
+
+#### Windows
+[TO-DO: Add os-info.sh to dba-scripts - collection of basic OS and networking information.  
 
 ### Databases
 
@@ -104,19 +123,6 @@ BAW supports different operating systems and verisons, so specific operating sys
 BAW supports different databases and versions, including DB2, Oracle and Microsoft SQL Server databases, so specific database configuration is beyond the scope of this document, but you should be familiar with basic database configuration concepts and tasks, including SQL, security, and database drivers.
 
 ### WebSphere
-
-#### Overview:  
-
-![WAS Diagram](https://media.github.ibm.com/user/17148/files/59042700-f013-11e9-9561-f26a6572dcd1)
-
-#### WebSphere Graphical User Interface (GUI)  
-
-WebSphere 8.5.5 - Using the administrative console  
-https://www.ibm.com/support/knowledgecenter/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/tcon_console.html
-
-#### WebSphere Command Line
-
-[TO-DO: Add RHEL and Windows dba-scripts scripts for common wsadmin tasks.]
 
 WebSphere 8.5.5 - Command-line utilities  
 https://www.ibm.com/support/knowledgecenter/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/welc_ref_adm_cmd.html

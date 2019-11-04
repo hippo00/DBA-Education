@@ -250,8 +250,8 @@
             {
               "route": "/ServerConnection",
               "name": "Server Connection",
-              "description": "qingzou@cn.ibm.com",
-              "owner":"@Qing Zou",
+              "description": "shyuan@cn.ibm.com",
+              "owner":"@Yuan Shang",
               "icon": "map-marker-alt",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/BPMDevToolsandRepository/ServerConnection.md"
@@ -582,8 +582,8 @@
             {
               "route": "/ProcessAdminConsole",
               "name": "Process Admin Console",
-              "description": "shangjin@cn.ibm.com",
-              "owner":"@Jin Shang",
+              "description": "shangjin@cn.ibm.com;shyuan@cn.ibm.com",
+              "owner":"@Jin Shang,@Yuan Shang",
               "icon": "user",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/StandardRuntime/ProcessAdminConsole.md"

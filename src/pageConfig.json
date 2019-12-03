@@ -617,6 +617,15 @@
           "topics": [],
           "children": [
             {
+              "route": "/Acronymslist",
+              "name": "Acronyms list",
+              "description": "ELEBRAS@jp.ibm.com",
+              "owner":"@Erwan Le Bras",
+              "icon": "file-alt",
+              "topics": [],
+              "markdown": "/markdown/OperationalDecisionManager/GeneralODM/Acronymslist.md"
+            },
+            {
               "route": "/Learningroadmap",
               "name": "Learning Roadmap",
               "description": "renyren@cn.ibm.com",

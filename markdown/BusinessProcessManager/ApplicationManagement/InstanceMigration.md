@@ -66,7 +66,7 @@ Trace String:
 *=info: WLE.*=all: WAS.clientinfopluslogging=all
 ```
 
-**2.DB Tables**
+**2. DB Tables**
 
 For issues with instance migration, we are more likely to give a specific DB SQL query for client to run against their Process Server database and get the result back to us.  The SQL queries depend on the trace stack we find out at the #1. 
 
@@ -78,7 +78,7 @@ WHERE      LSW_BPD_INSTANCE.EXECUTION_STATUS IN (1, 3, 6) AND LSW_BPD_INSTANCE.S
 ```
 Or we could check the specific instance which fails to migrate from source to target snapshot at the table LSW_BPD_INSTANCE.
 
-**3.Configuration**
+**3. Configuration**
 
 Due to the reason that we have different configuration properties which could decide how a instance migration works, we will need to check the runtime configuration file to make sure client set them correctly.   Client usually made changes on 100Custom.xml and we will check both 100Custom.xml and TeamWorksConfiguration.running.xml to verify the change. 
 
@@ -98,13 +98,13 @@ Here are some properties directly related to instance migration, we will need to
 <disable-team-sync>
 ```
 
-**4.TWX file**
+**4. TWX file**
 
 Under some circumstances, if we are not able to get direct evidence from trace and DB export, we may have to check the differences between two installed snapshot and helped client with the issue like orphan token. 
 
 #### Data Analysis
 
-**1.Orphaned Token**
+**1. Orphaned Token**
 
 A token is a pointer that is associated with an activity. The token becomes orphaned when it is associated with an activity which has been deleted from the process.  When instance migration causes orphaned tokens, you must decide what to do with potential orphaned tokens or risk that the process instances won't complete.
 
@@ -150,7 +150,7 @@ https://www.ibm.com/support/knowledgecenter/SSFPJS_8.6.0/com.ibm.wbpm.admin.doc/
 Process Inspector – Delete Token
 https://www.ibm.com/support/knowledgecenter/SSFPJS_8.6.0/com.ibm.wbpm.admin.doc/topics/tdeletingtokensinpi.html 
 
-**2.Unexpected symptoms After instance migration**
+**2. Unexpected symptoms After instance migration**
 
 Many clients saw some unexpected symptoms after snapshot install or instance migration.  Other than the issues caused by orphaned token, clients may fail to delete the old snapshots, or the EPV/ENV values were not changed as expected.   Here is a case that we would like to bring up for discussion. 
 ```
@@ -199,7 +199,7 @@ Delete Tasks via Process Admin: https://www.ibm.com/support/knowledgecenter/en/S
 Delete Tasks via command line BPMTasksCleanup
 https://www.ibm.com/support/knowledgecenter/en/SS8JB4/com.ibm.wbpm.ref.doc/topics/rref_bpmtaskscleanup.html 
 
-**3.Performance Tuning** 
+**3. Performance Tuning** 
 
 Work attempted on existing instances for the process app could slow down the instance migration process or cause failures. Large instance migrations could also put a heavy workload on the database.    Therefore, another type of issues reported for instance migration is performance tuning.  Because of the large amount of data transaction, our clients may experience very suspicious performance slowdown. And the reasons behind the slowness could be various. 
 

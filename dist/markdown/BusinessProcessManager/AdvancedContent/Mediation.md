@@ -50,7 +50,8 @@ https://www.ibm.com/developerworks/websphere/library/techarticles/1108_toth/1108
 ## Troubleshooting
 #### Data Collection
 
-1.To trace the problems that are specific to the Mediation Flow Component and its primitives, below trace string should be enabled on application server:
+<p>1.To trace the problems that are specific to the Mediation Flow Component and its primitives, below trace string should be enabled on application server:</p>
+
 ```
 *=info:com.ibm.ws.sibx.*=all:com.ibm.wsspi.sibx.*=all:com.ibm.websphere.sibx.*=all:com.ibm.ws.sib.processor.utils.UserTrace=all:com.ibm.wbiserver.transform.*=all:com.ibm.sr.client.*=all
 ```

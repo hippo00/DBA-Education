@@ -10,7 +10,7 @@ This topic requires the basic understanding of BPM Process Center console and Pr
 
 ## Component
 
-**1.Process Center**
+**1. Process Center**
 <img width="559" alt="1 copy" src="https://media.github.ibm.com/user/228551/files/3e9bae80-fd72-11e9-9b5f-946b7b0eae0f">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.&nbsp;	From the Process Center console, users can create process applications and toolkits and grant other users access to those process applications and toolkits.
@@ -21,7 +21,7 @@ This topic requires the basic understanding of BPM Process Center console and Pr
 
 &nbsp;&nbsp;&nbsp;&nbsp;d.&nbsp;	From the Process Center console, administrators install process applications that are ready for testing or production on the Process Servers in those environments.
 
-**2.Process Application, Track and Snapshot**
+**2. Process Application, Track and Snapshot**
 
 <img width="638" alt="2 copy" src="https://media.github.ibm.com/user/228551/files/2aa47c80-fd73-11e9-9e7f-5b0c37c16ee9">
 
@@ -35,7 +35,7 @@ This topic requires the basic understanding of BPM Process Center console and Pr
 
 &nbsp;&nbsp;&nbsp;&nbsp;e.&nbsp;	**BLA:** Business Level Application, any advanced content such as a module or library from Integration Designer. EARs and JARs created. 
 
-**3.Snapshot Deployment**
+**3. Snapshot Deployment**
 <img width="472" alt="3 copy" src="https://media.github.ibm.com/user/228551/files/9d155c80-fd73-11e9-88d7-8ddfb1a9f84a">
 When you install a process application snapshot to a process server, the library items for that snapshot (including toolkit snapshots) are copied from the repository to the selected process server if they do not already exist on the process server. The process server can be connected or offline. Depending on your needs and whether the process server is connected or offline, you can use the Process Center console or wsadmin commands to install the snapshots.
 
@@ -53,7 +53,7 @@ Two types of issues covered in this section are snapshot deployment and reposito
 
 ## Data Collection
 
-**1.Log files + Trace**
+**1. Log files + Trace**
 
 **Trace String:**
 <table border="1px solid #ccc" cellspacing="0" cellpadding="0">
@@ -100,7 +100,7 @@ bpm.xml (if you have more than one cluster, use the appTarget cluster here)
 
 Managed_Node_Profile_ROOT\config\cells\cell_name\nodes\node_name\servers\server_name\process-center(server)\config\TeamWorksConfiguration.running.xml
 
-**4.Related Database Tables**
+**4. Related Database Tables**
 
 * For most snapshot related issues,  it is helpful to have the following 3 snapshot related tables from the BPMDB. Depending on the issue there are various other tables that can provide useful data. 
     - LSW_SNAPSHOT
@@ -119,7 +119,7 @@ The key of data analysis is to find out where or at which point the problem is. 
 
 BPM provides two types of snapshot installation process, one is online install, and another is offline, to Diagnose and locate the point at which clients fail their snapshot install, we will need to understand all of the steps this procedure involves. 
 
-**1.PC PS Online Connection Mode**
+**1. PC PS Online Connection Mode**
 <img width="1384" alt="4 copy" src="https://media.github.ibm.com/user/228551/files/08146280-fd77-11e9-9a5f-e425a35f7117">
 
 A must-have prerequisite for any successful online deployment is that the connections between PC and PS are established and healthy. Therefore, we need to firstly guarantee the connection was good before the install started.  
@@ -148,7 +148,7 @@ Moved Temporarily, HTTP Code : 302
 ```
 Given the error code HTTP 302, meaningful attempts are checking the connection configuration including security certificate between PC and PS, ruling out the possibilities caused by snapshot itself, confirming with client on their proxy/web server setting and other network topology,  and adding connectivity trace for further replication. 
 
-**2.Snapshot Deployment Procedure**
+**2. Snapshot Deployment Procedure**
 
 If the snapshot package reaches to the Process Server successfully and start the installation service, we will need to concentrate on the log & trace on PS side as PC doesn’t play an important role at the following steps.  
 

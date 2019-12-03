@@ -40,7 +40,7 @@ https://www.ibm.com/support/knowledgecenter/SSFPJS_8.6.0/com.ibm.wbpm.imuc.ebpm.
 ** Endpoint configuration should be considered and configured by the unit of deployment environment. 
 
 **2.Default BPM Endpoint Scenario**
-**a. Default BPM Endpoint Scenario Keys**
+**a) Default BPM Endpoint Scenario Keys**
 
 * **EXTERNAL_CLIENT**
 This generic scenario key is intended for non-relative URLs to be used by clients that are outside the data center, such as web browsers, to connect to the IBM BPM server. 

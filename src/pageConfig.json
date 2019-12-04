@@ -324,15 +324,6 @@
               "markdown": "/markdown/BusinessProcessManager/BusinessUserExperience/ProcessPortal.md"
             },
             {
-              "route": "/Coaches",
-              "name": "Coaches",
-              "description": "ellia@ca.ibm.com",
-              "owner": "Elli Afshar",
-              "icon": "terminal",
-              "topics": [],
-              "markdown": "/markdown/BusinessProcessManager/BusinessUserExperience/Coaches.md"
-            },
-            {
               "route": "/HumanServices",
               "name": "Human Services",
               "description": "ellia@ca.ibm.com",
@@ -344,7 +335,7 @@
            
             {
               "route": "/ToolkitControls",
-              "name": "Toolkit Controls",
+              "name": "Coaches and Toolkits",
               "description": "ellia@ca.ibm.com",
               "owner": "Elli Afshar",
               "icon": "toolbox",

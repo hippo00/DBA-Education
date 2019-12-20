@@ -545,12 +545,21 @@
             },
             {
               "route": "/JSAPI,RESTAPI",
-              "name": "JavaScript & REST API",
+              "name": "JavaScript",
               "description": "nldillard@us.ibm.com",
               "owner":"@Nathan Dillard",
               "icon": "retweet",
               "topics": [],
-              "markdown": "/markdown/BusinessProcessManager/StandardRuntime/JSAPI,RESTAPI.md"
+              "markdown": "/markdown/BusinessProcessManager/StandardRuntime/JSAPI.md"
+            },
+            {
+              "route": "/JSAPI,RESTAPI",
+              "name": "REST API",
+              "description": "nldillard@us.ibm.com",
+              "owner":"@Nathan Dillard",
+              "icon": "chalkboard-teacher",
+              "topics": [],
+              "markdown": "/markdown/BusinessProcessManager/StandardRuntime/RESTAPI.md"
             },
             {
               "route": "/WebService",

@@ -544,7 +544,7 @@
               "markdown": "/markdown/BusinessProcessManager/StandardRuntime/EventManager.md"
             },
             {
-              "route": "/JSAPI,RESTAPI",
+              "route": "/JSAPI",
               "name": "JavaScript",
               "description": "nldillard@us.ibm.com",
               "owner":"@Nathan Dillard",
@@ -553,7 +553,7 @@
               "markdown": "/markdown/BusinessProcessManager/StandardRuntime/JSAPI.md"
             },
             {
-              "route": "/JSAPI,RESTAPI",
+              "route": "/RESTAPI",
               "name": "REST API",
               "description": "nldillard@us.ibm.com",
               "owner":"@Nathan Dillard",

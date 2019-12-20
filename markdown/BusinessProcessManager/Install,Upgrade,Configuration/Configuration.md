@@ -127,9 +127,12 @@ Database system instalation is usually done by a database administrator, unless 
 BAW database creation  
 After you install the BAW binary files, you must ensure the required databases are created before you can create the WebSphere deployment environment to actually run BAW.
 
-If you install BAW using Launchpad, then the databases are created automatically.  
+~~If you install BAW using Launchpad, then the databases are created automatically.  
+If you do not use Launchpad, then you must manually create the databases.  ~~
+Note: Launchpad is deprecated:
+https://www.ibm.com/support/knowledgecenter/en/SS8JB4/com.ibm.wbpm.workflow.main.doc/topics/gbpm_deprecationlist.html
 
-If you do not use Launchpad, then you must manually create the databases.  
+Database Creation:
 a. Install BAW binary files with Installation Manager.  
 b. Locate the database scripts.  
 c. Copy and modify the database scripts to create the necessary databases.  

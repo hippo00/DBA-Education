@@ -136,21 +136,35 @@ See the Castle website for onboarding and use details.
 
 You can use the following resources to create test environments for learning or for case testing, but do not copy or import any client data into these enviornments. For handling cases with client information, use Salesforce and Castle systems.
 
-### BAI on OpenShift (2019-09)
+### Docker images for BAW 19.0.0.3 (2019-12-19, Klaus)  
+You can use to quickly create a BAW test server on Castle and Fyre or on your local machine (Mac and Linux currently working).  
+  
+Please have a look at https://github.ibm.com/klaus-ulrich/bpm#bpm-and-baw-on-docker-for-castle-and-fyre for all the details needed to get started with this approach.  
+  
+The wiki space https://github.ibm.com/klaus-ulrich/bpm/wiki has some additional infos and links to previous presentations with recordings.  
+  
+If anything is not working as described/expected, feel free to open a github issue on https://github.ibm.com/klaus-ulrich/bpm/issues  
+  
+I have installed a BAW 19.0.0.3 test environment on Fyre, which is connected to a BAI environment running on OpenShift. You can use/access this environment as a playground. 
+  
+Please have a look at https://github.ibm.com/klaus-ulrich/openshift/wiki/BAW-and-BAI-Test-Server for further details.  
+
+
+### BAI on OpenShift (2019-09, Klaus)
 
 https://github.ibm.com/klaus-ulrich/openshift
 
 <p style="margin-top:1em;">&nbsp;</p>
 
 
-### Install a private Docker Registry with a Web admin interface (2019-09)
+### Install a private Docker Registry with a Web admin interface (2019-09, Klaus)
 
 https://github.ibm.com/klaus-ulrich/registry
 
 <p style="margin-top:1em;">&nbsp;</p>
 
 
-### Local workstation with Docker (2019-09)
+### Local workstation with Docker (2019-09, Klaus)
 
 https://github.ibm.com/klaus-ulrich/bpm
 

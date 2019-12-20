@@ -436,9 +436,9 @@
             {
               "route": "/User&GroupSecurity",
               "name": "User and Group Security",
-              "description": "bkonopik@us.ibm.com",
               "icon": "users",
-              "owner": "@Brad Konopik",
+              "description": "qingzou@cn.ibm.com",
+              "owner":"@Qing Zou",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/Security/User&GroupSecurity.md"
             }
@@ -454,8 +454,8 @@
             {
               "route": "/AIS",
               "name": "Advanced Integration Service",
-              "description": "shangjin@cn.ibm.com;lifengbj@cn.ibm.com",
-              "owner":"@Jin Shang,@Feng Li",
+              "description": "lifengbj@cn.ibm.com",
+              "owner":"@Feng Li",
               "icon": "file-archive",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/AIS.md"
@@ -473,8 +473,8 @@
             {
               "route": "/Bindings",
               "name": "Bindings",
-              "description": "shangjin@cn.ibm.com;lifengbj@cn.ibm.com",
-              "owner":"@Jin Shang,@Feng Li",
+              "description": "lifengbj@cn.ibm.com",
+              "owner":"@Feng Li",
               "icon": "industry",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/Bindings.md"
@@ -483,8 +483,8 @@
             {
               "route": "/SIB",
               "name": "Service Integration Bus",
-              "description": "shangjin@cn.ibm.com;lifengbj@cn.ibm.com",
-              "owner":"@Jin Shang,@Feng Li",
+              "description": "shangjin@cn.ibm.com;",
+              "owner":"@Jin Shang",
               "icon": "star",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/SIB.md"
@@ -492,8 +492,8 @@
             {
               "route": "/FailedEvent",
               "name": "Failed Event",
-              "description": "shangjin@cn.ibm.com;lifengbj@cn.ibm.com",
-              "owner":"@Jin Shang,@Feng Li",
+              "description": "shangjin@cn.ibm.com",
+              "owner":"@Jin Shang",
               "icon": "calendar-times",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/AdvancedContent/FailedEvent.md"
@@ -694,8 +694,8 @@
             {
               "route": "/Migration From CRE To DE",
               "name": "Migration From CRE To DE",
-              "description": "",
-              "owner":"",
+              "description": "renyren@cn.ibm.com",
+              "owner":"@Ren Yan",
               "icon": "people-carry",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/Install,Upgrade,Migration/MigrationFromCREToDE.md"
@@ -740,7 +740,8 @@
             {
               "route": "/Decision Center Performance",
               "name": "Decision Center Performance",
-              "description": "",
+              "description": "renyren@cn.ibm.com",
+              "owner":"@Ren Yan",
               "icon": "users-cog",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/Performance/DecisionCenterPerformance.md"
@@ -748,18 +749,11 @@
             {
               "route": "/RES Performance",
               "name": "RES Performance",
-              "description": "",
+              "description": "renyren@cn.ibm.com",
+              "owner":"@Ren Yan",
               "icon": "history",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/Performance/RESPerformance.md"
-            },
-            {
-              "route": "/Optimizing Execution",
-              "name": "Optimizing Execution",
-              "description": "",
-              "icon": "circle-notch",
-              "topics": [],
-              "markdown": "/markdown/OperationalDecisionManager/Performance/OptimizingExecution.md"
             }
             
           ]

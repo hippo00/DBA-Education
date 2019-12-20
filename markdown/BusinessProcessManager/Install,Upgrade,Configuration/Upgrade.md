@@ -63,6 +63,16 @@ Check for INSTCONFSUCCESS or INSTCONFFAILED If running DBUpgrade was unsuccessfu
 c.	Those log can be collected by using the IBM Business Process Manager data collector:
 https://www.ibm.com/support/knowledgecenter/en/SSFPJS_8.6.0/com.ibm.wbpm.admin.doc/topics/ttro_isa.html
 
+d. To enable wsadmin.properties trace for an upgrade issue with the BPMUpdateSystemApp/bootstrap command, do the following:  
+Modify the wsadmin.properties file located in the following directory:  
+install_root/profiles/profile_name/properties/  
+  
+Replace following line:  
+    #com.ibm.ws.scripting.traceString=com.ibm.*=all=enabled  
+  
+With this line:  
+    com.ibm.ws.scripting.traceString=WLE.*=all:org.springframework.jdbc.*=all:WAS.clientinfopluslogging=all 
+
 #### 4.BPM Upgrade troubleshooting checklist
 
 a.	You should be able to find the product version info from dbupgradexxx.log file:

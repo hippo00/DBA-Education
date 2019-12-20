@@ -21,12 +21,50 @@ The document store functionality is provided by the below enterprise application
   </tr>
 </table>
 
-## Prerequisites (Optional) 
+## Prerequisites 
 
 The IBM FileNet P8 platform offers enterprise-level capability to access and manage all forms of content. Below topic introduces the architecture overview of FileNet P8 platform. 
 https://www.ibm.com/support/knowledgecenter/SSNW2F_5.5.0/com.ibm.p8.sysoverview.doc/p8sov083.htm 
 
 You should add the Content Management (SYSCM) toolkit to your dependencies, if it has not been added as you will need access to the ECM types. To add this toolkit dependency, select + beside TOOLKITS. In the Add dependency menu, select the Content Management toolkit version you require. 
+
+## Terms and Key Points  
+
+### Terms  
+
+IBM Filenet P8 - An IBM propduct and group of products for enterprise content management  
+https://www.ibm.com/support/knowledgecenter/SSNW2F_5.5.0/com.ibm.p8toc.doc/welcome_p8.htm
+
+FileNet P8 architecture  
+https://www.ibm.com/support/knowledgecenter/SSNW2F_5.5.0/com.ibm.p8.sysoverview.doc/p8sov083.htm
+
+ECM (Enterprise Content Management)  
+A component of Filenet P8. Also a general term or concept to describe an enterprise content and document management system.  
+
+FileNet P8 baseline architecture  
+https://www.ibm.com/support/knowledgecenter/SSNW2F_5.5.0/com.ibm.p8.sysoverview.doc/p8sov154.htm  
+  
+CPE (Content Platform Engine) - A component of Filenet P8, a Java EE applicaiton server that provides content services and process services  
+https://www.ibm.com/support/knowledgecenter/SSNW2F_5.5.0/com.ibm.p8.sysoverview.doc/p8sov108.htm  
+  
+ICN (IBM Content Navigator) - A web client for viewing IBM content repositories.  
+https://www.ibm.com/support/knowledgecenter/SSNW2F_5.5.0/com.ibm.p8.sysoverview.doc/p8sov143.htm  
+
+IBM Case Manager - An IBM product for creating a case management system. IBM Case Manager requires Filenet P8 content and process services.  
+Case Manager includes Case Manager Client and Case Manager Builder  
+  
+IBM Case Manager architecture overview  
+https://www.ibm.com/support/knowledgecenter/SSCTJ4_5.2.0/com.ibm.casemgmt.installing.doc/acmpi003.htm  
+
+### Key Points  
+  
+* IBM FileNet P8, IBM Content Manager Enterprise Edition, and IBM Content Manager OnDemand are 3 examples of IBM repositories.  
+* An example of a third-party reposiotry is Documentum Content Server.  
+* ECM is a general concept and also the name for a component of Filenet P8.  
+* CPE has "business processes" or "workflows," so BAW and Filenet P8 have some overlapping functionality and terminology.  
+* BAW has internal and external options for CPE and ICN.  
+* CP4A has more integration, with Case Manager supporting BAW process applications.  
+
 
 ## Component 
 

@@ -646,8 +646,8 @@
             {
               "route": "/Knowledgebuckets",
               "name": "Knowledge Buckets",
-              "description": "",
-              "owner":"",
+              "description": "wyouli@cn.ibm.com",
+              "owner":"@May Wang",
               "icon": "graduation-cap",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/GeneralODM/Knowledgebuckets.md"
@@ -1101,32 +1101,12 @@
         {
           "route": "/Operations",
           "name": "Operations",
-          "description": "",
+          "description": "sthilini@au1.ibm.com",
+          "owner":"@Thilini Silva",
           "icon": "project-diagram",
           "topics": [],
-          "children": [
-            {
-              "route": "/SSAErequest",
-              "name": "SSAE request",
-              "description": "sthilini@au1.ibm.com",
-              "owner":"@Thilini Silva",
-              "icon": "chevron-right",
-              "topics": [],
-              "markdown": "/markdown/BlueworksLive/Operations/SSAErequest.md"
-
-            },
-            {
-              "route": "/VulnerabilityRequest",
-              "name": "Vulnerability Request",
-              "description": "sthilini@au1.ibm.com",
-              "owner":"@Thilini Silva",
-              "icon": "chevron-left",
-              "topics": [],
-              "markdown": "/markdown/BlueworksLive/Operations/VulnerabilityRequest.md"
-
-            }
-           
-          ]
+          "markdown": "/markdown/BlueworksLive/Operations.md"
+          
         },
         
         {

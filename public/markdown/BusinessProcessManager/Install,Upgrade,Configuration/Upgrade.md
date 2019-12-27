@@ -3,6 +3,11 @@
 ## Overview 
 Always encourage client to upgrate to the latest software versions to avoid running production systems on an unsupported configuration. Note that upgrades are different from migrations. Upgrades are an in-place upgrade of software. Migrations involve moving to a different platform, a different database, operating system or hardware.
 
+#### BAW 18 Upgrade Note (2019-12-24):  
+If BAW 18 was installed using the Typical Installation method, then complete step #20 BEFORE upgrading.
+Upgrading profiles from IBM Business Automation Workflow V18.0.0.x or V19.0.0.x to IBM Business Automation Workflow V19.0.0.3  
+https://www.ibm.com/support/pages/node/1103457  
+
 #### 1.IBM Installation Manager (IIM):
 
 IBM Installation Manager is a tool that you can use to upgrade your IBM software packages. Wizards guide you through the steps that you must take to install, modify, update, roll back, or uninstall your IBM products.
@@ -139,6 +144,19 @@ What can be seen from these samples is that it is important to understand where 
 
 
 ## News 
+
+### 2019-12-24 - Typical Installation Upgrade Warning BAW 18 to BAW 19
+If you performed a Typical Installation for BAW 18, then upgrade to BAW 19, you must complete the CPE configuration tasks, as BAW 19 requires this before upgrade.
+
+(STEP #20 MUST BE COMPLETED BEFORE UPGRADING). Upgrading profiles from IBM Business Automation Workflow V18.0.0.x or V19.0.0.x to IBM Business Automation Workflow V19.0.0.3  
+https://www.ibm.com/support/pages/node/1103457  
+  
+createObjectStoreForContent command  
+https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.ref.doc/topics/rref_createobjectstoreforcontent.html  
+
+Running the development environment case configuration tasks  
+https://www.ibm.com/support/knowledgecenter/SS8JB4/com.ibm.wbpm.imuc.doc/topics/acmin123.html  
+
 
 ### 2019-09 - BPM Upgrade Information
 

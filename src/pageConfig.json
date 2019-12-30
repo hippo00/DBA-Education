@@ -637,8 +637,8 @@
             {
               "route": "/SkillsTransfer",
               "name": "Skills Transfer",
-              "description": "",
-              "owner":"",
+              "description": "renyren@cn.ibm.com",
+              "owner":"@Ren Yan",
               "icon": "exchange-alt",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/GeneralODM/SkillsTransfer.md"
@@ -712,8 +712,8 @@
             {
               "route": "/Migration From CRP To DS",
               "name": "Migration From CRP To DS",
-              "description": "",
-              "owner":"",
+              "description": "wyouli@cn.ibm.com",
+              "owner":"@May Wang",
               "icon": "people-carry",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/Install,Upgrade,Migration/MigrationFromCRPToDS.md"
@@ -890,8 +890,8 @@
         {
               "route": "/DecisionServerInsights",
               "name": "Decision Server Insights",
-              "description": "",
-              "owner":"",
+              "description": "xiaohua@us.ibm.com",
+              "owner":"@Xiaohua Liu",
               "icon": "server",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionServerInsights.md"

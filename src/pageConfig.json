@@ -877,8 +877,8 @@
             {
               "route": "/REST API",
               "name": "REST API",
-              "description": "",
-              "owner":"",
+              "description": "renyren@cn.ibm.com",
+              "owner":"@Ren Yan",
               "icon": "check-circle",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/DecisionServerRules/RESTAPI.md"

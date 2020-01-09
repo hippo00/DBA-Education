@@ -40,19 +40,17 @@ With an external VCS you gain additional features like a revision history, compa
 
 Most commonly used with RPA is Subversion (SVN). The suggested Subversion server implementation is VisualSVN Server. The Control Room uses the SVNKit to connect to an SVN server.
 
-1.Training: Sub-Version Control (SVN)
-https://ibm.ent.box.com/file/346292139550
-2.Supported VCS
+1.Supported VCS
 https://docs.automationanywhere.com/bundle/enterprise-v11.3/page/enterprise/topics/aae-architecture-implementation/deployment-planning/requirements-version-control.html
-3.Impact of enabling and disabling version control settings
+2.Impact of enabling and disabling version control settings
 https://docs.automationanywhere.com/bundle/enterprise-v11.3/page/enterprise/topics/control-room/administration/settings/bots-configure-version-control.html#BotsConfigVerCont__Impact
-4.Enabling Version Control in Automation Anywhere
+3.Enabling Version Control in Automation Anywhere
 https://docs.automationanywhere.com/bundle/enterprise-v11.3/page/enterprise/topics/aae-client/bot-creator/using-special-features/enabling-version-control-in-automation-anywhere.html
-5.VisualSVN Server – Installation and configuration
+4.VisualSVN Server – Installation and configuration
 https://www.visualsvn.com/server/getting-started/
-6.Understanding VisualSVN Server Authentication options
+5.Understanding VisualSVN Server Authentication options
 https://www.visualsvn.com/support/topic/00039/
-7.AAE - Integration With Version Control System - FAQs And Best Practices
+6.AAE - Integration With Version Control System - FAQs And Best Practices
 https://support.automationanywhere.com/hc/en-us/articles/115001365447-AAE-Integration-with-Version-Control-System-FAQs-and-Best-Practices
 
 ## Troubleshooting

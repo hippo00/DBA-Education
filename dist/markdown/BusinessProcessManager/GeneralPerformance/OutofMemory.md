@@ -4,7 +4,7 @@ Date:2019-10-16
 
 Documentation to diagnose IBM Business Process Manager (BPM) out-of-memory (OOM) conditions and Java Virtual Machine (JVM) abends. 
 
-## Prerequisites (Optional) 
+## Prerequisites
 
 It is useful to have a basic understanding of Java object construction and Java stack traces. 
 

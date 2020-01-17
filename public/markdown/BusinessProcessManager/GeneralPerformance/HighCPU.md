@@ -3,7 +3,7 @@ Date:2019-10-16
 ## Overview 
 Documentation to diagnose IBM Business Process Manager (BPM) high CPU, hang, and Performance cases. 
 
-## Prerequisites (Optional) 
+## Prerequisites
 It is useful to have a basic understanding of Java stack traces. 
 
 ## Component 
@@ -35,5 +35,7 @@ https://ibm.box.com/s/zbc922g4sl026q9ho9v425yfhw3hp5lq
 2.WASSDK Performance doc reference: https://ibm.box.com/s/iwl5lf0fwfd8dqvyrc34f218te0msv9r  
 
 
+
+ 
 
  

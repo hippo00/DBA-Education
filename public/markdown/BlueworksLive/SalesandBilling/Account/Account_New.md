@@ -12,4 +12,4 @@ If you get a case from either an IBM internal or an external client requesting a
 
 Common Problems and references 
 
-1.An IBM internal or external client opens a case requesting a new Blueworks Live account. 
+<p>1.An IBM internal or external client opens a case requesting a new Blueworks Live account.</p>

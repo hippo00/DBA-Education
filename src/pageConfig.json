@@ -289,8 +289,8 @@
             {
               "route": "/Database",
               "name": "Database",
-              "description": "michaela.trautwein@de.ibm.com",
-              "owner":"@Michaela Trautwein-Ostner",
+              "description": "qingzou@cn.ibm.com",
+              "owner":"@Qing Zou",
               "icon": "sitemap",
               "topics": [],
               "markdown": "/markdown/BusinessProcessManager/GeneralPerformance/Database.md"

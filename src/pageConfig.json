@@ -749,8 +749,8 @@
             {
               "route": "/Decision Center Performance",
               "name": "Decision Center Performance",
-              "description": "renyren@cn.ibm.com",
-              "owner":"@Ren Yan",
+              "description": "wyouli@cn.ibm.com",
+              "owner":"@May Wang",
               "icon": "users-cog",
               "topics": [],
               "markdown": "/markdown/OperationalDecisionManager/Performance/DecisionCenterPerformance.md"
@@ -1174,8 +1174,8 @@
             {
               "route": "/Billing",
               "name": "Billing",
-              "description": "sthilini@au1.ibm.com",
-              "owner":"@Thilini Silva",
+              "description": "lbucuval@us.ibm.com",
+              "owner":"@Len Bucuvalas",
               "icon": "bullseye",
               "topics": [],
               "markdown": "/markdown/BlueworksLive/SalesandBilling/Billing.md"

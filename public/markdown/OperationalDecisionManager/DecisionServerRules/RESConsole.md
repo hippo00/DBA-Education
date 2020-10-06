@@ -9,7 +9,7 @@ https://www.ibm.com/support/knowledgecenter/en/SSQP76_8.10.x/com.ibm.odm.dserver
 
 **Acronyms**
 Please refer to the Acronym List
-https://pages.github.ibm.com/hippo00/DBA-Education/#/OperationalDecisionManager/GeneralODM/Acronymslist
+https://pages.github.ibm.com/hippo00.github.io/DBA-Education/#/OperationalDecisionManager/GeneralODM/Acronymslist
 
 ## Prerequisites
 

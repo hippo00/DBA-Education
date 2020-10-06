@@ -176,7 +176,7 @@ export default {
    * sendSlackMessage - send a slack message to "DBA-Education-anonymous"
    */
   sendSlackMessage: function (path, message) {
-    let actualPath = 'https://pages.github.ibm.com/hippo00/DBA-Education' + path
+    let actualPath = 'https://pages.github.ibm.com/hippo00.github.io/DBA-Education' + path
     // let actualMessage = '<!channel> Comment on ' + actualPath + ' : ' + message
     let actualMessage = actualPath + ' : ' + message
 

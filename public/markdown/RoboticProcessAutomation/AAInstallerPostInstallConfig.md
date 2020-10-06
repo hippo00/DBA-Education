@@ -6,7 +6,7 @@ The RPA (Robotic Process Automation) Fundamentals Education is an overview of th
 
 ## Prerequisites
 
-1.Please see the [IBM Installer](https://pages.github.ibm.com/hippo00/DBA-Education/#/RoboticProcessAutomation/IBM%20Installer) section first in order to see what the IBM RPA installer specific components do
+1.Please see the [IBM Installer](https://pages.github.ibm.com/hippo00.github.io/DBA-Education/#/RoboticProcessAutomation/IBM%20Installer) section first in order to see what the IBM RPA installer specific components do
 2.Parts of this education may also be covered in the AA side [Be The Bot Doctor](https://aaibm.litmos.com/account/login?ReturnUrl=%2fhome%2fcourse%2f2211035%3fr%3dFalse%26ts%3d637108906820614514&r=False&ts=637108906820614514)
 
 ## Component

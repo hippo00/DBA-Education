@@ -110,4 +110,4 @@ The default log level is FINE for both global logging level and file output log 
 If you ran all the migration commands on the source environment and created a snapshot before the migration failed, you do not need to rerun all the migration commands again from the beginning. If the migration failed on the target, for example at the database upgrade step or when you ran the BPMMigrate command, you can restore the database and rerun the commands on the target only.
 
 Please see the Upgrade page.  
-https://pages.github.ibm.com/dba-support/DBA-Education/#/BusinessProcessManager/Install,Upgrade,Migration/Upgrade
+https://pages.github.ibm.com/hippo00.github.io/DBA-Education/#/BusinessProcessManager/Install,Upgrade,Migration/Upgrade

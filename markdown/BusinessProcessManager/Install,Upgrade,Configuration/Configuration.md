@@ -232,7 +232,7 @@ https://www.ibm.com/support/knowledgecenter/SSAW57_8.5.5/com.ibm.websphere.nd.mu
 Several configuration settings are require for Process Center to Process Server communication. When you install a new Process Server, you can choose whether to use Process Server offline or online. The Process Server configuration must match the Process Center configuration, including user names and passwords and SSL settings. Clients who add Process Servers to their environment or make changes to their existing environment may encounter communications issues between Process Center and Process Server. This script assists in checking configurations and troubleshooting. 
 
 BPM 8.6 on Linux: bxPcpscommunication.sh  
-https://github.ibm.com/hippo00/dba-scripts/blob/master/linux/bawbpm/bxPcpscommunication.sh
+https://github.ibm.com/hippo00.github.io/dba-scripts/blob/master/linux/bawbpm/bxPcpscommunication.sh
 
 ---
 

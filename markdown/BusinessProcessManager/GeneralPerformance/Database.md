@@ -44,7 +44,7 @@ Statistics, which describe the shape of the data, are used to guide the selectio
 
 6.Delete completed process instances
 
-Over time, completed process instances accumulate in the database of the servers. This accumulation can alter the performance characteristics of the solution being measured. Delete or archive completed process instances to ensure that the database size is controlled. Refer to [Managing persisted data](https://www.ibm.com/support/knowledgecenter/SSFPJS_8.6.0/com.ibm.wbpm.admin.doc/topics/persisted_data.html) or [Housekeeping Fundamentals Education](https://pages.github.ibm.com/hippo00/DBA-Education/#/BusinessProcessManager/Performance/Housekeeping) including of this subject.
+Over time, completed process instances accumulate in the database of the servers. This accumulation can alter the performance characteristics of the solution being measured. Delete or archive completed process instances to ensure that the database size is controlled. Refer to [Managing persisted data](https://www.ibm.com/support/knowledgecenter/SSFPJS_8.6.0/com.ibm.wbpm.admin.doc/topics/persisted_data.html) or [Housekeeping Fundamentals Education](https://pages.github.ibm.com/hippo00.github.io/DBA-Education/#/BusinessProcessManager/Performance/Housekeeping) including of this subject.
 
 7.Data source configuration
 &nbsp;&nbsp;&nbsp;&nbsp;a. Maximum Connections

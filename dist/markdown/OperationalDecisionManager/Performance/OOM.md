@@ -132,9 +132,9 @@ When this happens, the JVM handles the native OOM condition, logs a message sayi
 3.OOM issue when using HTDS:
 &nbsp;&nbsp;&nbsp;&nbsp;a. **Symptom:** There is memory leak in decision service (HTDS) REST API with JSON parameters
 &nbsp;&nbsp;&nbsp;&nbsp;b. **Solution:** Managing memory consumption when you use the hosted transparent decision service (https://www.ibm.com/support/pages/managing-memory-consumption-when-you-use-hosted-transparent-decision-service)
-Note: For above OOM issues on RES, please refer to the [RES Performance](https://pages.github.ibm.com/hippo00.github.io/DBA-Education/#/OperationalDecisionManager/Performance/RES%20Performance) document. 
+Note: For above OOM issues on RES, please refer to the [RES Performance](https://pages.github.ibm.com/hippo00/DBA-Education/#/OperationalDecisionManager/Performance/RES%20Performance) document. 
 
-4.OOM issue on DC:  https://pages.github.ibm.com/hippo00.github.io/DBA-Education/#/OperationalDecisionManager/Performance/Decision%20Center%20Performance
+4.OOM issue on DC:  https://pages.github.ibm.com/hippo00/DBA-Education/#/OperationalDecisionManager/Performance/Decision%20Center%20Performance
 
 #### Reference
 

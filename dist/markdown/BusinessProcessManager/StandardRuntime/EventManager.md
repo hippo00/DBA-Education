@@ -153,7 +153,7 @@ Related database tables with regards to the Event Manager to know:
 &nbsp;&nbsp;&nbsp;&nbsp;LSW_EM_HISTORY
 &nbsp;&nbsp;&nbsp;&nbsp;LSW_EM_SYNC_QUEUE
 Additional data can be found here:
-https://pages.github.ibm.com/hippo00.github.io/BAW-Database-Documentation/
+https://pages.github.ibm.com/hippo00/BAW-Database-Documentation/
 
 **Tuning to Solve Problems:**
 When customers run into performance problems, usually the Event Manager backs up with tasks and is not able to quickly execute tasks as fast as a customer would like. This may involve tuning the Event Manager to speed up its executions. Increase the queue capacity too much and the customer may run into memory problems. It is best to gauge the capacity based off the number of CPUs (cores) as described in our performance Redbook:

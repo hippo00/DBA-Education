@@ -48,7 +48,7 @@ export default {
   name: 'app',
   data () {
     return {
-      baseUrl: 'https://pages.github.ibm.com/hippo00.github.io/DBA-Education',
+      baseUrl: 'https://pages.github.ibm.com/hippo00/DBA-Education',
       isNavOpen: false,
       tocItems: ConfigManager.getPages(),
       content: null,

@@ -101,9 +101,9 @@ When rule session API is used, it is important to get the java code calling the 
 * How the session factory is created 
 * If execution trace is enabled and filtered
 
-High memory consumption is a common performance problem. If performance is not improved after increasing heap and restart, ask for JVM heap settings, XU dump, heap dump and etc. For details, refer to analysis of [Out Of Memory](https://pages.github.ibm.com/dba-support/DBA-Education/#/OperationalDecisionManager/Performance/OOM)
+High memory consumption is a common performance problem. If performance is not improved after increasing heap and restart, ask for JVM heap settings, XU dump, heap dump and etc. For details, refer to analysis of [Out Of Memory](https://pages.github.ibm.com/hippo00.github.io/DBA-Education/#/OperationalDecisionManager/Performance/OOM)
 
-In case of high CPU usage or hung threads, ask for thread dump/javacores. Refer to analysis of  [Hung thread & high CPU](https://pages.github.ibm.com/dba-support/DBA-Education/#/OperationalDecisionManager/Performance/Hungthread&highCPU)
+In case of high CPU usage or hung threads, ask for thread dump/javacores. Refer to analysis of  [Hung thread & high CPU](https://pages.github.ibm.com/hippo00.github.io/DBA-Education/#/OperationalDecisionManager/Performance/Hungthread&highCPU)
 
 **Typical performance problems**
 
@@ -125,7 +125,7 @@ The same statistics is also available in the [Ruleset Statistics View](https://w
 
 If the actual execution time is indeed very long, ask the client to send the Decision Service/rule projects as well as the depending XOM projects/jars in order to reproduce the problem. 
 
-There are also cases that the execution of all the rulesets dramatically slow down during high production load. Intensive CPU usage is often observed in this situation. Refer to analysis of  [Hung thread & high CPU](https://pages.github.ibm.com/dba-support/DBA-Education/#/OperationalDecisionManager/Performance/Hungthread&highCPU)
+There are also cases that the execution of all the rulesets dramatically slow down during high production load. Intensive CPU usage is often observed in this situation. Refer to analysis of  [Hung thread & high CPU](https://pages.github.ibm.com/hippo00.github.io/DBA-Education/#/OperationalDecisionManager/Performance/Hungthread&highCPU)
 
 Another common scenario is that the actual execution time is short, but the client application takes much longer time to receive the response. One possible factor is the time spent on generating and saving the execution trace. By default, Decision Warehouse captures all execution trace data, including some data that are less useful, such as the list of all the rules that the engine did not execute. The complete execution trace data can be huge for big and complex ruleset. 
 

@@ -44,7 +44,7 @@ The approach is specific for Decision Service, you can manage decision service a
 
 9.Setting up project dependency (New in 8.10.2): Administrators and configuration managers can set up project dependencies in the Business console to make a project available in different decision services or branches. Details refer to [this link](https://www.ibm.com/support/knowledgecenter/SSQP76_8.10.x/com.ibm.odm.dcenter.bu.bconsole/admin_bc/con_bc_share_projects.html). 
 
-10.Manage Security for Decision Service, please take reference to [Security & user management](https://pages.github.ibm.com/dba-support/DBA-Education/#/OperationalDecisionManager/DecisionCenter/Security&usermanagement).
+10.Manage Security for Decision Service, please take reference to [Security & user management](https://pages.github.ibm.com/hippo00.github.io/DBA-Education/#/OperationalDecisionManager/DecisionCenter/Security&usermanagement).
 
 ## Troubleshooting
 
